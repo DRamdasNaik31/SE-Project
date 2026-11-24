@@ -1,52 +1,116 @@
 # SE-Agentic-Finance
 
-A source-grounded finance requirements engineering prototype with two cooperating
-agents:
+SE-Agentic-Finance is a source-grounded requirements engineering prototype for
+Indian cooperative banking software. It uses a Streamlit chat interface and
+multiple deterministic agents to retrieve banking requirements, produce
+traceable software requirements, and compare SDLC models.
 
-1. **Agent 1** retrieves evidence and returns traceable structured requirements.
-2. **Agent 2** applies an explicit, normalized SDLC rubric and explains its ranking.
+The project is designed to keep source provenance visible and require human
+review of generated requirements, regulatory interpretations, and design
+decisions.
 
-The implementation is intentionally conservative: it does not invent source
-evidence and reports when the corpus has not been loaded.
+## What the application does
 
-## Current status
+- Extracts requirements from a page-preserving copy of the IDRBT CBS requirements PDF.
+- Retrieves evidence by module or through lexical/embedding search.
+- Generates structured, page-traceable requirements.
+- Classifies requirements and creates quality, compliance, risk, and traceability artifacts.
+- Recommends an SDLC model using a documented, normalized decision rubric.
+- Masks sensitive input and blocks prompt-injection patterns.
+- Exports an auditable report bundle and supports human approval gates.
 
-| Area | Status |
-| --- | --- |
-| PDF extraction and page preservation | Implemented |
-| Corpus cleaning and stable IDs | Implemented |
-| Training-data generation, validation, and split | Implemented |
-| Embedding source-grounded retrieval | Implemented; Chroma index built at `chroma_db` |
-| Lexical retrieval fallback | Implemented when embedding dependencies/index are unavailable |
-| Agent 1 structured output | Implemented with offline fallback |
-| Agent 2 transparent SDLC scoring | Implemented |
-| Orchestration, session memory, follow-up SDLC requests | Implemented |
-| Streamlit UI and execution trace | Implemented |
-| Offline schema/grounding evaluation | Implemented |
-| Genuine LoRA/QLoRA training | Complete: Qwen2.5-1.5B LoRA adapter trained and verified |
-| Vector embeddings and Chroma index | Implemented in `app\rag_index.py`; lexical retrieval remains the safe fallback |
-| Real source corpus | Implemented: 112-page IDRBT PDF processed into 1,682 fragments across 18 modules |
-| Input masking, prompt-injection detection, source allowlisting, approval gates, audit log, traceability export | Implemented |
-| Specialist classification, quality checks, compliance matrix, risk register, SRS bundle | Implemented |
-| Base-vs-tuned comparison reporting | Complete on 169 held-out examples; see `reports\model_comparison.json` |
-| RBAC/MFA, encryption, production deployment | Future work requiring infrastructure and security review |
+## Agent flow
 
-This status is deliberate and avoids claiming that RAG or prompt engineering is
-fine-tuning.
+```text
+User request
+    |
+    v
+Orchestrator
+    |
+    +--> Security/sanitization
+    |
+    +--> Retrieval (Chroma embeddings or lexical fallback)
+    |
+    +--> Agent 1: structured requirement generation
+    |
+    +--> Specialist checks: quality, compliance, risk, traceability
+    |
+    +--> Agent 2: transparent SDLC scoring
+    |
+    v
+Streamlit UI + reviewable artifacts
+```
 
-## Windows setup
+The 13-role specialist registry covers orchestration, interaction, retrieval,
+requirements engineering, classification, quality, compliance, security, risk,
+traceability, SDLC factors, SDLC decisions, and governance.
+
+## Repository layout
+
+```text
+app/
+  ui.py                  Streamlit application
+  orchestrator.py        Agent routing and session state
+  rag.py                 Lexical retrieval and embedding fallback
+  rag_index.py           Persistent Chroma/embedding index builder
+  agent1.py              Requirement-generation agent
+  agent2.py              Transparent SDLC scoring
+  analysis_agents.py     Classification and artifact generation
+  security.py            Sensitive-data masking and injection detection
+  governance.py          Human approval gates and audit logging
+  traceability.py        CSV and workflow exports
+data/
+  raw/                   Source PDF
+  processed/             Extracted pages and stable requirement corpus
+  training/              Train, validation, and test JSONL splits
+models/                  Saved LoRA adapter, if trained
+chroma_db/               Persistent local vector index
+reports/                 Evaluation and generated review artifacts
+tests/                   Dependency-light unit tests
+```
+
+## Requirements
+
+- Windows 10/11
+- Python 3.11 or 3.12 recommended
+- An internet connection for initial package/model downloads
+- Optional GPU for practical LoRA fine-tuning and adapter inference
+
+The complete web demonstration only requires the packages in
+`requirements.txt`.
+
+## Installation
+
+Clone or open the project directory in Visual Studio Code, then run:
 
 ```powershell
+cd "D:\OneDrive\Documents\SE Project"
 py -3.12 -m venv .venv
 .venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Download the IDRBT source PDF from the official publication link:
-<http://www.idrbt.ac.in/assets/publications/Reports/CBS_Requirements_for_UCBs.pdf>
-and save it as `data\raw\idrbt_cbs_ucb.pdf`.
+If PowerShell blocks virtual-environment activation, enable local scripts for
+your terminal session:
 
-Then run:
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+## Prepare the source corpus
+
+Download the IDRBT CBS requirements PDF from the official publication page:
+
+<http://www.idrbt.ac.in/assets/publications/Reports/CBS_Requirements_for_UCBs.pdf>
+
+Save it as:
+
+```text
+data\raw\idrbt_cbs_ucb.pdf
+```
+
+Then build the processed corpus:
 
 ```powershell
 python app\extract_pdf.py data\raw\idrbt_cbs_ucb.pdf
@@ -55,85 +119,163 @@ python app\create_training_data.py
 python app\validate_dataset.py data\training\train.jsonl data\training\validation.jsonl data\training\test.jsonl
 python app\evaluate.py
 python app\export_artifacts.py
-streamlit run app\ui.py
 ```
 
-Optional local embedding index:
+The corpus builder assigns stable IDs in module-specific prefixes, for example
+`LOAN-001`, `REG-001`, and `GL-001`, and preserves PDF page numbers.
 
-```powershell
-python -c "from app.rag_index import build_index; print(build_index())"
-```
+## Optional vector retrieval
 
-The current environment built the Chroma index successfully for all 1,682
-requirements. Retrieval uses that index automatically and falls back to lexical
-retrieval if the embedding runtime is unavailable.
-
-Traceability export and approval gates are available through
-`app\traceability.py` and `app\governance.py`. They require an authorised human
-actor for regulated decisions; the application does not self-approve them.
-
-The UI can answer greetings, retrieve requirements, show evidence, and score
-SDLC models after requirements have been generated.
-
-For a fast professor demonstration, leave **Use trained LoRA adapter** unchecked
-in the sidebar. This uses the real Chroma evidence and deterministic structured
-requirements. On this CPU-only machine, enabling the adapter can take several
-minutes per request; use it only when demonstrating the fine-tuned path.
-
-When a request names a recognized module, fast grounded mode returns the complete
-module corpus rather than a top-k sample. For example, Loan Processing returns
-all extracted Loan Processing requirements, including modules with hundreds of
-items.
-
-The current real-corpus run produced:
-
-- 1,682 page-traceable fragments
-- 18 functional modules
-- Training split: 1,345 train / 168 validation / 169 test
-- Schema validity: 100%
-- Retrieval coverage: 100%
-- Requirement evidence coverage: 100%
-
-These are pipeline metrics, not claims of domain correctness; expert evaluation
-is still required.
-
-The completed held-out comparison recorded 100% schema validity and retrieval
-coverage for both paths. The trained adapter was used for 78.7% of tuned
-examples; the remaining cases used the conservative fallback because generated
-model output did not meet the required JSON schema. This is reported honestly
-and is not counted as tuned-model success.
-
-## Optional ML phase
-
-Install `requirements-ml.txt` only if you want to execute model fine-tuning. It
-is not required to run the verified CPU-safe prototype. If installed, check the local CUDA/PyTorch and
-bitsandbytes compatibility. The RTX 3050 4 GB target requires QLoRA, small
-batches, gradient accumulation, and a reviewed sequence length:
+Install the ML dependencies and build the local Chroma index:
 
 ```powershell
 python -m pip install -r requirements-ml.txt
-python app\train_agent1.py --train data\training\train.jsonl --validation data\training\validation.jsonl
+python -c "from app.rag_index import build_index; print(build_index())"
 ```
 
-No API keys or model weights belong in this repository.
+The optional index uses `sentence-transformers/all-MiniLM-L6-v2`. If embedding
+packages or the index are unavailable, the application automatically falls back
+to dependency-light lexical retrieval.
 
-## Verification
+## Run the application
 
-The dependency-light verification command is:
+From the project directory:
+
+```powershell
+python -m streamlit run app\ui.py
+```
+
+Open the local URL printed by Streamlit, usually
+<http://localhost:8501>.
+
+### Example prompts
+
+```text
+Generate software requirements for Loan Processing
+Generate requirements for Account Opening
+Generate requirements for Regulatory Requirements
+Which SDLC model fits this project?
+Show the evidence for these requirements
+```
+
+The available module names include Account Opening, Customer Information,
+Cheque Book Facility, Service Branches and Clearing, Cash Department at Branch,
+Cash Credit and Overdraft, Loan Processing, Bills, Remittances, Interest and Fee
+Calculation, Transaction Posting, Safe Custody Facility, Tax Calculation,
+Lockers, General Ledger, Regulatory Requirements, Head Office, and Reports.
+
+## Adapter mode
+
+The sidebar has a **Use trained LoRA adapter** option. It is disabled by
+default because CPU inference can take several minutes for a response.
+
+- **Fast grounded mode:** uses real corpus evidence and deterministic structured requirements.
+- **Adapter mode:** uses the saved LoRA adapter at `models\agent1_lora` when the
+  environment can load the base model and adapter dependencies.
+- **Safety fallback:** invalid or unparseable model output is replaced by the
+  conservative source-grounded fallback.
+
+No API keys or model weights need to be committed to the repository.
+
+## Training a LoRA adapter
+
+Install `requirements-ml.txt` and run:
+
+```powershell
+python app\train_agent1.py ^
+  --train data\training\train.jsonl ^
+  --validation data\training\validation.jsonl ^
+  --output models\agent1_lora
+```
+
+The training entry point uses the Qwen2.5-1.5B-Instruct base model and PEFT LoRA.
+It enables 4-bit NF4 quantization when CUDA and compatible libraries are
+available. Review the base-model license and local hardware compatibility before
+training.
+
+The command uses a 768-token maximum sequence length, LoRA rank 8, batch size 1,
+gradient accumulation 8, and one training epoch by default.
+
+## Evaluation
+
+Run the offline test suite:
 
 ```powershell
 python -m unittest discover -s tests -v
 python -m compileall -q app tests
 ```
 
-The current test suite covers stable corpus IDs, normalized SDLC scores, and
-sensitive-input/prompt-injection handling. It does not substitute for
-domain-expert evaluation on the real banking document.
+Evaluate the held-out test set:
 
-## Scope mapping
+```powershell
+python app\evaluate.py
+python app\evaluate_models.py
+```
 
-The full problem statement describes 13 agents and production governance. This
-implementation now provides a 13-role specialist registry plus explicit
-safety, governance, traceability, and evaluation scaffolding. Regulatory/legal
-interpretations, identity infrastructure, encryption, and production readiness
-still require authorised human and infrastructure work.
+Outputs are written to `reports\evaluation.json` and
+`reports\model_comparison.json`.
+
+The generated project artifacts can be refreshed with:
+
+```powershell
+python app\export_artifacts.py
+```
+
+This creates or updates files such as:
+
+- `reports\srs.json`
+- `reports\quality_findings.json`
+- `reports\compliance_control_matrix.json`
+- `reports\risk_register.json`
+- `reports\traceability.json`
+- `reports\open_issues.json`
+- `reports\sdlc.json`
+
+## Current project metrics
+
+The processed real-corpus run contains:
+
+- 112 source PDF pages
+- 1,682 page-traceable fragments
+- 18 functional modules
+- 1,345 training examples
+- 168 validation examples
+- 169 test examples
+
+The offline evaluation reports 100% schema validity, retrieval coverage, and
+requirement evidence coverage on the test set. These are implementation metrics,
+not domain-expert validation and not proof of legal or regulatory correctness.
+
+The completed base-versus-fine-tuned comparison reports 100% schema validity
+and 100% retrieval coverage for both paths. The tuned adapter was actually used
+for 78.7% of held-out examples; 21.3% used the conservative fallback because
+the generated output did not meet the required JSON schema.
+
+## Governance and human review
+
+AI output is advisory in this project. Requirements and SDLC selections are
+marked `pending_human_review`. Approval gates cover requirement baselines,
+regulatory interpretation, high-risk security decisions, stakeholder conflicts,
+architecture-critical choices, SDLC selection, requirement changes, and
+production readiness.
+
+The governance module requires an authorised human actor and records events in
+`reports\audit_log.jsonl`. It does not provide self-approval.
+
+## Limitations
+
+- The source PDF is required and is not embedded in the repository.
+- PDF text quality and heading extraction can affect corpus completeness.
+- Regulatory mappings are review prompts, not legal advice or a compliance
+  certification.
+- No authentication, MFA, RBAC, encryption-at-rest, or production infrastructure
+  is implemented.
+- Model inference is local and may require substantial memory or CPU time.
+- Expert banking, compliance, security, and acceptance testing are still required.
+
+## License and responsibility
+
+Use the IDRBT source material according to its publication terms. Review all
+generated requirements, risks, compliance mappings, and SDLC recommendations
+with qualified project, security, legal, and compliance stakeholders before use
+in a production banking system.
