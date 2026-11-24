@@ -1,0 +1,176 @@
+[
+  {
+    "id": "CHQ-001",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "An option to be available to customer on account opening form for (Y/N) to avail chequebook facility. If yes, accept cheque from and to numbers"
+  },
+  {
+    "id": "CHQ-002",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Support recording details of the cheque series including alphabetical part of the series and number of cheque leaves issued to customer for each account separately"
+  },
+  {
+    "id": "CHQ-003",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Posting of cheques to be validated. Cheque number to be within the range of cheques already issued and not paid"
+  },
+  {
+    "id": "CHQ-004",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Provide for online checking of the amount of each cheque against the actual balance in the account at the time of data entry, including during batch entry of multiple cheques"
+  },
+  {
+    "id": "CHQ-005",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Provide f or rejection/override message in case the cheque amount exceeds the available balance in the account"
+  },
+  {
+    "id": "CHQ-006",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Provide for maintenance of chequebook inventory at branch and alert when stock goes below a predetermined level"
+  },
+  {
+    "id": "CHQ-007",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Support recovery of charges for issuing of chequebooks with an exception for staff accounts"
+  },
+  {
+    "id": "CHQ-008",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Support maintenance of stock of chequebooks for all account types"
+  },
+  {
+    "id": "CHQ-009",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Support \u2018alpha' number validation of cheque"
+  },
+  {
+    "id": "CHQ-010",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "The instruction of operation and signature of the customer should be shown on screen before posting of the cheque and the following validations must be carried out:"
+  },
+  {
+    "id": "CHQ-011",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Account is not blocked or closed."
+  },
+  {
+    "id": "CHQ-012",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "To provide for all posting of cheques, account-wise individually"
+  },
+  {
+    "id": "CHQ-013",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Stop payment instruction for cheques issued and not paid yet. Alert message while requesting stop payment for already paid cheques"
+  },
+  {
+    "id": "CHQ-014",
+    "module": "Cheque Book Facility",
+    "page": 19,
+    "text": "Provide for validation of cheque number/date and stop payment instructions Page 20 of 112 before the cheque is cleared for payment."
+  },
+  {
+    "id": "CHQ-015",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "A cheque number once paid should not be allowed to be presented again for payment"
+  },
+  {
+    "id": "CHQ-016",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "When a cheque is presented again, a warning should be flashed to the user and should be committed only by the user and not automatically"
+  },
+  {
+    "id": "CHQ-017",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Support represent option for those cheques, which have been returned unpaid"
+  },
+  {
+    "id": "CHQ-018",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "To provide for scrutiny of list and confirmation of cheques to be returned"
+  },
+  {
+    "id": "CHQ-019",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Provide for authorization of remaining entries excluding the deletion entries in respect of returned instruments"
+  },
+  {
+    "id": "CHQ-020",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "To generate voucher and Cheque Return Advice in respect of returned cheques containing the following details:"
+  },
+  {
+    "id": "CHQ-021",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Service charges to be automatically debited to the customer's account"
+  },
+  {
+    "id": "CHQ-022",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Name of drawee/presenting banker should be mentioned on the return memo"
+  },
+  {
+    "id": "CHQ-023",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Provide for Debit Note Receivable Account (pointing account)."
+  },
+  {
+    "id": "CHQ-024",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "To generate responding entries in respect of inward clearing"
+  },
+  {
+    "id": "CHQ-025",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Provide for marking for retur ned cheques and posting them automatically to the customer's accounts along with charges"
+  },
+  {
+    "id": "CHQ-026",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Calculates rate (parameter and based on account/customer type) per cheque leaf to be charged against issue of cheque book"
+  },
+  {
+    "id": "CHQ-027",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Parameter available for calculating commission for cheque purchases"
+  },
+  {
+    "id": "CHQ-028",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Facility and minimum number of days the bank should hold the cheque"
+  },
+  {
+    "id": "CHQ-029",
+    "module": "Cheque Book Facility",
+    "page": 20,
+    "text": "Register for banker's cheque, cheque on other banks, demand draft."
+  }
+]

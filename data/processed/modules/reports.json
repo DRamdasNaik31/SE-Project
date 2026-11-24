@@ -1,0 +1,2168 @@
+[
+  {
+    "id": "RPT-001",
+    "module": "Reports",
+    "page": 2,
+    "text": "Annexure II (Detailed Technical Requirements) ....................................................................100"
+  },
+  {
+    "id": "RPT-002",
+    "module": "Reports",
+    "page": 2,
+    "text": "Performance, Availability and Scalability Requirements"
+  },
+  {
+    "id": "RPT-003",
+    "module": "Reports",
+    "page": 2,
+    "text": "Other IT Requirements Annexure III (Cloud Computing) ............................................................................................107 Page 3 of 112 I Introduction Core Banking Solution (CBS) adoption is completed by commercial banks in India. Though the Urban Cooperative Banks (UCBs) have also been working towards implementation of CBS, there are still many UCBs that are not under CBS. Even in regard to the UCBs that adopted CBS, there are concerns about completeness and security. The CBS of UCBs contains key modules for customer information, online transaction processing of deposit and loan accounts and the reports required for regulatory compliance and day-to-day operations. However, there are issues in some of the modules especially relating to generation of regulatory reports. Further, there are challenges in interfacing CBS with payment systems of the country. In order to attain a minimum degree of completeness of the solution with adequate security features, RBI has advised IDRBT to prepare a document detailing the requirements of a CBS for a UCB. It is quite relevant in the case of UCBs in view of the paucity of expertise relating to implementation of technology projects and vendor management in many of the UCBs. IDRBT has prepared this document detailing the requirements of CBS in the case of UCBs. The inputs of functional and technical experts of CBS have been obtained for preparation of this document. The document is vetted by a few UCBs (with both unit and multi -branch) that already has CBS implementation. A Pilot Project at Idukki, Kerala for a UCB has ensured that the documented requirements are implementable. In order to make the document compre hensive, requirements for remittances, asset liability management, reports for anti- money laundering, human resources management, fixed asset management, treasury and investments, safe deposit lockers have also been included. While details of functional re quirements are presented in Annexure I, technical details are given in Annexure II. Many of the CBS implementations by UCBs are cloud based. In order to help UCBs to be better prepared for such outsourcing and to get best out of cloud services, guideline s for leveraging cloud computing are detailed in Annexure III. The document is expected to serve as a reference document for any UCB that is implementing CBS by an internal team or an external vendor. The document would be useful even in the case of change requests, system modifications, vendor management and contract finalization. Though the document is prepared for UCB, this may be leveraged by DCCB, SCB, Payment and Small Finance Banks to scope their functional and technical requirements. Apart from the minimum common requirements given in this document, banks have to factor their specific requirements. They also need to plan for new requirements that may come due to changing customer and regulatory needs while deploying CBS. Page 4 of 112 Acknowledgments IDRBT thanks Shivalik Mercantile Co -operative Bank Ltd., Deogiri Nagari Sahakari Bank Limited, Janaseva Sahkari Bank Ltd., Pune, The Adarsh Cooperative Urban Bank Ltd., Hyderabad, and software vendors \u2013 Sesame Software Solutions Pvt. Ltd., Nelito Systems Ltd., Intellect Design Arena Ltd., and FIS Global for giving valuable inputs. IDRBT would also thank Tamilnadu State Urban Cooperative Banks Federation for detailing functional requirements; The Gujarat State Cooperative Bank Ltd., Idukki District Central Cooperative Bank Ltd., for sharing their experiences of cooperative sector. II Functional Requirements Most of the UCBs CBS is one stop solution for meeting the Branch banking operations as well as other functions like Head office needs, asset liability management, remittances, anti -money laundering, bank staff management, etc. If the UCBs are large and multi-state, they could deploy separate modules/software for asset liability management, anti-money laundering, remittances, staff management, etc., surrounding core banking. The functionality requirements of UCBs can be broadly categorized into CBS and its peripherals, payment channels and surround applications. Figure 1: CBS and its P eripherals Page 5 of 112 The detail functional specifications of the document are available in the Annexure I. The specifications are grouped under following functional areas of CBS: Deposit Accounts (Individuals, Institutions and Cooperatives)"
+  },
+  {
+    "id": "RPT-004",
+    "module": "Reports",
+    "page": 5,
+    "text": "Customer Account Management and KYC includes Signature, photo storage and retrieval"
+  },
+  {
+    "id": "RPT-005",
+    "module": "Reports",
+    "page": 5,
+    "text": "Suspense Account handling"
+  },
+  {
+    "id": "RPT-006",
+    "module": "Reports",
+    "page": 5,
+    "text": "Other configurable account and deposit types like PMJDY, etc."
+  },
+  {
+    "id": "RPT-007",
+    "module": "Reports",
+    "page": 5,
+    "text": "Cheque issue and maintenance"
+  },
+  {
+    "id": "RPT-008",
+    "module": "Reports",
+    "page": 5,
+    "text": "Alerts including the interface for SMS and Email. However, the commercials related to sending SMS and send/receive emails to a bank email id may be different."
+  },
+  {
+    "id": "RPT-009",
+    "module": "Reports",
+    "page": 5,
+    "text": "TDS includes issuance of TDS certificate to customers"
+  },
+  {
+    "id": "RPT-010",
+    "module": "Reports",
+    "page": 5,
+    "text": "Passbook printing Loans and Advances"
+  },
+  {
+    "id": "RPT-011",
+    "module": "Reports",
+    "page": 5,
+    "text": "Retail, Wholesale/Corporate and Agricultural loans that includes"
+  },
+  {
+    "id": "RPT-012",
+    "module": "Reports",
+    "page": 5,
+    "text": "Short/Medium/Long term loans with interest subvention & interest calculation with/without compounding"
+  },
+  {
+    "id": "RPT-013",
+    "module": "Reports",
+    "page": 5,
+    "text": "Retail Loans and related Account Operations"
+  },
+  {
+    "id": "RPT-014",
+    "module": "Reports",
+    "page": 5,
+    "text": "Gold Loans including for agricultural/rural development purposes"
+  },
+  {
+    "id": "RPT-015",
+    "module": "Reports",
+    "page": 5,
+    "text": "Other loan types with configurable interest rates, payment terms, collaterals, etc."
+  },
+  {
+    "id": "RPT-016",
+    "module": "Reports",
+    "page": 5,
+    "text": "Security maintenance includes collateral and other documents storage and retrieval"
+  },
+  {
+    "id": "RPT-017",
+    "module": "Reports",
+    "page": 5,
+    "text": "Asset Classification (NPA) and Restructuring Loans"
+  },
+  {
+    "id": "RPT-018",
+    "module": "Reports",
+    "page": 5,
+    "text": "Waiver, Write-off & Legal Remittances and Services"
+  },
+  {
+    "id": "RPT-019",
+    "module": "Reports",
+    "page": 5,
+    "text": "Demand Draft and Pay Order Issue & Payments"
+  },
+  {
+    "id": "RPT-020",
+    "module": "Reports",
+    "page": 5,
+    "text": "Service Tax Page 6 of 112"
+  },
+  {
+    "id": "RPT-021",
+    "module": "Reports",
+    "page": 6,
+    "text": "Payment Systems and Digital Channels"
+  },
+  {
+    "id": "RPT-022",
+    "module": "Reports",
+    "page": 6,
+    "text": "With increasing adoption of digital channels and real- time payment systems, UCBs may also obtain the CBS interfaces for"
+  },
+  {
+    "id": "RPT-023",
+    "module": "Reports",
+    "page": 6,
+    "text": "SFMS (NEFT, RTGS, LC and BG) for inter-bank remittances/transfers as a direct/sub member"
+  },
+  {
+    "id": "RPT-024",
+    "module": "Reports",
+    "page": 6,
+    "text": "NFS for ATM Switch, IMPS, AEPS, etc."
+  },
+  {
+    "id": "RPT-025",
+    "module": "Reports",
+    "page": 6,
+    "text": "Cheque Truncation System (Registration, Verification, File Generation, etc.)"
+  },
+  {
+    "id": "RPT-026",
+    "module": "Reports",
+    "page": 6,
+    "text": "Aadhaar integration for KYC, AEPS, etc."
+  },
+  {
+    "id": "RPT-027",
+    "module": "Reports",
+    "page": 6,
+    "text": "SWIFT Integration for FOREX remittances"
+  },
+  {
+    "id": "RPT-028",
+    "module": "Reports",
+    "page": 6,
+    "text": "Participation in CCIL related activities for government securities"
+  },
+  {
+    "id": "RPT-029",
+    "module": "Reports",
+    "page": 6,
+    "text": "Bancassurance (Corporate, Agent & Referral Mode)"
+  },
+  {
+    "id": "RPT-030",
+    "module": "Reports",
+    "page": 6,
+    "text": "Mobile Banking for account summary. Adding/updating beneficiary, fund transfer, etc."
+  },
+  {
+    "id": "RPT-031",
+    "module": "Reports",
+    "page": 6,
+    "text": "Internet Banking for account summary. Adding/updating beneficiary, fund transfer, etc."
+  },
+  {
+    "id": "RPT-032",
+    "module": "Reports",
+    "page": 6,
+    "text": "Financial Inclusion in Online mode with Aadhaar integration Core Operations"
+  },
+  {
+    "id": "RPT-033",
+    "module": "Reports",
+    "page": 6,
+    "text": "GL and Accounting includes Trial balance, Profit and Loss Account and Balance sheet"
+  },
+  {
+    "id": "RPT-034",
+    "module": "Reports",
+    "page": 6,
+    "text": "Batch Processing(EOD and EOM)"
+  },
+  {
+    "id": "RPT-035",
+    "module": "Reports",
+    "page": 6,
+    "text": "Cash and Vault Management"
+  },
+  {
+    "id": "RPT-036",
+    "module": "Reports",
+    "page": 6,
+    "text": "Configurable interest, commission and Charges"
+  },
+  {
+    "id": "RPT-037",
+    "module": "Reports",
+    "page": 6,
+    "text": "Bills for Collection(Inward/Outward)"
+  },
+  {
+    "id": "RPT-038",
+    "module": "Reports",
+    "page": 6,
+    "text": "Inter Branch and Agency Banking"
+  },
+  {
+    "id": "RPT-039",
+    "module": "Reports",
+    "page": 6,
+    "text": "Clearing (Inward/Outward)"
+  },
+  {
+    "id": "RPT-040",
+    "module": "Reports",
+    "page": 6,
+    "text": "Other liabilities and assets Page 7 of 112"
+  },
+  {
+    "id": "RPT-041",
+    "module": "Reports",
+    "page": 87,
+    "text": "The list of reports is categorized based on operational (controls and information) needs and RBI requirements. However, the banks may require additional reports."
+  },
+  {
+    "id": "RPT-042",
+    "module": "Reports",
+    "page": 87,
+    "text": "Enable sorting of the user-defined reports based on any of the fields in the report"
+  },
+  {
+    "id": "RPT-043",
+    "module": "Reports",
+    "page": 87,
+    "text": "Enable users to define filters, selection criteria on any field or group of fields for generation of such report"
+  },
+  {
+    "id": "RPT-044",
+    "module": "Reports",
+    "page": 87,
+    "text": "Enable users to define grouping, totaling on any field in the user-defined reports"
+  },
+  {
+    "id": "RPT-045",
+    "module": "Reports",
+    "page": 87,
+    "text": "Support generation of reports in electronic form for storage and transmission and text form for printing"
+  },
+  {
+    "id": "RPT-046",
+    "module": "Reports",
+    "page": 87,
+    "text": "Some reports should be outside the ambit of report writer facility for security and internal control reasons. Such reports must be produced only using specific programs in the system, either as part of EOD/BOD or using specific menu options"
+  },
+  {
+    "id": "RPT-047",
+    "module": "Reports",
+    "page": 87,
+    "text": "Generate exception report for accounts with balances below a threshold (to be defined as a parameter in the system). Generate customer notices (as per formats prede fined in the system) for the above. Exclude specific customer categories such as staff/VIP, etc. from the above"
+  },
+  {
+    "id": "RPT-048",
+    "module": "Reports",
+    "page": 87,
+    "text": "Provide for capturing and reporting of the transaction history for input as well as changes at field level for all transactions as well as master entries, reporting:"
+  },
+  {
+    "id": "RPT-049",
+    "module": "Reports",
+    "page": 87,
+    "text": "The user(s) who made the entry"
+  },
+  {
+    "id": "RPT-050",
+    "module": "Reports",
+    "page": 87,
+    "text": "The date/time on which the entry was made, the user(s) who authorized the entry, the date/time on which authorized, the user(s) who made the changes, the user(s) who authorized the change, the \u2018new' val ue of the field, date of reference document, date when the document was acted upon, date of exchange rate and the actual exchange rate used in case of foreign currency transaction"
+  },
+  {
+    "id": "RPT-051",
+    "module": "Reports",
+    "page": 87,
+    "text": "Provide for flexible designing of reports including formats for totals, sub -totals, running totals, etc."
+  },
+  {
+    "id": "RPT-052",
+    "module": "Reports",
+    "page": 87,
+    "text": "Enable user to insert comments in the structure of all user-defined reports"
+  },
+  {
+    "id": "RPT-053",
+    "module": "Reports",
+    "page": 87,
+    "text": "Enable users to prepare new reports by using existing reports as models"
+  },
+  {
+    "id": "RPT-054",
+    "module": "Reports",
+    "page": 87,
+    "text": "Enable generation of reports on multiple pages, if necessary"
+  },
+  {
+    "id": "RPT-055",
+    "module": "Reports",
+    "page": 87,
+    "text": "Allow selecting user selectable reporting formats for dates (DDMMYY or MMDDYY, etc.) amounts (Lakhs/Crores), etc."
+  },
+  {
+    "id": "RPT-056",
+    "module": "Reports",
+    "page": 87,
+    "text": "System should provide function where user can define print layout (horizontal/vertical, etc.) and other print setting (paper size, margin, e tc.) through menu-driven options"
+  },
+  {
+    "id": "RPT-057",
+    "module": "Reports",
+    "page": 87,
+    "text": "System to print reports as on a particular date, any user -defined date or range of dates for the selected criteria (e.g. stop payments, transaction details, etc.) Page 88 of 112"
+  },
+  {
+    "id": "RPT-058",
+    "module": "Reports",
+    "page": 88,
+    "text": "System to restrict access to reports based on user privi leges defined in the system"
+  },
+  {
+    "id": "RPT-059",
+    "module": "Reports",
+    "page": 88,
+    "text": "The frequencies of generation of these reports/statements can be parameterized e.g. quarterly to monthly to weekly and vice-versa"
+  },
+  {
+    "id": "RPT-060",
+    "module": "Reports",
+    "page": 88,
+    "text": "System should segregate accounts quantum-wise (< 1 lac, 1-5 lac, etc.) possible"
+  },
+  {
+    "id": "RPT-061",
+    "module": "Reports",
+    "page": 88,
+    "text": "System should generate scheme- wise progress reports as per periodicity defined by the bank"
+  },
+  {
+    "id": "RPT-062",
+    "module": "Reports",
+    "page": 88,
+    "text": "System should compare with previous week/month/quarter/half year/year or comparison for a given period/periodical progressive reports"
+  },
+  {
+    "id": "RPT-063",
+    "module": "Reports",
+    "page": 88,
+    "text": "System should feed information from non -core branches at any point for amalgamation and generation of MIS as required by the bank"
+  },
+  {
+    "id": "RPT-064",
+    "module": "Reports",
+    "page": 88,
+    "text": "Enable scheduling of processing/printing of reports (including statements/memos/notes) at desired frequencies, including: daily, weekly, monthly, quarterly, half-yearly, yearly, ad hoc."
+  },
+  {
+    "id": "RPT-065",
+    "module": "Reports",
+    "page": 88,
+    "text": "Cash transactions of Rs. 10 lakh and above with:"
+  },
+  {
+    "id": "RPT-066",
+    "module": "Reports",
+    "page": 88,
+    "text": "System should generate report on cash transactions over Rs. \u2018X' lakh giving details like date of transaction, branch name and code, type of transaction (Dr/Cr), type of account, etc."
+  },
+  {
+    "id": "RPT-067",
+    "module": "Reports",
+    "page": 88,
+    "text": "While capturing integrally related cash transactions beyond Rs. 10 lakh during a period of 30 days for the purpose of CRR, reversal entries posted due to non-execution of transactions for any reason should not be reckoned to avoid wrong reporting to FIU-IND and inconvenience to customers."
+  },
+  {
+    "id": "RPT-068",
+    "module": "Reports",
+    "page": 88,
+    "text": "For the purpose of compilation of CTR, all cash transactions under a unique customer ID should be captured across the bank Operation Reports"
+  },
+  {
+    "id": "RPT-069",
+    "module": "Reports",
+    "page": 88,
+    "text": "Facilitate daily report generation of HO originating, HO responding, HO Reversal/Rectification and consolidation report for the day or for any day or for any given range of dates"
+  },
+  {
+    "id": "RPT-070",
+    "module": "Reports",
+    "page": 88,
+    "text": "System to support transfer of HO data to external media in case of need"
+  },
+  {
+    "id": "RPT-071",
+    "module": "Reports",
+    "page": 88,
+    "text": "System to support acceptance of data from external media for consolidation purpose"
+  },
+  {
+    "id": "RPT-072",
+    "module": "Reports",
+    "page": 88,
+    "text": "Support generation of report branch- wise, region-wise, circle-wise or for bank as a whole either showing individual entry as well as consolidated amount"
+  },
+  {
+    "id": "RPT-073",
+    "module": "Reports",
+    "page": 88,
+    "text": "System to give total cash position teller-wise, cashier-wise, branch-wise, region- wise, circle-wise, bank-wise, etc., at any point of time Page 89 of 112"
+  },
+  {
+    "id": "RPT-074",
+    "module": "Reports",
+    "page": 89,
+    "text": "System to give total teller-wise/cashier-wise cash position at branch at any point of time"
+  },
+  {
+    "id": "RPT-075",
+    "module": "Reports",
+    "page": 89,
+    "text": "Report on history of deposit rates"
+  },
+  {
+    "id": "RPT-076",
+    "module": "Reports",
+    "page": 89,
+    "text": "Provide customer alias in internet banking/other channels"
+  },
+  {
+    "id": "RPT-077",
+    "module": "Reports",
+    "page": 89,
+    "text": "Support enquiry based on old account numbers"
+  },
+  {
+    "id": "RPT-078",
+    "module": "Reports",
+    "page": 89,
+    "text": "Support generation of report for nomination"
+  },
+  {
+    "id": "RPT-079",
+    "module": "Reports",
+    "page": 89,
+    "text": "Provide for override of the recovery of charge under authorization to be captured in exception report"
+  },
+  {
+    "id": "RPT-080",
+    "module": "Reports",
+    "page": 89,
+    "text": "Support for enquiry of transactions based on amount (less than, in, more than a range), customer ID, type of account, account number, transaction type, cheque no., date, etc."
+  },
+  {
+    "id": "RPT-081",
+    "module": "Reports",
+    "page": 89,
+    "text": "System must not permit to delete the cash transactions after posting or verification"
+  },
+  {
+    "id": "RPT-082",
+    "module": "Reports",
+    "page": 89,
+    "text": "System should support tallying of cash between double lock and tellers/cashier"
+  },
+  {
+    "id": "RPT-083",
+    "module": "Reports",
+    "page": 89,
+    "text": "System should support recording of movement of cash between double lock, cashiers, tellers"
+  },
+  {
+    "id": "RPT-084",
+    "module": "Reports",
+    "page": 89,
+    "text": "Facility to record in the Double Lock Register \u2013 soiled, mutilated, etc., separately"
+  },
+  {
+    "id": "RPT-085",
+    "module": "Reports",
+    "page": 89,
+    "text": "Facility to accept and record in the system late cash (both receipt and payments)"
+  },
+  {
+    "id": "RPT-086",
+    "module": "Reports",
+    "page": 89,
+    "text": "Facility to generate report on late cash"
+  },
+  {
+    "id": "RPT-087",
+    "module": "Reports",
+    "page": 89,
+    "text": "System must automatically create late cash transaction as first transactions on the next day"
+  },
+  {
+    "id": "RPT-088",
+    "module": "Reports",
+    "page": 89,
+    "text": "System to generate Double Lock Register"
+  },
+  {
+    "id": "RPT-089",
+    "module": "Reports",
+    "page": 89,
+    "text": "Facility to have separate ATM cash account of each ATM attached to branch or extension counter"
+  },
+  {
+    "id": "RPT-090",
+    "module": "Reports",
+    "page": 89,
+    "text": "System to generate separate ATM cash register for each ATM transactions"
+  },
+  {
+    "id": "RPT-091",
+    "module": "Reports",
+    "page": 89,
+    "text": "Support generation of cash waste-teller wise/cashier-wise"
+  },
+  {
+    "id": "RPT-092",
+    "module": "Reports",
+    "page": 89,
+    "text": "System to maintain token issued register as per bank's predefined format"
+  },
+  {
+    "id": "RPT-093",
+    "module": "Reports",
+    "page": 89,
+    "text": "Provision to record excess cash/cash shortage and a ccount for the same under parameterized heads"
+  },
+  {
+    "id": "RPT-094",
+    "module": "Reports",
+    "page": 89,
+    "text": "Facility to generate cash receipt and payment details GL head -wise (SB, CA, Loans, etc.,) currency-wise, etc."
+  },
+  {
+    "id": "RPT-095",
+    "module": "Reports",
+    "page": 89,
+    "text": "Facility to generate report of \u2018Anywhere Banking' transactions separately"
+  },
+  {
+    "id": "RPT-096",
+    "module": "Reports",
+    "page": 89,
+    "text": "Generation of audit trail including failed transaction. The rejected transaction data should also reside in the database and should be retrievable for any analysis"
+  },
+  {
+    "id": "RPT-097",
+    "module": "Reports",
+    "page": 89,
+    "text": "Generation of audit trail for transaction originations and changes. These should record the change history in terms of the user, date, nature of change, etc. All Page 90 of 112 changes should be stored within a history table which should record the change information for each record"
+  },
+  {
+    "id": "RPT-098",
+    "module": "Reports",
+    "page": 90,
+    "text": "Reports for statement of accounts, closure report, interest calculation for income tax, monthly statements for loan demand, etc."
+  },
+  {
+    "id": "RPT-099",
+    "module": "Reports",
+    "page": 90,
+    "text": "Provide for a report generation facility that would generate reports specific to user requirements. System should also generate all statutory and regulatory reports."
+  },
+  {
+    "id": "RPT-100",
+    "module": "Reports",
+    "page": 90,
+    "text": "Facilitate generation of report on screen, print, file, optical disk, etc."
+  },
+  {
+    "id": "RPT-101",
+    "module": "Reports",
+    "page": 90,
+    "text": "Provide user-friendly interface for viewing, extraction, printing of all reports"
+  },
+  {
+    "id": "RPT-102",
+    "module": "Reports",
+    "page": 90,
+    "text": "Enable generation of historical transaction reports for a specific period (within a fiscal year, across years etc.)"
+  },
+  {
+    "id": "RPT-103",
+    "module": "Reports",
+    "page": 90,
+    "text": "Enable users to apply Boolean selection parameters (e.g. >, <, =, AND, OR) as selection/exception criteria for report generation"
+  },
+  {
+    "id": "RPT-104",
+    "module": "Reports",
+    "page": 90,
+    "text": "Provide for generating reports across multiple financial periods for any entity within the hierarchy in list or columnar form"
+  },
+  {
+    "id": "RPT-105",
+    "module": "Reports",
+    "page": 90,
+    "text": "Provide for generating reports across mul tiple versions of financials for any entity in list or columnar form"
+  },
+  {
+    "id": "RPT-106",
+    "module": "Reports",
+    "page": 90,
+    "text": "Provide for automatic rolling up of transaction level data to summary values"
+  },
+  {
+    "id": "RPT-107",
+    "module": "Reports",
+    "page": 90,
+    "text": "System to generate individual branch reports at any interval at the branch and head office if required"
+  },
+  {
+    "id": "RPT-108",
+    "module": "Reports",
+    "page": 90,
+    "text": "System should generate reports for branches category wise/population -wise, etc., on different parameters"
+  },
+  {
+    "id": "RPT-109",
+    "module": "Reports",
+    "page": 90,
+    "text": "System to define any report/MIS printing at the branch, HO based upon defined parameters e.g. at the time of day -end, occurrence of a particular event, day - begin (user-defined)"
+  },
+  {
+    "id": "RPT-110",
+    "module": "Reports",
+    "page": 90,
+    "text": "System to support manual feeding of data at the nodal/link departments or HO for consolidation and amalgamation of data received by manual branches"
+  },
+  {
+    "id": "RPT-111",
+    "module": "Reports",
+    "page": 90,
+    "text": "System to define reports as compulsory report and print them at user definable periods e.g., end of day, beginning of day, etc. The system should also provide an option to allow the user (bank) to select the location of each report printing."
+  },
+  {
+    "id": "RPT-112",
+    "module": "Reports",
+    "page": 90,
+    "text": "g. at the HO and branches or only at the branches.)"
+  },
+  {
+    "id": "RPT-113",
+    "module": "Reports",
+    "page": 90,
+    "text": "System to define reports for scheduled printing at the branch level, HO, etc. e.g., printing of \u2018n1' number of reports at day-end at the branch, \u2018n2' number at day- begin at the HO, etc., and also based on activities like day-begin, day-end, month begin/end, etc."
+  },
+  {
+    "id": "RPT-114",
+    "module": "Reports",
+    "page": 90,
+    "text": "System will be able to generate statement for different amounts viz. Rs. 10 lakh Page 91 of 112 and above, etc. (defaulters list)"
+  },
+  {
+    "id": "RPT-115",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should generate the report for balance sheet analysis as per, RBI guidelines which include tier-1, tier-2 capital, total risk weight assets, details of loan assets and investment and details of earnings along with financial ratios as required by the statutory authorities"
+  },
+  {
+    "id": "RPT-116",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should feed qualitative comments/notes manually without affecting the sanctity of report to explain the reason wherever fields (e.g. remarks/comments etc.) exist in a particular report/statement and facility to configure to see that the respective department alone at Controlling Office can view"
+  },
+  {
+    "id": "RPT-117",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should calculate averages of Deposit/Advances/Business, etc. per employee/per branch"
+  },
+  {
+    "id": "RPT-118",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should calcu late Income/Expenditure, Profit/Loss per employee/per branch"
+  },
+  {
+    "id": "RPT-119",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should calculate cost of funds/yield on advances branch-wise"
+  },
+  {
+    "id": "RPT-120",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should calculate the breakeven analysis of profitability"
+  },
+  {
+    "id": "RPT-121",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should generate exposure to \u2013 Sensitive Sector, Capital Market, Commodity Sector, Real Estate, etc."
+  },
+  {
+    "id": "RPT-122",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should calculate Deposit Insurance premium"
+  },
+  {
+    "id": "RPT-123",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should generate reports/statements as per new Basel Capital Accord"
+  },
+  {
+    "id": "RPT-124",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should provide projection of interest payable and receivable for a particular period"
+  },
+  {
+    "id": "RPT-125",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should generate reports on any kind of anomalies in different GL heads. E.g. Debit Balance reflected in a GL head which should have zero/credit balance. Difference in balances of Contra GL heads"
+  },
+  {
+    "id": "RPT-126",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should generate an asset inspection report giving details of asset type, asset description, part number, adverse remarks, etc."
+  },
+  {
+    "id": "RPT-127",
+    "module": "Reports",
+    "page": 91,
+    "text": "Enable calculation of the following account balances for transaction reports:"
+  },
+  {
+    "id": "RPT-128",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should generate reports such as journals, logs, audits trails, transaction reports and account based reports"
+  },
+  {
+    "id": "RPT-129",
+    "module": "Reports",
+    "page": 91,
+    "text": "Interfaced Transactions \u2013 System should list all transactions received from automated interfaces and any related balancing or exception errors"
+  },
+  {
+    "id": "RPT-130",
+    "module": "Reports",
+    "page": 91,
+    "text": "System should generate report on the sources and uses of fund required at periodic intervals (fortnightly, weekly, monthly, quarterly) giving the inflow of Page 92 of 112 funds from various sources and the corresponding uses vis -\u00e0-vis the outflow of funds for varied obligations/reasons"
+  },
+  {
+    "id": "RPT-131",
+    "module": "Reports",
+    "page": 92,
+    "text": "System should calculate variance with reference to 31st March of the previous accounting year and also variation from last months'/last reporting fortnight position"
+  },
+  {
+    "id": "RPT-132",
+    "module": "Reports",
+    "page": 92,
+    "text": "Cash inflow/outflow for the next six months"
+  },
+  {
+    "id": "RPT-133",
+    "module": "Reports",
+    "page": 92,
+    "text": "System should have details of deposits of branches and variance analysis"
+  },
+  {
+    "id": "RPT-134",
+    "module": "Reports",
+    "page": 92,
+    "text": "System should generate statement of interest paid/payable and received/receivable from customers"
+  },
+  {
+    "id": "RPT-135",
+    "module": "Reports",
+    "page": 92,
+    "text": "System should generate statement of interest received from the branches and customers"
+  },
+  {
+    "id": "RPT-136",
+    "module": "Reports",
+    "page": 92,
+    "text": "Report on effective rat e of interest on deposits classified in terms of different deposits"
+  },
+  {
+    "id": "RPT-137",
+    "module": "Reports",
+    "page": 92,
+    "text": "System should generate monthly progress report branch -wise and consolidate the same for various branches at the nodal/link departments and HO"
+  },
+  {
+    "id": "RPT-138",
+    "module": "Reports",
+    "page": 92,
+    "text": "System should increase and decrease over similar balances to the previous year and also show budget variances"
+  },
+  {
+    "id": "RPT-139",
+    "module": "Reports",
+    "page": 92,
+    "text": "Certificate of Balancing of Books"
+  },
+  {
+    "id": "RPT-140",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of irregular accounts (for CC, OD, BP, LC, BG)"
+  },
+  {
+    "id": "RPT-141",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of Sundry Debtors"
+  },
+  {
+    "id": "RPT-142",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of Sundry Creditors"
+  },
+  {
+    "id": "RPT-143",
+    "module": "Reports",
+    "page": 92,
+    "text": "Report on Important Monitoring Returns (IMRS)"
+  },
+  {
+    "id": "RPT-144",
+    "module": "Reports",
+    "page": 92,
+    "text": "Position of Currency Chest Balance"
+  },
+  {
+    "id": "RPT-145",
+    "module": "Reports",
+    "page": 92,
+    "text": "Monthly Credit Information"
+  },
+  {
+    "id": "RPT-146",
+    "module": "Reports",
+    "page": 92,
+    "text": "Funds Remittance in Transit Account"
+  },
+  {
+    "id": "RPT-147",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of other bank's DD/TT paid"
+  },
+  {
+    "id": "RPT-148",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of Review/Renewal of borrower accounts"
+  },
+  {
+    "id": "RPT-149",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of suit-filed/decreed accounts"
+  },
+  {
+    "id": "RPT-150",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of Irregular Loan Accounts \u2013 Loan and DPGs"
+  },
+  {
+    "id": "RPT-151",
+    "module": "Reports",
+    "page": 92,
+    "text": "Fortnightly balance statement"
+  },
+  {
+    "id": "RPT-152",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of maturity pattern of deposits with residual maturity"
+  },
+  {
+    "id": "RPT-153",
+    "module": "Reports",
+    "page": 92,
+    "text": "Statement of maturity pattern of advances"
+  },
+  {
+    "id": "RPT-154",
+    "module": "Reports",
+    "page": 92,
+    "text": "Interest band-wise term deposits report"
+  },
+  {
+    "id": "RPT-155",
+    "module": "Reports",
+    "page": 92,
+    "text": "Interest band-wise advances report"
+  },
+  {
+    "id": "RPT-156",
+    "module": "Reports",
+    "page": 92,
+    "text": "Term deposit band-wise for bank as a whole Page 93 of 112"
+  },
+  {
+    "id": "RPT-157",
+    "module": "Reports",
+    "page": 93,
+    "text": "Statement of TDS recovered from accounts"
+  },
+  {
+    "id": "RPT-158",
+    "module": "Reports",
+    "page": 93,
+    "text": "Statement of advances granted to nominal members (purpose-wise)"
+  },
+  {
+    "id": "RPT-159",
+    "module": "Reports",
+    "page": 93,
+    "text": "Statement of Unsecured Advances"
+  },
+  {
+    "id": "RPT-160",
+    "module": "Reports",
+    "page": 93,
+    "text": "Statement of Advances granted to women, SHG/JLG, SC/ST/Minority"
+  },
+  {
+    "id": "RPT-161",
+    "module": "Reports",
+    "page": 93,
+    "text": "Overdue advances and NPA position, movement of NPA"
+  },
+  {
+    "id": "RPT-162",
+    "module": "Reports",
+    "page": 93,
+    "text": "Activity and scheme-wise progress report"
+  },
+  {
+    "id": "RPT-163",
+    "module": "Reports",
+    "page": 93,
+    "text": "Activity and scheme-wise recovery performance"
+  },
+  {
+    "id": "RPT-164",
+    "module": "Reports",
+    "page": 93,
+    "text": "Activity and scheme-wise subsidy utilization/requirement statement"
+  },
+  {
+    "id": "RPT-165",
+    "module": "Reports",
+    "page": 93,
+    "text": "Report on flow of credit to SSI"
+  },
+  {
+    "id": "RPT-166",
+    "module": "Reports",
+    "page": 93,
+    "text": "Quarterly progress report"
+  },
+  {
+    "id": "RPT-167",
+    "module": "Reports",
+    "page": 93,
+    "text": "Financial inclusion report"
+  },
+  {
+    "id": "RPT-168",
+    "module": "Reports",
+    "page": 93,
+    "text": "Time-barred loan document report"
+  },
+  {
+    "id": "RPT-169",
+    "module": "Reports",
+    "page": 93,
+    "text": "Unclaimed deposit statement (monthly)"
+  },
+  {
+    "id": "RPT-170",
+    "module": "Reports",
+    "page": 93,
+    "text": "Inoperative account report"
+  },
+  {
+    "id": "RPT-171",
+    "module": "Reports",
+    "page": 93,
+    "text": "Institutional Deposit Account"
+  },
+  {
+    "id": "RPT-172",
+    "module": "Reports",
+    "page": 93,
+    "text": "Interest Accrued and Payable Report"
+  },
+  {
+    "id": "RPT-173",
+    "module": "Reports",
+    "page": 93,
+    "text": "Premature Closure Report for Time Deposits"
+  },
+  {
+    "id": "RPT-174",
+    "module": "Reports",
+    "page": 93,
+    "text": "Compromise Settlement of Loan"
+  },
+  {
+    "id": "RPT-175",
+    "module": "Reports",
+    "page": 93,
+    "text": "Customers enrolled during a day, given period"
+  },
+  {
+    "id": "RPT-176",
+    "module": "Reports",
+    "page": 93,
+    "text": "Reporting Statement (in hard as well as soft copies), IBCN paid register, auto allotment of IBCN number and generation of IBCN number allotment register"
+  },
+  {
+    "id": "RPT-177",
+    "module": "Reports",
+    "page": 93,
+    "text": "Generation of balancing report of IBCN paid and reminders for outstanding entries"
+  },
+  {
+    "id": "RPT-178",
+    "module": "Reports",
+    "page": 93,
+    "text": "Issued and DD paid report in branch-wise serial manner with the facility of drop down list for report selection"
+  },
+  {
+    "id": "RPT-179",
+    "module": "Reports",
+    "page": 93,
+    "text": "Audit Trail for a given period"
+  },
+  {
+    "id": "RPT-180",
+    "module": "Reports",
+    "page": 93,
+    "text": "Report of transactions done during the day, given period"
+  },
+  {
+    "id": "RPT-181",
+    "module": "Reports",
+    "page": 93,
+    "text": "Amount of business generated from a customer/group for product - wise/branch-wise"
+  },
+  {
+    "id": "RPT-182",
+    "module": "Reports",
+    "page": 93,
+    "text": "Transaction Register \u2013 System should lists transactions by user-specified ranges of periods, accounts, transaction typ es, transaction dates, amounts or any Page 94 of 112 combination thereof"
+  },
+  {
+    "id": "RPT-183",
+    "module": "Reports",
+    "page": 94,
+    "text": "System should generate HRMS reports as per the request of bank (like PF ledger, PF loan ledger, etc.)"
+  },
+  {
+    "id": "RPT-184",
+    "module": "Reports",
+    "page": 94,
+    "text": "System should generate Monthly Report submission to PF authority"
+  },
+  {
+    "id": "RPT-185",
+    "module": "Reports",
+    "page": 94,
+    "text": "Allow printing of a statement o n demand, e.g. the remaining transactions after the issue of a periodic statement. The statement layouts and transactions should also be user-definable"
+  },
+  {
+    "id": "RPT-186",
+    "module": "Reports",
+    "page": 94,
+    "text": "Enable teller to scan at any time his journal on the terminal to view transaction log, amount, account number, code, etc. or to trace errors"
+  },
+  {
+    "id": "RPT-187",
+    "module": "Reports",
+    "page": 94,
+    "text": "Provide a facility to view cash position for each teller at any point of time. Similarly, facility to view consolidated cash position for the branch at any point of time (without closing cash position)"
+  },
+  {
+    "id": "RPT-188",
+    "module": "Reports",
+    "page": 94,
+    "text": "Allow generating of list of all transactions, function wise, (cash deposit, cash withdrawal, cheque deposit, etc.). Rectification of incorrect entries to be allowed in each function"
+  },
+  {
+    "id": "RPT-189",
+    "module": "Reports",
+    "page": 94,
+    "text": "Provide for generation of report on transactions of predefined amounts for a given period as per Anti Money Laundering (AML) measures"
+  },
+  {
+    "id": "RPT-190",
+    "module": "Reports",
+    "page": 94,
+    "text": "Provide for a report on branch totals to be produced when all the tellers in the branch have completed the \u2018final sign off'"
+  },
+  {
+    "id": "RPT-191",
+    "module": "Reports",
+    "page": 94,
+    "text": "Provide for a cash analysis report, for each Teller and consolidated at branch level"
+  },
+  {
+    "id": "RPT-192",
+    "module": "Reports",
+    "page": 94,
+    "text": "Enable facility that allows the teller to inquire on all clients/transactions using various search methods. The search criteria to be user definable. (e.g. alphabetical order, matching name, transaction type/amount-wise and cheque- wise, etc.)"
+  },
+  {
+    "id": "RPT-193",
+    "module": "Reports",
+    "page": 94,
+    "text": "Provide adhoc and standard reporting capabilities based on individual customers, customer type for both user-defined and system default periods."
+  },
+  {
+    "id": "RPT-194",
+    "module": "Reports",
+    "page": 94,
+    "text": "Enable creation of reports based on individual/combination of fields in the customer master"
+  },
+  {
+    "id": "RPT-195",
+    "module": "Reports",
+    "page": 94,
+    "text": "Generate audit rep ort of additions, amendments and deletions to customer master"
+  },
+  {
+    "id": "RPT-196",
+    "module": "Reports",
+    "page": 94,
+    "text": "Provide support to query on the customer limits as well as MIS information based on user-defined parameters"
+  },
+  {
+    "id": "RPT-197",
+    "module": "Reports",
+    "page": 94,
+    "text": "Provision to generate report/query of NPA a/c as per asset classification"
+  },
+  {
+    "id": "RPT-198",
+    "module": "Reports",
+    "page": 94,
+    "text": "Age-wise classification of over dues and generation of report Page 95 of 112"
+  },
+  {
+    "id": "RPT-199",
+    "module": "Reports",
+    "page": 95,
+    "text": "Ability to generate outstanding/arrears status /reminder letter"
+  },
+  {
+    "id": "RPT-200",
+    "module": "Reports",
+    "page": 95,
+    "text": "Provide 360 degree view of the customer by displaying all accounts and relations of customer in one place"
+  },
+  {
+    "id": "RPT-201",
+    "module": "Reports",
+    "page": 95,
+    "text": "Provide for generation of report on:"
+  },
+  {
+    "id": "RPT-202",
+    "module": "Reports",
+    "page": 95,
+    "text": "Standing instructions executed"
+  },
+  {
+    "id": "RPT-203",
+    "module": "Reports",
+    "page": 95,
+    "text": "Standing Instructions failed in execution. Lending Related Reports"
+  },
+  {
+    "id": "RPT-204",
+    "module": "Reports",
+    "page": 95,
+    "text": "System should reflect position of accounts of a customer at any point of time, in a columnar form which include: Limit, Date of Valuation (stock statement), Market Value, Advance Value, Drawing Power, Outstanding Balance, Irregularity"
+  },
+  {
+    "id": "RPT-205",
+    "module": "Reports",
+    "page": 95,
+    "text": "Ability to generate reports based on sanction/availed amount, due dates of repayment, last recovery amount and date"
+  },
+  {
+    "id": "RPT-206",
+    "module": "Reports",
+    "page": 95,
+    "text": "Ability to generate reports with/without provision and write-off figures"
+  },
+  {
+    "id": "RPT-207",
+    "module": "Reports",
+    "page": 95,
+    "text": "System to furnish at the end of each month and on ad hoc request list of all limits overdue for inspection along with dates of last inspection"
+  },
+  {
+    "id": "RPT-208",
+    "module": "Reports",
+    "page": 95,
+    "text": "Historical data of valuation of primary and collateral security"
+  },
+  {
+    "id": "RPT-209",
+    "module": "Reports",
+    "page": 95,
+    "text": "Limit history covering drawing power, peak -outstanding, peak irregularity, minimum outstanding during a month, for the months specified"
+  },
+  {
+    "id": "RPT-210",
+    "module": "Reports",
+    "page": 95,
+    "text": "Details of credits and debits into the account beyond a stipulated amount \u2013 to be user-definable at account level and will be different for credits and debits"
+  },
+  {
+    "id": "RPT-211",
+    "module": "Reports",
+    "page": 95,
+    "text": "Query on the status of the customer to issue no-due/no-objection certificate"
+  },
+  {
+    "id": "RPT-212",
+    "module": "Reports",
+    "page": 95,
+    "text": "Certificates of outstanding balances, recoveries, interest, etc., to the customers"
+  },
+  {
+    "id": "RPT-213",
+    "module": "Reports",
+    "page": 95,
+    "text": "Provision for generation of interest certificate on future date"
+  },
+  {
+    "id": "RPT-214",
+    "module": "Reports",
+    "page": 95,
+    "text": "Generate limits register at user-defined intervals"
+  },
+  {
+    "id": "RPT-215",
+    "module": "Reports",
+    "page": 95,
+    "text": "Provide a full set of operational, audit trail and MIS reports which include:"
+  },
+  {
+    "id": "RPT-216",
+    "module": "Reports",
+    "page": 96,
+    "text": "Advice of transactions to customers"
+  },
+  {
+    "id": "RPT-217",
+    "module": "Reports",
+    "page": 96,
+    "text": "List of NPA Account IRAC status-wise/with provisioning"
+  },
+  {
+    "id": "RPT-218",
+    "module": "Reports",
+    "page": 96,
+    "text": "List of Inoperative Accounts \u2013 for a given period"
+  },
+  {
+    "id": "RPT-219",
+    "module": "Reports",
+    "page": 96,
+    "text": "List of account which is overdrawn \u2013 for a given period"
+  },
+  {
+    "id": "RPT-220",
+    "module": "Reports",
+    "page": 96,
+    "text": "Interest Calculation Product Report"
+  },
+  {
+    "id": "RPT-221",
+    "module": "Reports",
+    "page": 96,
+    "text": "Report on processing charges recovered"
+  },
+  {
+    "id": "RPT-222",
+    "module": "Reports",
+    "page": 96,
+    "text": "List of Accounts opened/closed"
+  },
+  {
+    "id": "RPT-223",
+    "module": "Reports",
+    "page": 96,
+    "text": "Statement of Account is ASCII format"
+  },
+  {
+    "id": "RPT-224",
+    "module": "Reports",
+    "page": 96,
+    "text": "Account details for a given customer"
+  },
+  {
+    "id": "RPT-225",
+    "module": "Reports",
+    "page": 96,
+    "text": "Assessing Value of account. Information for the following to be provided between two dates:"
+  },
+  {
+    "id": "RPT-226",
+    "module": "Reports",
+    "page": 96,
+    "text": "Length of association with bank"
+  },
+  {
+    "id": "RPT-227",
+    "module": "Reports",
+    "page": 96,
+    "text": "Statement of Account Query (for Current day)"
+  },
+  {
+    "id": "RPT-228",
+    "module": "Reports",
+    "page": 96,
+    "text": "Statement of Account Query (for any given period)"
+  },
+  {
+    "id": "RPT-229",
+    "module": "Reports",
+    "page": 96,
+    "text": "List of Overdrawn Accounts"
+  },
+  {
+    "id": "RPT-230",
+    "module": "Reports",
+    "page": 96,
+    "text": "A/c wise debit/credit balances"
+  },
+  {
+    "id": "RPT-231",
+    "module": "Reports",
+    "page": 96,
+    "text": "Query on effect of a transaction on available limit Page 97 of 112"
+  },
+  {
+    "id": "RPT-232",
+    "module": "Reports",
+    "page": 97,
+    "text": "Clearing cheques returned for a given period Inward Clearing/Outward Clearing"
+  },
+  {
+    "id": "RPT-233",
+    "module": "Reports",
+    "page": 97,
+    "text": "Query on asset classification"
+  },
+  {
+    "id": "RPT-234",
+    "module": "Reports",
+    "page": 97,
+    "text": "Audit trail of transactions/jobs done for all accounts/masters should be available"
+  },
+  {
+    "id": "RPT-235",
+    "module": "Reports",
+    "page": 97,
+    "text": "Provide online enquiry capabilities for each loan record to include:"
+  },
+  {
+    "id": "RPT-236",
+    "module": "Reports",
+    "page": 97,
+    "text": "Transaction pending for further processing"
+  },
+  {
+    "id": "RPT-237",
+    "module": "Reports",
+    "page": 97,
+    "text": "Currently active outstanding records"
+  },
+  {
+    "id": "RPT-238",
+    "module": "Reports",
+    "page": 97,
+    "text": "Currently inactive records but still being kept in the system"
+  },
+  {
+    "id": "RPT-239",
+    "module": "Reports",
+    "page": 97,
+    "text": "All the transaction movement history as long as they are kept in the system. The period for which the history transactions are maintained in the system must be user-definable and can vary for each product"
+  },
+  {
+    "id": "RPT-240",
+    "module": "Reports",
+    "page": 97,
+    "text": "Provision to view/print the details of a loan account for the entire period of loan"
+  },
+  {
+    "id": "RPT-241",
+    "module": "Reports",
+    "page": 97,
+    "text": "Provision to generate demand, collection and balance register. RBI and Statutory Reports Regular Reports"
+  },
+  {
+    "id": "RPT-242",
+    "module": "Reports",
+    "page": 97,
+    "text": "Form B-Statement of external liabilities and core assets"
+  },
+  {
+    "id": "RPT-243",
+    "module": "Reports",
+    "page": 97,
+    "text": "Deposit Insurance and Credit Guarantee Corporation (DICGC)"
+  },
+  {
+    "id": "RPT-244",
+    "module": "Reports",
+    "page": 97,
+    "text": "Quarterly statement on advances to Directors' relatives"
+  },
+  {
+    "id": "RPT-245",
+    "module": "Reports",
+    "page": 97,
+    "text": "Statement Of willful defaults of Rs. 50000 and above"
+  },
+  {
+    "id": "RPT-246",
+    "module": "Reports",
+    "page": 97,
+    "text": "Statement of doubtful defaults"
+  },
+  {
+    "id": "RPT-247",
+    "module": "Reports",
+    "page": 97,
+    "text": "Doubtful top 10 installment accounts"
+  },
+  {
+    "id": "RPT-248",
+    "module": "Reports",
+    "page": 97,
+    "text": "Statement of cash reserve and liquid assets"
+  },
+  {
+    "id": "RPT-249",
+    "module": "Reports",
+    "page": 97,
+    "text": "Credit flow under priority sector"
+  },
+  {
+    "id": "RPT-250",
+    "module": "Reports",
+    "page": 97,
+    "text": "Debit credit balance in deposit"
+  },
+  {
+    "id": "RPT-251",
+    "module": "Reports",
+    "page": 97,
+    "text": "Office expenditure statement"
+  },
+  {
+    "id": "RPT-252",
+    "module": "Reports",
+    "page": 97,
+    "text": "Position under self-help group"
+  },
+  {
+    "id": "RPT-253",
+    "module": "Reports",
+    "page": 97,
+    "text": "Statement of purpose wise classification of advances"
+  },
+  {
+    "id": "RPT-254",
+    "module": "Reports",
+    "page": 97,
+    "text": "Annual interest summary Page 98 of 112"
+  },
+  {
+    "id": "RPT-255",
+    "module": "Reports",
+    "page": 98,
+    "text": "Deposit comparison of three years"
+  },
+  {
+    "id": "RPT-256",
+    "module": "Reports",
+    "page": 98,
+    "text": "Loans comparison of three years"
+  },
+  {
+    "id": "RPT-257",
+    "module": "Reports",
+    "page": 98,
+    "text": "Monthly reconciliation of accounts with RBI. Offsite Surveillance (OSS) Reports"
+  },
+  {
+    "id": "RPT-258",
+    "module": "Reports",
+    "page": 98,
+    "text": "OSS Statement 8. Top 10 Deposit"
+  },
+  {
+    "id": "RPT-259",
+    "module": "Reports",
+    "page": 98,
+    "text": "Priority Sector Advances by UCB's Statement II"
+  },
+  {
+    "id": "RPT-260",
+    "module": "Reports",
+    "page": 98,
+    "text": "Priority Sector Advances by UCB's Statement II-Part B"
+  },
+  {
+    "id": "RPT-261",
+    "module": "Reports",
+    "page": 98,
+    "text": "Statewide Priority Sector"
+  },
+  {
+    "id": "RPT-262",
+    "module": "Reports",
+    "page": 98,
+    "text": "District-wise Priority Sector. RBI Inspection Report"
+  },
+  {
+    "id": "RPT-263",
+    "module": "Reports",
+    "page": 98,
+    "text": "Amount-wise classification of deposit (summary)"
+  },
+  {
+    "id": "RPT-264",
+    "module": "Reports",
+    "page": 98,
+    "text": "Amount-wise classification of loan (summary)"
+  },
+  {
+    "id": "RPT-265",
+    "module": "Reports",
+    "page": 98,
+    "text": "Maturity amount-wise classification"
+  },
+  {
+    "id": "RPT-266",
+    "module": "Reports",
+    "page": 98,
+    "text": "Fixed amount-wise classification of deposit"
+  },
+  {
+    "id": "RPT-267",
+    "module": "Reports",
+    "page": 98,
+    "text": "Average earning on assets"
+  },
+  {
+    "id": "RPT-268",
+    "module": "Reports",
+    "page": 98,
+    "text": "Loan and advances size and composition"
+  },
+  {
+    "id": "RPT-269",
+    "module": "Reports",
+    "page": 98,
+    "text": "Purpose-wise analysis of loans"
+  },
+  {
+    "id": "RPT-270",
+    "module": "Reports",
+    "page": 98,
+    "text": "Purpose wise analysis of loans (summary)"
+  },
+  {
+    "id": "RPT-271",
+    "module": "Reports",
+    "page": 98,
+    "text": "Security wise analysis of loans (summary) Page 99 of 112"
+  },
+  {
+    "id": "RPT-272",
+    "module": "Reports",
+    "page": 99,
+    "text": "Statement Recovery of NPA"
+  },
+  {
+    "id": "RPT-273",
+    "module": "Reports",
+    "page": 99,
+    "text": "Summarized Statement of Maturity Profile of Advances"
+  },
+  {
+    "id": "RPT-274",
+    "module": "Reports",
+    "page": 99,
+    "text": "Summarized Statement of Maturity Profile of Deposit"
+  },
+  {
+    "id": "RPT-275",
+    "module": "Reports",
+    "page": 99,
+    "text": "Sanction amount wise classification of loans"
+  },
+  {
+    "id": "RPT-276",
+    "module": "Reports",
+    "page": 99,
+    "text": "Bank statistics to different departments of RBI such as rupee deposits held by different customer categories, etc. ALM Reports"
+  },
+  {
+    "id": "RPT-277",
+    "module": "Reports",
+    "page": 99,
+    "text": "Statement of Structural Liquidity"
+  },
+  {
+    "id": "RPT-278",
+    "module": "Reports",
+    "page": 99,
+    "text": "Statement of Interest Rate Sensitivity"
+  },
+  {
+    "id": "RPT-279",
+    "module": "Reports",
+    "page": 99,
+    "text": "Increase/Decrease Deposit Yield on Deposits. Page 100 of 112 Annexure II (Detailed Technical Requirements)"
+  },
+  {
+    "id": "RPT-280",
+    "module": "Reports",
+    "page": 100,
+    "text": "Performance, Availability and Scalability Requirements \u2022System to meet all present and future functional requirements should be highly parameterisable and not hardcoded. \u2022The CBS should be able to process a minimum of 10 (OLTP) transactions per second. This is applicable for unit banks, however, UCBs with more branches need better concurrency. For medium/large UCBs, the concurrency should be 40% of the user base and should support 4000 login users. \u2022A proof of benchmarking of the solution and the hardware sizing for the scale of the branch should be documented before the implementation. The hardware sizing has to be done with consent of the application service provider. \u2022CBS should also support batch operations, EOD and BOD operations. EOD, BOD operations should be completed within 3 hours on a normal day and within 4 hours during quarter/halfyear/year ends. All Batch jobs and the running rights should be in control of the bank authorities with appropriate user rights \u2022Ability to restrict user logins to one workstation, date and time wise from a central location (DC or DRC). The connectivity between branches and DR should be tested alongwith connectivity from primary site of data center. \u2022DC and DRC should be compliant of Level 3 standards or equivalent. Data centers should comply with Gopalakrishna committee recomme ndations, ISO 27000 series standards and PA and PCI - DSS guidelines. \u2022Should have data storage capacity for reasonable period. Should have offline and online back - up available for any exigences. \u2022If any purging activity is in place, the data integrity should not be lost. CBS provider should provide the purging activity related entity relationship diagram along with a test report during UAT process. \u2022Should have the facility to archive the data from production server at regular intervals to ensure production s erver contains data of reasonable period and the rest is archived and kept separately. \u2022All the transactions/updates in the proposed solution should be processed in real time i.e account balance updatation, respective sub GL heads updation over all GL updation, etc. \u2022System should be highly available, fault tolerant,and support business continuity and disaster recovery. A quarterly report on audited BCP and DR drills with no compensatory controls should be submitted. \u2022The database server should have 1:1 redundancy and the application and web server should have atleast n+1 redundancy. The solution at Disaster recovery site should be identical and of Page 101 of 112 same size as that in primary site. \u2022The utilisation of hardware resources should always be within 80% of its capacity. The solution should be scalable with reference to software, hardware and other resources to meet the future needs of the bank. \u2022The sizing of the solution is to be done based on the no of transactions per day, peak load, no of accounts, nof users,concurrent users, transactions per second, and transaction time for different type of transactions and no of branches. \u2022TThe hardware provided should support horizontal/vertical scalability. \u2022Documentation of L1/L2 helpdesk with improving known error database. Should have standard monitoring and alerting tools for improving the availability of the environment. Process and proof of implementation of root cause analysis and solution for past issues. \u2022A well documented and agreed NDA and SLA with RPO and RTO should be established.A minimum 15 minutes RPO and 1 hour RTO is recommended for UCB functioning, however, bank may chose a near zero RPO and 1 hour RTO based on the business criticality. This warrants establishment of near site disaster recovery centre. \u2022Established escalation mechanism and governance model of monthly/quarterly reviews. \u2022A documented and automated test cases for regression and unit testing should be made available. All UAT releases should be available only after submitting a proof of System and Integration testing, Performance and stress testing. \u2022CBS must have 3 -tier architecture model. Documented application architecture diagram with class diagrams and standard design patterns like MVC, MVVM, etc. \u2022Report on code quality metrics(cyclomatic comple xity, methods per class and other metrics related to cohesion and coupling) against the industry benchmark of the application technology stack. \u2022CBS should work on thin clients, however, bank may used regular desktops for accessing CBS. Cross compatibility across browsers and desktop operating system. Not just being restricted to a particular vendor OS and browser software. \u2022The vendor providing CBS must also have and provide experienced skilled resources of adequate number to take care of Data base administr ation, system administration, application management, Network management and data centre infrastructure. \u2022Vendor must also provide resources either one or two who has/have complete knowledge about the functionalities of the application/s to interact as and when needed and to take care of future requirements \u2022UAT and Training servers appropriately based on specific requirements of the bank are also to be provided. \u2022Last mile connectivity over terrestrial links/CDMA/RF, VSAT, VSAT Hub Station to connect DC, Page 102 of 112 DRC, branches and between DC and DRC should be available and tested for redundancy."
+  },
+  {
+    "id": "RPT-281",
+    "module": "Reports",
+    "page": 102,
+    "text": "IT Security Requirements Access Controls \u2022All Personally Identifiable Information (PII) and confidential information should be stored in encrypted form on the database \u2022Standard RDBMS databases with local support should be used. A document with proof of segmentation of user roles and application roles should be submitted \u2022Implement a standard error handling procedures with logging of error condition and other details of th e application for effective troubleshooting. However, the user should get an error message in simple language (English/regional) and the message should suggest the next course of action \u2022Customizable error (language support) and information messages outside application code \u2022Access to PII and confidential information should be logged and be available in a report format \u2022Audit trail of additions/deletion/modifications to parameter file/master file, etc. \u2022System should automatically generate an indent for supply of security printing items SB/CA/CC account cheque books, demand draft leaves, etc., when the stock falls below the minimum prescribed level which should be parameterised \u2022If any logged -in session is inactive for more than a predefined period of time, passw ord protected screen savers should be activated and the screen saver should be uniform throughout the organisation \u2022At the time of log in, date/time of previous log in and unsuccessful attempts to log in, if any, should be displayed on the screen \u2022Availability of menu should be restricted on the basis of user access (RBAC) level \u2022CBS should have the ability to support third party single sign on solutions with active directory (AD) and biometric devices as certified by Standardisation Testing and Quality Certification (STQC) \u2022Ability to upgrade the authentication and authorisation mechanisms to accommodate the future use of smart card/biometric/Aadhaar-based digital signatures by the customers \u2022Ability to verify digital signatures of data being uploaded in CBS \u2022Ability to provide authorisation/verification mechanisms with the use of smart card based digital signatures \u2022Ability of the CBS server to sign the data being downloaded, so that the application/user can verify the data integrity, while uploading the same \u2022Wherever there is an override of a given rule/parameter, it should be captured in an exception report and printed automatically as part of EOD Page 103 of 112 \u2022Admin rights should not be available on the application and database server \u2022CBS should not allow any database leve l modification like creating, modifying, deleting, dropping database objects from application front-end \u2022Operating system, database software and any other third party software used by the CBS software should have valid software assurance agreement for patch deployment \u2022Once user logs on to the system from the client workstation, he/she should be taken to the banking application menu (possibly using a login script) and once he/she logs out of the application session, he/she should get disconnected from the database with no command line access/any other means of connecting to the database (say through SQL prompt). All the functionality should be accessible only through online/menu-driven web interfaces \u2022Application administration should be available only to the bank and may be given only on temporary basis with an end date to application service providers for maintenance activities \u2022Source code of the software version including any updates and upgrades should be deposited with an escrow agent. \u2022Facility for user authentication using biometrics Password Management Requirements \u2022Minimum password length must be eight for both normal and privileged users \u2022Password should be alphanumeric \u2022Provide for mandatory change of password for users at the end of preset time intervals \u2022Password expiration period should not be more than 30 days for normal users and 15 days for privileged users \u2022Usage of passwords such as user name, commonly used words, etc., should not be allowed \u2022System must not show password in clear text while entering the password \u2022In case of reset of password by another authority e.g., by DBA where the user has forgotten his password, etc. \u2022Details should be captured in an exception report \u2022User should be forced to change the password reset by DBA \u2022Enabling user id of new employee with dummy password which the user should be forced to change on first log on \u2022Disabling user id of employees on leave/not on computer duty \u2022Intruder detection (repeated unsuccessful attempts (three attempts) to gain access to the system) should be logged with date and timestamp and the terminal should get locked after a number of predefined unsuccessful attempts \u2022Generation of mandatory log for all the activities carried out by highly powerful users like System Administrator/DBA Page 104 of 112 \u2022Generation of access logs with date and timestamp on processes run user id-wise. Network and Endpoint Security \u2022The network security is paramount for UCB-CBS as the UCBs may access the application hosted from third party datacentres. The approach should be \u2018deny all and allow only' required ports after consent \u2022Datacentre hosting CBS application should have all the required security (firewall, IDS, IPS, SIEM, DDoS protection, etc.) in place \u2022Application should be configured with correct network time to ensure data integrity \u2022A secured VPN connection or IPSec should be established for accessing CBS software \u2022Security measures for Desktop/Virtual Machines that would be used for accessing CBS would include: \u2022Removal of administrator rights from installing any invalid software \u2022Removal of internet access \u2022Harden OS and remove access to pen drive or any other mass storage devices \u2022Up-to-date antivirus should be available for the servers/virtual machines hosting CBS. Application Security Requirements \u2022Should not store any data in cookies/cached memory \u2022Source files as .java, .cpp, etc., should not be available in production \u2022Do not allow installation of Microsoft Office and/or other utility components on production servers \u2022Unregister/delete \"dll\", \".so\", other libraries that are not required \u2022Convert unmanaged (C, C++) code to managed code (like Java, .NET, etc.) \u2022Code to reduce buffer overflow issues \u2022Allow least-privileged accounts used for running web application \u2022Deploy CCA approved SSL certificates on servers for access. Recycle SSL certificates every two years \u2022Should not allow system commands calls from user interface \u2022Encrypt impersonated application id and other config details in the configuration file \u2022Perform data validation on address, email id, PIN code, etc. \u2022Should validate data type, implement required field validator/range checks on client and server side \u2022Have an allowable character set (numeric, alpha, required, duplicates, special characters, etc.) \u2022Filter for double and single quotes. Do not allow characters such as \"@\", \"<>\",*, etc. \u2022Validate data coming through JavaScript/PHP/VBScript/ ActiveX/Flash, etc. Page 105 of 112 \u2022Should store files and data outside www-root \u2022Ensure right level of access modifiers at class and method/function level(private/public/protected) \u2022Remove null bytes from user input \u2022Create \u2018html attribute allow' and \u2018html tag allow' lists \u2022Implement html tags as iframe security \u2022Set debug=false in production environment \u2022Output validation before displaying on the screen \u2022Do not allow URL redirection to untrusted (non-HTTPS) site \u2022Perform validation on both client and server side \u2022Do not make any decisions based on HTTP header information \u2022Hash to protect query strings during posting \u2022Protect \u2018View' state using message authentication code (MAC) and/or high entropy random sequence \u2022Erase/Clear the session data after closure of session \u2022Make session ids random and unpredictable and do not store them on client side. Do not pass session ids in an unencrypted format \u2022Encrypt cached sensitive data and set cookie expiration date/time. Encrypt/Ha sh session data and all data in network by >128 bits encryption algorithm \u2022Disallow passage of sensitive data across pages or using HTTP, SOAP/HTTP, SOAP/JMS, etc., protocols \u2022Disable \"GET\" method for sensitive information \u2022Disable \"GET and PUT\" methods at the server level for web services \u2022Recommended to set 180 seconds session timeout for inactivity \u2022Limit the number* of GET/POST per session \u2022Do not install of ActiveX, JAR, etc., on customer machine \u2022Disable browser back button \u2022Application/shared folder access given based on the need (read/write/execute) \u2022Have a restriction on file type/extension for uploads. Do not allow file extensions with .bat, .com, .exe, .pif, .vbs, msi, zip, etc., for upload \u2022Input file names should be well-formed and complete with no wild characters \u2022Check for file integrity before processing \u2022File transfer should be avoided to the extent possible. If there is an unprecedented file transfer, the files should be encrypted and transferred using Secure FTP \u2022Restrict access to application configu ration file (web.config, web.xml, etc.), registry, system32/kernel, etc. Page 106 of 112 \u2022Enforce code access security to ensure only required privileges are available \u2022Do not store password in the database or in application code in clear text \u2022Upload File (photo, signature, collateral and other documents), size and file type (allow only .pdf, .jpeg format) restriction."
+  },
+  {
+    "id": "RPT-282",
+    "module": "Reports",
+    "page": 106,
+    "text": "Other IT Requirements \u2022Should have provision for setting up of hotkeys for certain predefined functions (e.g. help, commit, etc.). Ability to define keypad (num pad) for data entry operators \u2022Provide for basic calculator functionality (as a standalone facility or as an integral part of input transaction) which can assist in tasks such as, but not limited to \u2013 summing a set of numbers, calculating interest, converting currencies, calculating percentages, calculating averages and basic functions (add, subtract, multiply, divide, etc.) \u2022Support word processing features for text fields, reports, notices e.g. back delete, forward delete, word wrap, and split and join lines, format paragraphs, etc. \u2022Context based help can also be available in the regional language of the branch \u2022Should support standard dot matrix/inkjet/laser printers for printing pass book, statement, DD and other bank stationery, etc. \u2022CBS should wo rk on thin clients. Cross compatibility across browsers and desktop operating system. Not just being restricted to a particular vendor OS and browser software \u2022Proof of Usability testing and adherence to ISO standards on usability. Provide user - friendly support for synchronization of data with interfacing systems/applications \u2022Must have the capability of capturing photograph, signature, fingerprint biometric and retina biometric as in the case of UID (Aadhaar ID) \u2022Separate MIS server and report writing tool/application with flexibility of generating ad hoc MIS besides the MIS and regulatory reports indicated in the list. Page 107 of 112 Annexure III (Cloud Computing) RBI Working Group on Cloud computing option for small size UCB s and IDRBT Cloud Security Framework for Indian Banks and are available as a reference for formulating the requirements for Cloud Computing for UCBs. The cloud offering normally includes services, infrastructure, and hosting of application software. The following are some of the areas that are to be factored while adopting CBS solution services on cloud.: \u2022Datacentre: The datacentre shall be of minimum level -3 with n+1 redundancy for its entire infrastructure like HVAC, fire protection systems, ups and so forth. It must be secure and reliable \u2022The location of the datacentre is also to be considered while taking cloud services. Its location must be in a safe and secure place, away from crowded areas, fire hazard prone areas and high risk seismic zones \u2022In a cloud computing environment, the software and the customer's data are hosted by the vendor, typically in a shared environment and the software configuration is homogeneous across all of vendor's customers. This means that cloud application is generally customizable for common requirements and not for specific requirements. Hence, buyer must ensure that cloud service provider agrees to provide customization specific to buyer as and when required through change request mechanism \u2022The buyer must satisfy himself that the solution is highly available , reliable and fault tolerant. The buyer must prescribe performance metrics like TPS, response time for each type of transaction and so forth. The agreement must provide for appropriate service levels with reference to availability and responsiveness of th e application software (uptime, response time and problem resolution time). It must also state the remedial measures available and the liquidated damages to be levied if service levels are not maintained. The buyer should not simply accept default vendor o ffers on uptime percentages and measurement period, but negotiate for uptime and its frequency of measurement to address its business needs and requirements. The shorter measurement of uptime say once in a month is preferable to longer durations of quarter /half year. Schedule downtime for maintenance should not affect the availability of services to buyer's organization. Any schedule maintenance is to be intimated to the buyer also \u2022Besides appropriate service levels, the service provider must also agree to resolve issues pertaining to software and other services in a timely manner so that it does not affect the business, if necessary by providing acceptable workarounds. If the issue is not addressed within a reasonable time, there must be a mechanism to escalate the matter to higher authorities Page 108 of 112 \u2022Data security and confidentiality of that customer data are very important in cloud offers. The buyer must therefore satisfy himself that the procedures adopted by service provider are adequate to protect data against security vulnerabilities. Hence, the bank must demand from service provider specific details about data security, specifically hardware, software and security policies and review them to know that they are in line with industry standards and security policies of the bank. \u2022During the contract term, the bank should have the right to gain entry into service providers' datacentre and perform through an authorized person/entity, audits of vendors' environment, including penetration and security tests, etc. \u2022Service provider must agree to maintain and run disaster recovery site to ensure business continuity, in case of any disruption in the primary site. The service provider must also agree to conduct DR drills at prescribed intervals to test the readiness of Disaster Recovery Services (DRS) \u2022In all customer critical solutions like CBS, the service provider must provide adequate room in the hardware to take care of any sudden spurt in transactions. In order to facilitate this, the service provider must always ensure that utilization of its hardware resources are well within 80%. When the utilization exceeds the threshold limit of 80% for a reasonable period, say a fortnight or a month, the service provider must initiate steps to enhance/upgrade the hardware in order to avoid untoward incidents \u2022The bank relies on the service provider as the custodian of its data, and hence service provider must take backup of customer data at required intervals. The bank must ensure that service provider's backup policies are consisten t with that of bank's backup policies in all critical aspects \u2022The service provider will have access to customer's data. The service provider must agree to maintain confidentiality of such information and that he will not use such information except for discharging its duties under cloud \u2022The service provider must grant to the buyer complete right and license to access and use the software for customer's business purposes by all its permitted employees and users. The license may be obtained either on enterprise basis, or per user basis based on no. of users accessing the software \u2022The service provider must also guarantee the following: \u2022All services will be provided in a timely, professional manner to comply with industry best practices \u2022Adequate training will be provided to the users on the features and usage of software \u2022The customers' data and information will not be shared with or disclosed in any manner to any third party by the service provider without the consent of buyer Page 109 of 112 \u2022The software will not infringe the intellectual property rights of any third party \u2022The software will be free from viruses and other destroying programs. Page 110 of 112 Expansions of Abbreviations Used Sl. No. Term Full form"
+  },
+  {
+    "id": "RPT-283",
+    "module": "Reports",
+    "page": 110,
+    "text": "AEPS Aadhar Enabled Payment Service"
+  },
+  {
+    "id": "RPT-284",
+    "module": "Reports",
+    "page": 110,
+    "text": "AMC Annual Maintenance Contract"
+  },
+  {
+    "id": "RPT-285",
+    "module": "Reports",
+    "page": 110,
+    "text": "ARC Asset Reconstruction Company"
+  },
+  {
+    "id": "RPT-286",
+    "module": "Reports",
+    "page": 110,
+    "text": "ASP Application Service Provider"
+  },
+  {
+    "id": "RPT-287",
+    "module": "Reports",
+    "page": 110,
+    "text": "ATM Automated Teller Machine"
+  },
+  {
+    "id": "RPT-288",
+    "module": "Reports",
+    "page": 110,
+    "text": "BCC Bahrain Cooperation Council Banking"
+  },
+  {
+    "id": "RPT-289",
+    "module": "Reports",
+    "page": 110,
+    "text": "BSBDA Basic Savings Bank Deposit Account"
+  },
+  {
+    "id": "RPT-290",
+    "module": "Reports",
+    "page": 110,
+    "text": "BSR Basic Statistical Return"
+  },
+  {
+    "id": "RPT-291",
+    "module": "Reports",
+    "page": 110,
+    "text": "CAIIB Certified Associate of Indian Institute of Bankers"
+  },
+  {
+    "id": "RPT-292",
+    "module": "Reports",
+    "page": 110,
+    "text": "CASA Current Account & Savings Account"
+  },
+  {
+    "id": "RPT-293",
+    "module": "Reports",
+    "page": 110,
+    "text": "CBLO Collateralised Borrowing and Lending Obligation"
+  },
+  {
+    "id": "RPT-294",
+    "module": "Reports",
+    "page": 110,
+    "text": "CBS Core Banking Solution"
+  },
+  {
+    "id": "RPT-295",
+    "module": "Reports",
+    "page": 110,
+    "text": "CC or CCA Cash Credit Account"
+  },
+  {
+    "id": "RPT-296",
+    "module": "Reports",
+    "page": 110,
+    "text": "CCIL Clearing Corporation of India Limited"
+  },
+  {
+    "id": "RPT-297",
+    "module": "Reports",
+    "page": 110,
+    "text": "CD Certificate of Deposit"
+  },
+  {
+    "id": "RPT-298",
+    "module": "Reports",
+    "page": 110,
+    "text": "CERSAI Central Registry of Securitisation Asset Reconstruction and Security Interest"
+  },
+  {
+    "id": "RPT-299",
+    "module": "Reports",
+    "page": 110,
+    "text": "CERT-IN Computer Emergency Response Team \u2013 India"
+  },
+  {
+    "id": "RPT-300",
+    "module": "Reports",
+    "page": 110,
+    "text": "CIBIL Credit Information Bureau (India) Limited"
+  },
+  {
+    "id": "RPT-301",
+    "module": "Reports",
+    "page": 110,
+    "text": "CIF Customer Information File"
+  },
+  {
+    "id": "RPT-302",
+    "module": "Reports",
+    "page": 110,
+    "text": "CIF Cost, Insurance and Freight"
+  },
+  {
+    "id": "RPT-303",
+    "module": "Reports",
+    "page": 110,
+    "text": "CSP Cloud Service Providers"
+  },
+  {
+    "id": "RPT-304",
+    "module": "Reports",
+    "page": 110,
+    "text": "CSP Cloud Service Provider"
+  },
+  {
+    "id": "RPT-305",
+    "module": "Reports",
+    "page": 110,
+    "text": "DCCB District Central Cooperative Bank"
+  },
+  {
+    "id": "RPT-306",
+    "module": "Reports",
+    "page": 110,
+    "text": "DEMAT Dematerialised (electronic records)"
+  },
+  {
+    "id": "RPT-307",
+    "module": "Reports",
+    "page": 110,
+    "text": "DGFT Directorate General of Foreign Trade"
+  },
+  {
+    "id": "RPT-308",
+    "module": "Reports",
+    "page": 110,
+    "text": "DP Code Depository Participant Code"
+  },
+  {
+    "id": "RPT-309",
+    "module": "Reports",
+    "page": 110,
+    "text": "DSS Data Security Standards"
+  },
+  {
+    "id": "RPT-310",
+    "module": "Reports",
+    "page": 110,
+    "text": "DTL Demand and Time Liabilities"
+  },
+  {
+    "id": "RPT-311",
+    "module": "Reports",
+    "page": 110,
+    "text": "ECGC Export Credit Guaranty Corporation"
+  },
+  {
+    "id": "RPT-312",
+    "module": "Reports",
+    "page": 110,
+    "text": "ECS Electronic Clearing Services"
+  },
+  {
+    "id": "RPT-313",
+    "module": "Reports",
+    "page": 110,
+    "text": "FCNR Foreign Currency Non-Resident account"
+  },
+  {
+    "id": "RPT-314",
+    "module": "Reports",
+    "page": 110,
+    "text": "FIU-IND Financial Intelligence Unit \u2013 India"
+  },
+  {
+    "id": "RPT-315",
+    "module": "Reports",
+    "page": 110,
+    "text": "GCC Gulf Cooperation Council banking"
+  },
+  {
+    "id": "RPT-316",
+    "module": "Reports",
+    "page": 110,
+    "text": "HRMS Human Resource Management System Page 111 of 112"
+  },
+  {
+    "id": "RPT-317",
+    "module": "Reports",
+    "page": 111,
+    "text": "HUF Hindu Undivided Family"
+  },
+  {
+    "id": "RPT-318",
+    "module": "Reports",
+    "page": 111,
+    "text": "IaaS Infrastructure as a Service"
+  },
+  {
+    "id": "RPT-319",
+    "module": "Reports",
+    "page": 111,
+    "text": "IBA Indian Banks' Association"
+  },
+  {
+    "id": "RPT-320",
+    "module": "Reports",
+    "page": 111,
+    "text": "IDRBT Institute for Development and Research in Banking Technology"
+  },
+  {
+    "id": "RPT-321",
+    "module": "Reports",
+    "page": 111,
+    "text": "IFSC Indian Financial System Code number"
+  },
+  {
+    "id": "RPT-322",
+    "module": "Reports",
+    "page": 111,
+    "text": "IMPS Immediate Payment Service"
+  },
+  {
+    "id": "RPT-323",
+    "module": "Reports",
+    "page": 111,
+    "text": "ISO International Organisation for Standardisation"
+  },
+  {
+    "id": "RPT-324",
+    "module": "Reports",
+    "page": 111,
+    "text": "IT Information Technology"
+  },
+  {
+    "id": "RPT-325",
+    "module": "Reports",
+    "page": 111,
+    "text": "LIC India Life Insurance Corporation of India"
+  },
+  {
+    "id": "RPT-326",
+    "module": "Reports",
+    "page": 111,
+    "text": "LR/RR Lorry Receipt/Railway Receipt"
+  },
+  {
+    "id": "RPT-327",
+    "module": "Reports",
+    "page": 111,
+    "text": "MIS Management Information System"
+  },
+  {
+    "id": "RPT-328",
+    "module": "Reports",
+    "page": 111,
+    "text": "MT Money (Order) Transfer"
+  },
+  {
+    "id": "RPT-329",
+    "module": "Reports",
+    "page": 111,
+    "text": "NACH National Automated Clearing House"
+  },
+  {
+    "id": "RPT-330",
+    "module": "Reports",
+    "page": 111,
+    "text": "NDTL Net Demand and Time Liabilities"
+  },
+  {
+    "id": "RPT-331",
+    "module": "Reports",
+    "page": 111,
+    "text": "NEFT National Electronic Funds Transfer"
+  },
+  {
+    "id": "RPT-332",
+    "module": "Reports",
+    "page": 111,
+    "text": "NFS National Financial Switch"
+  },
+  {
+    "id": "RPT-333",
+    "module": "Reports",
+    "page": 111,
+    "text": "NPA Non-Performing Assets"
+  },
+  {
+    "id": "RPT-334",
+    "module": "Reports",
+    "page": 111,
+    "text": "NPCI National Payments Corporation of India Ltd."
+  },
+  {
+    "id": "RPT-335",
+    "module": "Reports",
+    "page": 111,
+    "text": "NRE Non-Residential External Account."
+  },
+  {
+    "id": "RPT-336",
+    "module": "Reports",
+    "page": 111,
+    "text": "NRO Non-Resident Ordinary Account (in Rupee)"
+  },
+  {
+    "id": "RPT-337",
+    "module": "Reports",
+    "page": 111,
+    "text": "NSC National Savings Certificate"
+  },
+  {
+    "id": "RPT-338",
+    "module": "Reports",
+    "page": 111,
+    "text": "OWASP Open Web Application Security Project"
+  },
+  {
+    "id": "RPT-339",
+    "module": "Reports",
+    "page": 111,
+    "text": "P&L subsidiary Profit & Loss Subsidiary account"
+  },
+  {
+    "id": "RPT-340",
+    "module": "Reports",
+    "page": 111,
+    "text": "PaaS Platform as a Service"
+  },
+  {
+    "id": "RPT-341",
+    "module": "Reports",
+    "page": 111,
+    "text": "PAN Permanent Account Number (Income Tax Department0"
+  },
+  {
+    "id": "RPT-342",
+    "module": "Reports",
+    "page": 111,
+    "text": "PCI Payment and Card Industry"
+  },
+  {
+    "id": "RPT-343",
+    "module": "Reports",
+    "page": 111,
+    "text": "PII Personally Identifiable Information"
+  },
+  {
+    "id": "RPT-344",
+    "module": "Reports",
+    "page": 111,
+    "text": "PIN Personal Identification Number"
+  },
+  {
+    "id": "RPT-345",
+    "module": "Reports",
+    "page": 111,
+    "text": "PMJDY Pradhan Mantri Jan Dhan Yojana"
+  },
+  {
+    "id": "RPT-346",
+    "module": "Reports",
+    "page": 111,
+    "text": "RBI Reserve Bank of India"
+  },
+  {
+    "id": "RPT-347",
+    "module": "Reports",
+    "page": 111,
+    "text": "RC Book Vehicle Registration Certificate (Registration Card) Book"
+  },
+  {
+    "id": "RPT-348",
+    "module": "Reports",
+    "page": 111,
+    "text": "ROC Registrar of Companies"
+  },
+  {
+    "id": "RPT-349",
+    "module": "Reports",
+    "page": 111,
+    "text": "RTGS Real Time Gross Settlement"
+  },
+  {
+    "id": "RPT-350",
+    "module": "Reports",
+    "page": 111,
+    "text": "SA or SB Savings Account or Savings Bank Account"
+  },
+  {
+    "id": "RPT-351",
+    "module": "Reports",
+    "page": 111,
+    "text": "SaaS Software as a Service"
+  },
+  {
+    "id": "RPT-352",
+    "module": "Reports",
+    "page": 111,
+    "text": "SAL Specific Approval List"
+  },
+  {
+    "id": "RPT-353",
+    "module": "Reports",
+    "page": 111,
+    "text": "SCB Scheduled Commercial Bank"
+  },
+  {
+    "id": "RPT-354",
+    "module": "Reports",
+    "page": 111,
+    "text": "SFMS Structured Financial Messaging System"
+  },
+  {
+    "id": "RPT-355",
+    "module": "Reports",
+    "page": 111,
+    "text": "SHG Self Help Group Page 112 of 112"
+  },
+  {
+    "id": "RPT-356",
+    "module": "Reports",
+    "page": 112,
+    "text": "SMS Short Messaging Service"
+  },
+  {
+    "id": "RPT-357",
+    "module": "Reports",
+    "page": 112,
+    "text": "STQC Standardisation Testing and Quality Certification"
+  },
+  {
+    "id": "RPT-358",
+    "module": "Reports",
+    "page": 112,
+    "text": "SWIFT Society for Worldwide Interbank Financial Telecommunication"
+  },
+  {
+    "id": "RPT-359",
+    "module": "Reports",
+    "page": 112,
+    "text": "TDS Tax Deducted at Source"
+  },
+  {
+    "id": "RPT-360",
+    "module": "Reports",
+    "page": 112,
+    "text": "UCB / UCBs Urban Cooperative Bank/s"
+  },
+  {
+    "id": "RPT-361",
+    "module": "Reports",
+    "page": 112,
+    "text": "VAPT Vulnerability and Penetration Test"
+  }
+]

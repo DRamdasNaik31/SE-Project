@@ -1,0 +1,308 @@
+[
+  {
+    "id": "CUST-001",
+    "module": "Customer Information",
+    "page": 15,
+    "text": "Customer Information module will hold customer information/profile for all the customers of the branch across various products of the bank. The module will ensure standard customer information across various product solutions with the specific object of providing a single view of customers across products. The module should have the capability to integrate with all other modules which support individual products like loans, deposits, trade finance, treasury products, etc. Customer Profile: Ability to record structured profiles of each customer of the branch including Retail, Corporate, Government, etc., which would include the following information but not limited to:"
+  },
+  {
+    "id": "CUST-002",
+    "module": "Customer Information",
+    "page": 15,
+    "text": "Unique Customer Identification Number"
+  },
+  {
+    "id": "CUST-003",
+    "module": "Customer Information",
+    "page": 15,
+    "text": ". A customer should have only one customer ID for all the facilities availed by him from single/multiple branches of a bank and irrespective of the style of the name used by him for various accounts"
+  },
+  {
+    "id": "CUST-004",
+    "module": "Customer Information",
+    "page": 15,
+    "text": "Individuals: Following details regarding individuals as single/joint account holder, Page 16 of 112 proprietor, partner, director, etc. as well as borrower, guarantor, etc. are required to be captured"
+  },
+  {
+    "id": "CUST-005",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Name (s) and Father's Name of Joint account holder with mandatory detail"
+  },
+  {
+    "id": "CUST-006",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Individual field length for capturing each component of customer details mentioned below should be parameterized:"
+  },
+  {
+    "id": "CUST-007",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Salutation, first name, middle name, last name, title, name of father/spouse, nationality, date of birth, name of the guardian in case of minor, marital status (married, single, widower, etc.), residential status, passport details such as date of issue, valid till, issued by, passport no., current address with pin code (minimum six fields), permanent residential address with pin code (minimum six fields), voter id card number, date of issue and issuing authority, PAN card n umber, UID (Aadhar) card number, date of issue and place of issue \u2013 electronic capture and validation, telephone no., fax no., mobile no., e -mail address (additional five fields may be provided for any future needs)"
+  },
+  {
+    "id": "CUST-008",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Other Details: Date of commencement of customer relation, number of dependents, name of each dependent, relationship"
+  },
+  {
+    "id": "CUST-009",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Occupation: Designation, office address (provide for minimum 6 fields)"
+  },
+  {
+    "id": "CUST-010",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Phone number (provide for minimum 10 fields)"
+  },
+  {
+    "id": "CUST-011",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "PAN details and issuing authority"
+  },
+  {
+    "id": "CUST-012",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Details of contact persons (with relationship)"
+  },
+  {
+    "id": "CUST-013",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Manager, Power of Attorney Holder, etc."
+  },
+  {
+    "id": "CUST-014",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Group Code for definition of customer hierarchy (used to flag individual within a group OR family code for grouping all members within a family) should provide for at least two levels of hierarchy"
+  },
+  {
+    "id": "CUST-015",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Whether the Individual is performing agriculture \u2013Y/N"
+  },
+  {
+    "id": "CUST-016",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Non-Individuals: In case of accounts of other than individuals the following details would have to be captured:"
+  },
+  {
+    "id": "CUST-017",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Constitution (e.g. Proprietorship, Partne rship, Private Ltd. Company, Public Ltd. Company, Club, Trusts, HUF, Government, Autonomous body, etc.)"
+  },
+  {
+    "id": "CUST-018",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Provide for particulars of proprietors/partners/directors/promoters, etc. as given for individuals herein above"
+  },
+  {
+    "id": "CUST-019",
+    "module": "Customer Information",
+    "page": 16,
+    "text": "Phone numbers \u2013 Provide for 10 fields, e -mail id, fax number \u2013 Provide for five fields, activity code as per Basic Statistical Return (BSR), date of incorporation, date of commencement of business, whether enjoying credit facility from any Page 17 of 112 other bank \u2013 Y/N. If yes, then name of the bank, branch and address, whether no objection certificate from that bank has been obtained \u2013 Y/N, PAN number"
+  },
+  {
+    "id": "CUST-020",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Introduction Details: Details of Introducer (could be another existing customer and in such case customer id of that customer will do) such as name (three fields), address (six fields), etc."
+  },
+  {
+    "id": "CUST-021",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Provide for maintenance of list of individuals/banned organizations /entities, etc. as per Anti Money Laundering (AML) measures for validation purposes so that accounts in such names are not allowed to be opened in the system. A full-fledged AML module is not envisaged"
+  },
+  {
+    "id": "CUST-022",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Provide for specific details: Specific details are required to be captured with respect to following but not limited to:"
+  },
+  {
+    "id": "CUST-023",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Credit Ratings from External Agencies, Credit Risk Indicators, Litigation Status, Consorti um bank/multiple banking arrangement details, any other (user definable \u2013 at least another 10 fields)"
+  },
+  {
+    "id": "CUST-024",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Credit Ratings from External Agencies. An illustrative list of status will include:"
+  },
+  {
+    "id": "CUST-025",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Credit Rating Agency, Rating, Rating definition, Rating date \u2022Credit Risk Indicators \u2022An illustrative list will include:"
+  },
+  {
+    "id": "CUST-026",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Willful defaulter, missing person, on watch list of the bank, RBI defaulters list, RBI exporter's caution list/SAL of ECGC/DGFT caution list, dormant customer, inoperative customer, NPA/special watch account flag \u2022Litigation Status \u2022List should include, but not lim ited to: court case proceedings as \"defendant\", official seizure and sale by public auction, official liquidation \u2022Consortium bank/multiple banking arrangement details of credit customers \u2022Provide for maintaining more than one value per customer profile with \"Effective Dates\" for specific fields like, but not limited to: Credit Ratings, Litigation Status, Consortium Bank Details, Operation Status \u2022Support creation and maintenance of drop- down list for individual fields based on standard/user-defined classifications during creation of customer profiles and all related masters (for example when system comes to religion field a drop-down list should come with options of religion like Hindu, Christian, etc.)"
+  },
+  {
+    "id": "CUST-027",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Product Utilization Information"
+  },
+  {
+    "id": "CUST-028",
+    "module": "Customer Information",
+    "page": 17,
+    "text": "Provide for identifying various products being used by the customer across the bank including Retail Products, Corporate Products, Cash Management, etc. as Page 18 of 112 well as to enquire balance outstanding under each head"
+  },
+  {
+    "id": "CUST-029",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Provide for identifying products not yet taken up by the customer"
+  },
+  {
+    "id": "CUST-030",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Provide for targeting of specific products to the customer based on the customer profile. For change of constitution of the customer, support linking of accounts to the new customer profile."
+  },
+  {
+    "id": "CUST-031",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Controls and User Support"
+  },
+  {
+    "id": "CUST-032",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Allow staged completion of the customer profiles creation process (e.g. create a customer with just a customer -id and name with the ability to add/modify additional details at a subsequent stage) (completion of remaining details be made mandatory before EOD)"
+  },
+  {
+    "id": "CUST-033",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Allow combination of two or more customer ids to be linked to a joint account"
+  },
+  {
+    "id": "CUST-034",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Provide for online verification of introducer's signatures, in case the introducers are customers of the bank/branch"
+  },
+  {
+    "id": "CUST-035",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Provide for classification of accounts as per customer type/subtype: e.g . Individual>Male>Pensioner>Defence personnel>Specially enabled"
+  },
+  {
+    "id": "CUST-036",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "System should permit online signature/thumb impression verification. In case of all accounts photos should be displayed along with signatures/thumb impression"
+  },
+  {
+    "id": "CUST-037",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "System should work with a common database for all modules in the branch"
+  },
+  {
+    "id": "CUST-038",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Signature is associated with: Customer and Staff"
+  },
+  {
+    "id": "CUST-039",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Signatures may be retrieved and viewed for any customer/staff, etc., from any client pc. If customer has multiple authorised signatories, sig natures of all authorised signatories should be retrieved at transaction time along with mode of operation"
+  },
+  {
+    "id": "CUST-040",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Signature scanning and authentication should be possible at any client PC. Facility for modification of signatures should be available along with his tory of changes. Changes made should be captured in the exception report"
+  },
+  {
+    "id": "CUST-041",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Provide for uploading of scanned signatures to common database (after due authentication) in: Batch/Online mode"
+  },
+  {
+    "id": "CUST-042",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Only authenticated signatures can be used for verification purpose"
+  },
+  {
+    "id": "CUST-043",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "Scanned signatures should be stored in compressed format"
+  },
+  {
+    "id": "CUST-044",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "The compressed signatures should be encrypted and stored"
+  },
+  {
+    "id": "CUST-045",
+    "module": "Customer Information",
+    "page": 18,
+    "text": "System should be able to seamlessly integrate with other modules for transaction processing Page 19 of 112"
+  },
+  {
+    "id": "CUST-046",
+    "module": "Customer Information",
+    "page": 19,
+    "text": "Zooming of signatures (with various levels of zooming) should be possible"
+  },
+  {
+    "id": "CUST-047",
+    "module": "Customer Information",
+    "page": 19,
+    "text": "It should be possible to group signatures together"
+  },
+  {
+    "id": "CUST-048",
+    "module": "Customer Information",
+    "page": 19,
+    "text": "User should be able to assign particular signatures to groups"
+  },
+  {
+    "id": "CUST-049",
+    "module": "Customer Information",
+    "page": 19,
+    "text": "It should be possible to search and display signatures based on: customer id, a/c location"
+  },
+  {
+    "id": "CUST-050",
+    "module": "Customer Information",
+    "page": 19,
+    "text": "Sorting facility for a given display"
+  },
+  {
+    "id": "CUST-051",
+    "module": "Customer Information",
+    "page": 19,
+    "text": "System should be able to link and show key data like account number, name, limits period of validity, etc., along with signature."
+  }
+]

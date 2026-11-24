@@ -1,0 +1,104 @@
+[
+  {
+    "id": "TAX-001",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Income tax/TDS, service tax calculation needs to be supported by all modules, which have incidence of income tax, service tax, etc., e.g. deposits, advances, treasury, general ledger, etc. The system has to ade quately support all requirements, statutory or otherwise, of all types of tax. The requirements have been listed in detail in the following section. The system should provide for multiple tax deduction structure at the customer/account type level and linking of tax calculation structure and account type"
+  },
+  {
+    "id": "TAX-002",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Support automatic calculation of income tax, service tax etc., for both product accounts as well as general ledger accounts (such as Bidder/Lead Partner payable accounts, receivable accounts, etc.)"
+  },
+  {
+    "id": "TAX-003",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Support c lassification of taxes as income tax, service tax, any other type of tax for statutory reporting"
+  },
+  {
+    "id": "TAX-004",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Support configuring of income tax, services tax etc. \u2013 statutory codes and rules, specifying but not limited to:"
+  },
+  {
+    "id": "TAX-005",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Basis and method of calculation, default perce ntage rates, general accounts to which tax effects may be posted, statutory codes, application state, location, reasons for exemptions, concession, model rules/templates"
+  },
+  {
+    "id": "TAX-006",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Support defining of income tax, service tax specifying but not limited to: concessional percentages rates with reasons, effective dates, numbering rules for the certificates as and when desired (based on model rules/templates)"
+  },
+  {
+    "id": "TAX-007",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Support automatic calculation and deduction of specific type of income tax, service tax at the time of: Accounting/ Provision/Recognition of payable/Receivable transaction/ Down payment"
+  },
+  {
+    "id": "TAX-008",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Support calculation and deduction of specific type of income tax, service tax only at the time of payment"
+  },
+  {
+    "id": "TAX-009",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Support calculation and deduction of specific type of income tax, service tax on ly at the time of accounting or recognizing of the payable or receivable transaction"
+  },
+  {
+    "id": "TAX-010",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Ensure integration of the income tax, service tax functionality with general ledger, accounts receivable and accounts payable functionality"
+  },
+  {
+    "id": "TAX-011",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Ensure integration of the incom e tax, service tax functionality with automatic payments functionality, if any"
+  },
+  {
+    "id": "TAX-012",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Ensure support for all statutory reports/tax returns based on, but not limited to: Classification of Tax, Tax Codes, Accounting Entity, Branch ID, Nature of Transaction"
+  },
+  {
+    "id": "TAX-013",
+    "module": "Tax Calculation",
+    "page": 63,
+    "text": "Ensure c apture and reporting of additional information required for statutory tax returns which include: Parties to the Transaction, Tax deduction Certificate number (branch & fiscal year specific) and date, Statutory Tax Code, Reason for Exemption, Page 64 of 112 Concessional rate and reason, Reference to document seeking exemption/concession e.g. Form 15H"
+  },
+  {
+    "id": "TAX-014",
+    "module": "Tax Calculation",
+    "page": 64,
+    "text": "System should be capable of marking whether tax is applicable or not and specify reasons why it is not applicable (This should be done at transaction level)"
+  },
+  {
+    "id": "TAX-015",
+    "module": "Tax Calculation",
+    "page": 64,
+    "text": "Support grouping of accounts for calculation of tax, where the first account holder is common in single/joint accounts"
+  },
+  {
+    "id": "TAX-016",
+    "module": "Tax Calculation",
+    "page": 64,
+    "text": "Allow verifying as well as setting up of the tax liability of an account transferred from another branch"
+  },
+  {
+    "id": "TAX-017",
+    "module": "Tax Calculation",
+    "page": 64,
+    "text": "There should be facility for printing all the det ails of income tax either in the form of certificates, reports, etc., in user-definable formats."
+  }
+]

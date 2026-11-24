@@ -1,0 +1,242 @@
+[
+  {
+    "id": "LOCK-001",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Support capturing of customer details for Customer master which may include but not be limited to:"
+  },
+  {
+    "id": "LOCK-002",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Board Resolution Number and Date"
+  },
+  {
+    "id": "LOCK-003",
+    "module": "Lockers",
+    "page": 64,
+    "text": "SB/Current Account no/Reference account number."
+  },
+  {
+    "id": "LOCK-004",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Nature of operation (singly, jointly by any two of the three, etc.)"
+  },
+  {
+    "id": "LOCK-005",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Provide for automatic capture of customer details from his existing database in case of existing customer; Provide for maintenance of locker inventory with size-wise break-up which includes but not limited to:"
+  },
+  {
+    "id": "LOCK-006",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Total Number not in use/free"
+  },
+  {
+    "id": "LOCK-007",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Total Number under servicing."
+  },
+  {
+    "id": "LOCK-008",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Provide for capturing and retrieval of signature/s of Authorised person/s"
+  },
+  {
+    "id": "LOCK-009",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Support capturing of nomination details which includes but not limited to:"
+  },
+  {
+    "id": "LOCK-010",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Name of the nominees (Maximum no. to be parameterized)"
+  },
+  {
+    "id": "LOCK-011",
+    "module": "Lockers",
+    "page": 64,
+    "text": "Witness's address. Page 65 of 112"
+  },
+  {
+    "id": "LOCK-012",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for user definable \u2018different locker sizes' and rent applicable for each size"
+  },
+  {
+    "id": "LOCK-013",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for user definable \u2018fee table' for capturing"
+  },
+  {
+    "id": "LOCK-014",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Periodicity of levy of rent"
+  },
+  {
+    "id": "LOCK-015",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Penal charges for delayed payment of rent"
+  },
+  {
+    "id": "LOCK-016",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for acceptance of standing instruction for recovery of charges"
+  },
+  {
+    "id": "LOCK-017",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Support generation of list and voucher for fees recoverable from depositors as and when due and automatic postings thereof"
+  },
+  {
+    "id": "LOCK-018",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for generation of user definable \u2018Locker receipt' to be issued to the depositor"
+  },
+  {
+    "id": "LOCK-019",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for recording the date, time, name of the person for every operation by the locker holder/s"
+  },
+  {
+    "id": "LOCK-020",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for authorization of locker operations by authorized signatory before the holder is allowed to operate on the locker"
+  },
+  {
+    "id": "LOCK-021",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for recording of name of the operating holder for every operation on the locker"
+  },
+  {
+    "id": "LOCK-022",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for recording of locker number and the corresponding key number with ability to alter the same"
+  },
+  {
+    "id": "LOCK-023",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for STOP of operation against Attachment Order issued by competent court of law"
+  },
+  {
+    "id": "LOCK-024",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for capturing corresponding key number for every locker"
+  },
+  {
+    "id": "LOCK-025",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Provide for allotting token number and key number to locker holder"
+  },
+  {
+    "id": "LOCK-026",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Support generation of reports, at user definable periodicity, which may include but not limited to:"
+  },
+  {
+    "id": "LOCK-027",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Statement of lockers in use, serial number wise, size -wise, customer-wise, age- wise"
+  },
+  {
+    "id": "LOCK-028",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Reminders for payment of rent"
+  },
+  {
+    "id": "LOCK-029",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Acknowledgement of payment of rent"
+  },
+  {
+    "id": "LOCK-030",
+    "module": "Lockers",
+    "page": 65,
+    "text": "List of lockers where rent have not been recovered/paid"
+  },
+  {
+    "id": "LOCK-031",
+    "module": "Lockers",
+    "page": 65,
+    "text": "List of vacant lockers, size-wise"
+  },
+  {
+    "id": "LOCK-032",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Change of KEY for the lockers surrendered and keeping of history"
+  },
+  {
+    "id": "LOCK-033",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Enable creation of Party Master providing for but not limited to:"
+  },
+  {
+    "id": "LOCK-034",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Updating the party master."
+  },
+  {
+    "id": "LOCK-035",
+    "module": "Lockers",
+    "page": 65,
+    "text": "Enable operation of locker by using: Page 66 of 112"
+  },
+  {
+    "id": "LOCK-036",
+    "module": "Lockers",
+    "page": 66,
+    "text": "Operation of lockers on daily basis"
+  },
+  {
+    "id": "LOCK-037",
+    "module": "Lockers",
+    "page": 66,
+    "text": "Register of lockers sealed"
+  },
+  {
+    "id": "LOCK-038",
+    "module": "Lockers",
+    "page": 66,
+    "text": "Reminders for due dates for rent arrears"
+  },
+  {
+    "id": "LOCK-039",
+    "module": "Lockers",
+    "page": 66,
+    "text": "Register for attachment order received up to date."
+  },
+  {
+    "id": "LOCK-040",
+    "module": "Lockers",
+    "page": 66,
+    "text": "Provide for alerts when a safe deposit locker is operated frequently not keeping with the past trend."
+  }
+]

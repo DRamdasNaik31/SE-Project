@@ -1,0 +1,15 @@
+{
+  "test_examples": 169,
+  "baseline": {
+    "schema_validity": 1.0,
+    "retrieval_coverage": 1.0
+  },
+  "fine_tuned": {
+    "adapter_path": "models\\agent1_lora",
+    "schema_validity": 1.0,
+    "retrieval_coverage": 1.0,
+    "adapter_inference_used": 0.7869822485207101,
+    "total_generation_seconds": 16295.35
+  },
+  "status": "base-vs-fine-tuned held-out comparison completed"
+}

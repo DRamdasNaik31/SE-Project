@@ -1,0 +1,80 @@
+[
+  {
+    "id": "SAFE-001",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Support capturing of customers' details for customer master which may include but not be restricted to: Name, Address, Board Resolution Number and Date, Authorized Signatories, Nature of Operation (singly, jointly two, jointly by any two of the three, etc.)"
+  },
+  {
+    "id": "SAFE-002",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Provide for automatic capture of customer details from existing database (CIF) in case of the existing customer"
+  },
+  {
+    "id": "SAFE-003",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Provide for definition of \u2018different types of ite ms' under safe deposit articles which includes but not limited to:"
+  },
+  {
+    "id": "SAFE-004",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Provide for capturing and retrieval of signature/s of authorized person/s"
+  },
+  {
+    "id": "SAFE-005",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Provide for user definable \u2018fee table' for capturing"
+  },
+  {
+    "id": "SAFE-006",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Periodicity of levy of charges."
+  },
+  {
+    "id": "SAFE-007",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Support capturing of nomination details which includes but not limited to:"
+  },
+  {
+    "id": "SAFE-008",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Maximum no. of nominees to be parameterized:"
+  },
+  {
+    "id": "SAFE-009",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Support generation of reports, at user definable periodicity, which may include but not limited to:"
+  },
+  {
+    "id": "SAFE-010",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Reminder for payment of fees"
+  },
+  {
+    "id": "SAFE-011",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Acknowledgement of payment of fees."
+  },
+  {
+    "id": "SAFE-012",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "List of accounts where fees have not been recovered/paid"
+  },
+  {
+    "id": "SAFE-013",
+    "module": "Safe Custody Facility",
+    "page": 62,
+    "text": "Provide validation of the Time Deposits/Demand Deposits offered as lien. Page 63 of 112"
+  }
+]

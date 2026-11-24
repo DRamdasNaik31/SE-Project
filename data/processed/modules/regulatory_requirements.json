@@ -1,0 +1,206 @@
+[
+  {
+    "id": "REG-001",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "Provide for automatic/manual classification/flagging of specific borrower accounts as Special Watch accounts/NPA (non- performing assets) accounts, etc. based on user defined rules"
+  },
+  {
+    "id": "REG-002",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "Income accrued on NPA accounts also needs to be re cognized differently for the purpose of accounting of income, without application/accounting in interest receivable"
+  },
+  {
+    "id": "REG-003",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "System-driven Asset Classification in terms of RBI guidelines (including changes during the currency of the contract) for agriculture and non -agriculture advances/loans"
+  },
+  {
+    "id": "REG-004",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "Identification of Non- Performing Assets (Gross and Net) as per RBI norms and Interest Reversal"
+  },
+  {
+    "id": "REG-005",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "Balance Sheet reflects the financial position, proper recognition of income, classification of assets and provisions for bad debts of a bank. The income recognition should be based on records of recovery rather than on subjective considerations, what is the day's position should be taken in consideration"
+  },
+  {
+    "id": "REG-006",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "System should have provision to configure business rules for declaring NPA is different for different types of advances like \u2013 Term Loan, Agricultural Loan, Cash Credit, Overdraft, Bills Payable, Bills Discounted, etc."
+  },
+  {
+    "id": "REG-007",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "In respect of term loans, if instalment remains past due for a period of 90 (parameterized) days then it is treated as NPA. An amount is considered \"Past due\" when it remains outstanding for a period of said days"
+  },
+  {
+    "id": "REG-008",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "In respect of cash credit and overdraft accounts, if the account is overdrawn for a period of more than 90 days i.e., one quarter then it is treated as NPA, provided those two quarters are consecutive"
+  },
+  {
+    "id": "REG-009",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "In respect of bills purchased and discounted, if the bills remain overdue and unpaid for a period of more than 180(parameterized) days then it is considered as NPA."
+  },
+  {
+    "id": "REG-010",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "Bank assurance (Referral Mode)"
+  },
+  {
+    "id": "REG-011",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "LIC or other Insurance companies:"
+  },
+  {
+    "id": "REG-012",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "Name of the Policy Holder"
+  },
+  {
+    "id": "REG-013",
+    "module": "Regulatory Requirements",
+    "page": 72,
+    "text": "Mobile No. Page 73 of 112"
+  },
+  {
+    "id": "REG-014",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Date of Commencement of the Policy"
+  },
+  {
+    "id": "REG-015",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "SLR Requirements The system should extract data showing daily balances of all branches showing:"
+  },
+  {
+    "id": "REG-016",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Daily Balances with SBI/Other Notified Banks and Financial Institutions"
+  },
+  {
+    "id": "REG-017",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Daily Outstanding of Approved Investments with Accrued Interest and Amortization"
+  },
+  {
+    "id": "REG-018",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Submission of Form VIII and special fortnightly return to RBI"
+  },
+  {
+    "id": "REG-019",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "System should report cash balances actually maintained with RBI vis-\u00e0-vis average requirement on fortnightly basis"
+  },
+  {
+    "id": "REG-020",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "In the case of non-scheduled UCBs, excess CRR balances maintained with state or central co-operative banks should not be recognized for SLR purpose with ef fect from April 1, 2015"
+  },
+  {
+    "id": "REG-021",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "System should generate on demand \u2013 Week-wise/Region-wise/District- wise/State-wise/Category-wise variations of the following:"
+  },
+  {
+    "id": "REG-022",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Position of deposit and advances of the branches"
+  },
+  {
+    "id": "REG-023",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Position of cash/other bank balances"
+  },
+  {
+    "id": "REG-024",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Position of other liabilities"
+  },
+  {
+    "id": "REG-025",
+    "module": "Regulatory Requirements",
+    "page": 73,
+    "text": "Achievement of targets vis-\u00e0-vis Business Plan Page 74 of 112"
+  },
+  {
+    "id": "REG-026",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "System should generate fresh deposits received over a given amount say \u20b910 lakh and above within a specified period say one week giving the rate of interest, tenor, maturity date, segregation of deposit amount wise, etc."
+  },
+  {
+    "id": "REG-027",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "System should generate reports of high value deposits maturing say next one month"
+  },
+  {
+    "id": "REG-028",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "Accounting of Transaction as per bank's accounting system and booking of interest/swap gain/swap charges/brokerage. CRR Balances System should generate the following for preparation of CRR balances at specified intervals:"
+  },
+  {
+    "id": "REG-029",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "System should recognize reporting fortnight dates and acceptance of data for the reporting dates"
+  },
+  {
+    "id": "REG-030",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "System should determine CRR requirement of the bank based on the following inputs:"
+  },
+  {
+    "id": "REG-031",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "DTL and NDTL on the reporting dates (2nd previous fortnight, as per present norms)"
+  },
+  {
+    "id": "REG-032",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "The system should prepare day-wise CRR maintenance statement as per RBI norms"
+  },
+  {
+    "id": "REG-033",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "System should flash warning message for short fall/excess maintenance of CRR."
+  },
+  {
+    "id": "REG-034",
+    "module": "Regulatory Requirements",
+    "page": 74,
+    "text": "CRR balances maintained with only those banks permitted under the RBI Act 1934 / Banking Regulation Act 1949 should be recognized."
+  }
+]

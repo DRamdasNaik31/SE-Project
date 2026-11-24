@@ -1,0 +1,1310 @@
+[
+  {
+    "id": "HO-001",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Shares capital accounting specific to cooperative sector"
+  },
+  {
+    "id": "HO-002",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Investment & Borrowings (Treasury)"
+  },
+  {
+    "id": "HO-003",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Inter-Branch Reconciliation"
+  },
+  {
+    "id": "HO-004",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Audit Module for statutory and internal examiners Reports and Statements"
+  },
+  {
+    "id": "HO-005",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Statutory & Regulatory Reports to RBI including CERSAI reports"
+  },
+  {
+    "id": "HO-006",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Other reports and statements for operational, reviews and monitoring"
+  },
+  {
+    "id": "HO-007",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Module-wise Canned Reports/MIS Miscellaneous"
+  },
+  {
+    "id": "HO-008",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Access Controls and User Management"
+  },
+  {
+    "id": "HO-009",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Financial power based on authorization"
+  },
+  {
+    "id": "HO-010",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Audit trail of user actions, customer and transactions data"
+  },
+  {
+    "id": "HO-011",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Rule Engine - to create multiple levels of authorization and must be parameterisable."
+  },
+  {
+    "id": "HO-012",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Inland Letter of Credit and Bank Guarantee"
+  },
+  {
+    "id": "HO-013",
+    "module": "Head Office",
+    "page": 7,
+    "text": "HRMS including performance management system"
+  },
+  {
+    "id": "HO-014",
+    "module": "Head Office",
+    "page": 7,
+    "text": "Credit Scoring integration with CIBIL and others The above list is common minimum for CBS of any UCB and would be more or less for a specific UBB. Further, there may be an increase in the list with increasing digital channels. III. Technical Requirements The technology requirements are important for ensuring availability, performance, scalability and security of the UCB CBS. RBI's report of \"Working Group on Information Security, Electronic Banking, Technology Risk Management and Cyber Frauds\" is exhaustive for ensuring security needs for a bank. ISO 27000 series, OWASP, PCI and PA DSS and IDRBT's \" Information Security Framework for Indian Banking Industry \" based on the guidance from various security practitioners of Indian Banks serve as references for ensuring IT security in the banks. Page 8 of 112 UCBs should ensure applications/software being hosted are thoroughly tested and pass Vulnerability and Penetration testing done by CERT -IN/STQC approved organizations. VAPT has to be done at prescribed regular intervals/also, UCBs leveraging Cloud computing model for CBS and other IT applications can refer to the \"IDRBT Cloud Security for Indian Banks\" for the contract documents with the service provider. Detailed technical requirements for UCB applications are presented in Annexure II. The technical requirements are classified as"
+  },
+  {
+    "id": "HO-015",
+    "module": "Head Office",
+    "page": 8,
+    "text": "Performance, Availability and Scalability Requirements"
+  },
+  {
+    "id": "HO-016",
+    "module": "Head Office",
+    "page": 8,
+    "text": "IT Security Requirements UCBs have been adopting CBS using cloud services. Keeping in view the requirements relating to cloud model, in the Annexure III, key areas that have to be looked into CBS on cloud computing are descri bed. The Working Group on Cloud computing option for small size UCB s from RBI provides a precautionary direction on leveraging cloud services. IDRBT' s Cloud Security Framework for Indian Banks provides guidelines for cloud adoption in IaaS, PaaS and SaaS model. UCBs planning to leverage cloud service providers(CSP) for CBS and their other needs need to ensure the CSP adhere to the above mentioned security requirement and also provide a written proof that any PII or customer data will not be stored outside India. Banks should test the process for complete data removal from cloud service provider as part of UAT. If there is a situation of exit, Bank should obtain the data and have written proof that data is completely destroyed from the service provider location. IV. Legal and HR Requirements As the cooperative banks have lean IT skilled staff and have offices in towns and tier II/III/IV urban areas, recruitment and retention of skilled IT resources is a challenge. It is prudent for UCBs to leverage established ASPs/Data centers/Cloud Service Providers(CSP) for the IT services and to meet availability requirements. If, for any reason the ASP/CSP is un able to provide such service offerings, the Bank should have the right to go to other Service Providers in which case the current ASP shall extend necessary co -operation and assistance, beyond providing an interface patch, to integrate the new service line with the existing infrastructure and applications of the ASP. UCB should reserve the option to ask the ASP to arrange for all additional third party applications / tools / hardware in order to bring the entire additional service line under ASP model. For better interactions with outsourced/Cloud service providers, UCBs should have resources with strong project management skills that includes vendor management and project planning capabilities. IDRBT Vendor Management Framework provides a guidance for Page 9 of 112 preparation of contract document along with SLA terms and conditions with the service provider and UCB. Annexure I (Detailed Functional Requirements)"
+  },
+  {
+    "id": "HO-017",
+    "module": "Head Office",
+    "page": 74,
+    "text": "System to facilitate HO account entries under all the types of accounts viz., cash, clearing and transfer"
+  },
+  {
+    "id": "HO-018",
+    "module": "Head Office",
+    "page": 74,
+    "text": "System must route all inter -branch transactions through HO and facilitate automatic reconciliation of the same at the end of the day within CBS branches and provide related statements (both hard and soft copies)"
+  },
+  {
+    "id": "HO-019",
+    "module": "Head Office",
+    "page": 74,
+    "text": "Facilitate transactions between CBS and non -CBS branches through head office account and provide statement for originating, responding and consolidated for reconciliation (both hard and soft copies)"
+  },
+  {
+    "id": "HO-020",
+    "module": "Head Office",
+    "page": 74,
+    "text": "Should have facility to open any number of accounts under HO main head Page 75 of 112"
+  },
+  {
+    "id": "HO-021",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System should support classification of HO entries under originating and responding type"
+  },
+  {
+    "id": "HO-022",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to support for entry and maintenance of both originating debit, originating credit, and responding debit, responding credit transactions"
+  },
+  {
+    "id": "HO-023",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to provide automatic transfer of loss or profit as at predefined dates for the purpose of balance sheet and proper accounting of the same"
+  },
+  {
+    "id": "HO-024",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System must permit responding to IBA only once and throw error at entry level if the IBA is already responded"
+  },
+  {
+    "id": "HO-025",
+    "module": "Head Office",
+    "page": 75,
+    "text": "Before responding any IBA to avoid double credit, system to verify even thos e entries which are in the \u2018entered' status and yet to be verified"
+  },
+  {
+    "id": "HO-026",
+    "module": "Head Office",
+    "page": 75,
+    "text": "Provision to take debit/credit entries on account of profit/loss at extension counters by the parent branches and accounting the same"
+  },
+  {
+    "id": "HO-027",
+    "module": "Head Office",
+    "page": 75,
+    "text": "Facility to create, modify, delete, undelete different transactions codes as defined by the bank (parameterized) and pick up the same at the time of putting through transactions"
+  },
+  {
+    "id": "HO-028",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System should capture required details under responding entries like DP code, date of IBA, amount, IBA Number, transaction code, duplicate advice flag, etc."
+  },
+  {
+    "id": "HO-029",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System should verify that the responding amount is equal to originating amount, else display an error message indicating excess or shortage of amount"
+  },
+  {
+    "id": "HO-030",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to support automatic generation of IBA number and ensure the number is re-initialized on start day of predefined date"
+  },
+  {
+    "id": "HO-031",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to provide re -credit of differential amount WITHOUT ADVICE to originating branch. The branch advice should not be printed."
+  },
+  {
+    "id": "HO-032",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to support printing of IBA on pre-printed predefined format of the bank"
+  },
+  {
+    "id": "HO-033",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System should allow printing only after transactions are verified"
+  },
+  {
+    "id": "HO-034",
+    "module": "Head Office",
+    "page": 75,
+    "text": "IBA printing should be linked to Inventory Module and internally track against the no. of times it is printed, inventory number, etc. System should not print the advice second time without the words \u2018Duplicate' on the advice"
+  },
+  {
+    "id": "HO-035",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to permit printing of duplicate branch advice and keep track of no. of times printed"
+  },
+  {
+    "id": "HO-036",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to print the words 'Duplicate' on the duplicate advices issued in the system"
+  },
+  {
+    "id": "HO-037",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System should allow printing of duplicate advice with authorization by a level of user, parameterised"
+  },
+  {
+    "id": "HO-038",
+    "module": "Head Office",
+    "page": 75,
+    "text": "System to generate list of duplicate advices issued and duplicate advices responded as at any given date or range of dates Page 76 of 112"
+  },
+  {
+    "id": "HO-039",
+    "module": "Head Office",
+    "page": 76,
+    "text": "Facility to route \u2018Anywhere Banking' transactions between CBS and Non -CBS branches through Head Office account without printing branch advice"
+  },
+  {
+    "id": "HO-040",
+    "module": "Head Office",
+    "page": 76,
+    "text": "Facility to upload data through external media (Floppy, CD, etc.) for creation of HO transactions."
+  },
+  {
+    "id": "HO-041",
+    "module": "Head Office",
+    "page": 76,
+    "text": "Liquidity and Investments"
+  },
+  {
+    "id": "HO-042",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should provide for creating an investment agency descripti on e.g. bank details on the following fields:"
+  },
+  {
+    "id": "HO-043",
+    "module": "Head Office",
+    "page": 76,
+    "text": "Name of the Bank or Organization"
+  },
+  {
+    "id": "HO-044",
+    "module": "Head Office",
+    "page": 76,
+    "text": "Name of any other Contact Person"
+  },
+  {
+    "id": "HO-045",
+    "module": "Head Office",
+    "page": 76,
+    "text": "Scheduled or Non-Scheduled classification"
+  },
+  {
+    "id": "HO-046",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should provide for treasury accounting"
+  },
+  {
+    "id": "HO-047",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should have provision for calculation of bond value in case of bond valuation e.g. Government Security bonds/Corporate Bonds/CD/CP/CBLO, etc."
+  },
+  {
+    "id": "HO-048",
+    "module": "Head Office",
+    "page": 76,
+    "text": "In case of government securities, investment interest earned should be calculated and stored in a batch (not in a GL). After receipt of credit information from the concerned bank, the batch should be authorized and posted to the concerned GL head"
+  },
+  {
+    "id": "HO-049",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should provide for opening a new investment account with the following fields: Every Investment should have a unique number, certificate/instrument number, effective from date, no. of days/months/years for which invested, amount invested, system should show the maturity amount and maturity date, rate of interest, fixed or floating rate of interest, type of compounding e.g. simple, quarterly, half yearly, account type, current or fixed deposit or mutual fund or others/money at call and name of fund"
+  },
+  {
+    "id": "HO-050",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should allow entry of Interest Received from time to time on any particular investment"
+  },
+  {
+    "id": "HO-051",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should show maturity interest value during the closing or maturity of any investment account where the interest amount should be modifiable by the user"
+  },
+  {
+    "id": "HO-052",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should provide for Bond and Government Security Accounting"
+  },
+  {
+    "id": "HO-053",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should provide for amortization calculation"
+  },
+  {
+    "id": "HO-054",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should provide for provisioning and present value calculation on mutual fund based on NAV of a particular date"
+  },
+  {
+    "id": "HO-055",
+    "module": "Head Office",
+    "page": 76,
+    "text": "System should provide for classifying an investment as statutory or non- Page 77 of 112 statutory"
+  },
+  {
+    "id": "HO-056",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should provide for generating separate GL Head for any particular bank"
+  },
+  {
+    "id": "HO-057",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should provide for provisioning on any given date in a report format"
+  },
+  {
+    "id": "HO-058",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should show the maturity details of next 7 days on the Investment Menu only at HO"
+  },
+  {
+    "id": "HO-059",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should show Cash and Current Account Balance on the investment menu refreshed every 30 minutes"
+  },
+  {
+    "id": "HO-060",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should show Summary of Liabilities with proper segregation as demand and time/short-term and long-term as per RBI norms"
+  },
+  {
+    "id": "HO-061",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should show Summary of Capital and Reserves of the bank with record of changes made date-wise"
+  },
+  {
+    "id": "HO-062",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should show details of assets and liabilities to the banking system"
+  },
+  {
+    "id": "HO-063",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should provide for closing of Share Account from Loan module after authorization from competent authority"
+  },
+  {
+    "id": "HO-064",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should provide for creating a batch on dividend payment for a particular class of share on any given date"
+  },
+  {
+    "id": "HO-065",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should provide for modification, passing and authorization by competent authorities"
+  },
+  {
+    "id": "HO-066",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should provide the provision to provide incentive to share-holders. Fixed Assets"
+  },
+  {
+    "id": "HO-067",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should be capable of maintaining master details of owned premises/immovable assets and movable assets such as date of ownership, lease period, lease expiry date, location of lease agreements, value of asset (original value and present book value), location, etc. with warning message"
+  },
+  {
+    "id": "HO-068",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should capture details of leased out premises like ownership details, location, date of lease, amount of lease, lease expiry, nature of lease, value, square ft., etc."
+  },
+  {
+    "id": "HO-069",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should support different types of depreciation methods such as straight line, reducing balance method, written down value method, etc."
+  },
+  {
+    "id": "HO-070",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should support parameterization of the depreciation percentages for each asset/type of asset"
+  },
+  {
+    "id": "HO-071",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should compute the depreciation/appreciation as per the method and percentage of depreciation as specified in the parameter"
+  },
+  {
+    "id": "HO-072",
+    "module": "Head Office",
+    "page": 77,
+    "text": "System should specify/capture tax details for calculation of applicable tax as per law of the land Page 78 of 112"
+  },
+  {
+    "id": "HO-073",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should maintain master details of AMC and contractors e.g. name of the bidder/lead partner, AMC amount, period of contract, next service date, AMC expiry date, etc. Arrange to issue warning messages before expiry of warranty"
+  },
+  {
+    "id": "HO-074",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should sub-classify both movable and immovable assets"
+  },
+  {
+    "id": "HO-075",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should support movement of assets from one location to another"
+  },
+  {
+    "id": "HO-076",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should provide for specifying insurance details for each asset"
+  },
+  {
+    "id": "HO-077",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should generate warning messages for expiry/renewal of insurance \u2018x' (parameterized) number of days prior to actual expiry/renewal date"
+  },
+  {
+    "id": "HO-078",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should maintain asset inspection details such as last inspection date, next inspection date, inspection comments, etc."
+  },
+  {
+    "id": "HO-079",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should support generation of asset inspection report along with comments of inspector"
+  },
+  {
+    "id": "HO-080",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should link each asset with a unique asset number/inventory number"
+  },
+  {
+    "id": "HO-081",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should support alpha numeric asset/inventory number"
+  },
+  {
+    "id": "HO-082",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should maintain details on asset litigation"
+  },
+  {
+    "id": "HO-083",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should generate a list of movable and immovable assets based on the user defined parameters"
+  },
+  {
+    "id": "HO-084",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should generate a list of assets transferred/moved from one location to another along with details such as description of asset, inventory number etc., and should transfer the book value through CBS System"
+  },
+  {
+    "id": "HO-085",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should generate depreciation report giving details of book value, year- to-year depreciation and residual value"
+  },
+  {
+    "id": "HO-086",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should provide differences in inter-branch reconciliation"
+  },
+  {
+    "id": "HO-087",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System sho uld generate warning messages for service contracts due \u2018x' (parameterized) number of days prior to such service dates"
+  },
+  {
+    "id": "HO-088",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should specify the service level agreements and link them to a particular asset"
+  },
+  {
+    "id": "HO-089",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should upload/enter bill of material de tails along with part numbers, quantity, unit rate, total rate, etc."
+  },
+  {
+    "id": "HO-090",
+    "module": "Head Office",
+    "page": 78,
+    "text": "Should support entering of asset details dispatched to a particular location and track the movement of the same"
+  },
+  {
+    "id": "HO-091",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should record details of asset acceptance, PDI and note discrepancies in the asset inspection"
+  },
+  {
+    "id": "HO-092",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should capture the asset installation details for movable assets (e.g. date of installation, inspection date, etc.)"
+  },
+  {
+    "id": "HO-093",
+    "module": "Head Office",
+    "page": 78,
+    "text": "System should support parameterization of the payment terms (no. of months, Page 79 of 112 percentage of payment) and validate the same at the time of generating the invoice in case of leased assets"
+  },
+  {
+    "id": "HO-094",
+    "module": "Head Office",
+    "page": 79,
+    "text": "System should specify the minimum requirements (e.g. documents, compliance to service level check, authorization from authority) to be verified before release of any payment to the bidder/lead partners/contractors"
+  },
+  {
+    "id": "HO-095",
+    "module": "Head Office",
+    "page": 79,
+    "text": "System should record bill/invoice details submitted by the bidder/lead partner"
+  },
+  {
+    "id": "HO-096",
+    "module": "Head Office",
+    "page": 79,
+    "text": "System should generate a payment advice for payment to be made by the bank to the bidder/lead partner"
+  },
+  {
+    "id": "HO-097",
+    "module": "Head Office",
+    "page": 79,
+    "text": "System should support ac cess to the solution at the branches/department as per user rights defined"
+  },
+  {
+    "id": "HO-098",
+    "module": "Head Office",
+    "page": 79,
+    "text": "System should permit branches/offices to enter data of assets installed/purchased"
+  },
+  {
+    "id": "HO-099",
+    "module": "Head Office",
+    "page": 79,
+    "text": "System should have capabilities to group all assets across the bank to generate a single view of all assets. HRMS Requirements"
+  },
+  {
+    "id": "HO-100",
+    "module": "Head Office",
+    "page": 79,
+    "text": "System should record basic Master Data for an employee/staff for following areas along with all the related and incidental information."
+  },
+  {
+    "id": "HO-101",
+    "module": "Head Office",
+    "page": 79,
+    "text": "PF Number (For new employees who are on probation should be provided with a temporary number which can be shifted later to a permanent PF Number) \u2022Name \u2022Father's Name , Mother's Name & Husband Name \u2022Permanent Address \u2022Address for Communication \u2022Phone Numbers/Contact Information \u2022Home Town \u2022Sex \u2022Marital Status \u2022Position regarding CAIIB \u2022Religion \u2022Category (SC/ST/OBC/Minority/General) \u2022Date of birth \u2022Date of joining, probation period, date of confirmation \u2022Scanning and storing of employee photo, signature with signature no. \u2022Passport No. Page 80 of 112 \u2022PAN Number \u2022Bank Account No. \u2022Bank Branch Name and code \u2022Blood group and Mark of Identification \u2022Education Qualifications \u2013 should capture the details of name of the examination passed, university/institute, month & year of passing, percentage of marks obtained, grade/class obtained \u2022Professional Qualification \u2022Present posting \u2022Present job code/designation \u2022Present grade/cadre \u2022Deputation, temporary transfers \u2022Date of Increment \u2022Date of joining in the present place of posting \u2022Cadre (OL, IT, LAW, MKTG, etc.) \u2022Date of Retirement \u2022Major health problems with provision to capture the details of sickness, etc. \u2022Insurance details \u2022Club memberships \u2022Previous employment details, name of organization, position held, duration in years and months \u2022Details promotion \u2013 clerical to officer and scale (cadre) wise thereafter \u2022Languages known, with details of speak, read and write separately \u2022Nomination regarding PF and Gratuity. \u2022Support cale ndar definition (and modification) for each location/branch capturing weekly holidays, public holidays, non -business working day, unscheduled holidays for each front office separately \u2022System should record awards received by the employee including the name of the award, year of award, in which discipline/filed and date of receipt of award. Transfer Details:"
+  },
+  {
+    "id": "HO-102",
+    "module": "Head Office",
+    "page": 80,
+    "text": "System should record previous posting details"
+  },
+  {
+    "id": "HO-103",
+    "module": "Head Office",
+    "page": 80,
+    "text": "System should record date of termination/restoration"
+  },
+  {
+    "id": "HO-104",
+    "module": "Head Office",
+    "page": 80,
+    "text": "System should record Union Information (if applicable). System Alert \u2013 Yearly Increment, Stagnation Increment, Professional Qualification Pay (PQP) Leave Management Page 81 of 112"
+  },
+  {
+    "id": "HO-105",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should maintain all types of leave like CL, PL, ML, SL extra-ordinary leave, sabbatical leave, special leave, etc. for each employee, leave without pay"
+  },
+  {
+    "id": "HO-106",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should maintain leave rules for availing leave, encashment of leave, accrual of leaves, lapsing of leaves, ceilings for accumulation of leaves, rules for combination of leave types, etc. for each categories of employees"
+  },
+  {
+    "id": "HO-107",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should record leaves availed and balance leave calculation at any point of time"
+  },
+  {
+    "id": "HO-108",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should link leave record to payroll and employee history"
+  },
+  {
+    "id": "HO-109",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should have leave cancellation, leave extension/amendments advancement and postponement of leave"
+  },
+  {
+    "id": "HO-110",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should have function of transfer people from one leave structure to another leave structure with balance of leave in previous structure (on promotion from clerk to officer)"
+  },
+  {
+    "id": "HO-111",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should support comprehensive leave approval rules for:"
+  },
+  {
+    "id": "HO-112",
+    "module": "Head Office",
+    "page": 81,
+    "text": "Barred combination of leave"
+  },
+  {
+    "id": "HO-113",
+    "module": "Head Office",
+    "page": 81,
+    "text": "Leave prefixing and suffixing with other leaves"
+  },
+  {
+    "id": "HO-114",
+    "module": "Head Office",
+    "page": 81,
+    "text": "Leave prefixing and suffixing with weekly-off and paid holidays"
+  },
+  {
+    "id": "HO-115",
+    "module": "Head Office",
+    "page": 81,
+    "text": "Leave cancellation, leave extension report"
+  },
+  {
+    "id": "HO-116",
+    "module": "Head Office",
+    "page": 81,
+    "text": "Minimum and maximum no of days at a stretch in a specific type of leave"
+  },
+  {
+    "id": "HO-117",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should process leave encashment"
+  },
+  {
+    "id": "HO-118",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should maintain leave encashment record. Training"
+  },
+  {
+    "id": "HO-119",
+    "module": "Head Office",
+    "page": 81,
+    "text": "Identification, Nomination and Completion of training"
+  },
+  {
+    "id": "HO-120",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should maintain a single history of all the training programs taken by the user even if it classroom training or self-study through E-Learning"
+  },
+  {
+    "id": "HO-121",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should record History of trainings attended like name of the course, name of the STC/Institution, month & year of training, duration of the course in days/weeks"
+  },
+  {
+    "id": "HO-122",
+    "module": "Head Office",
+    "page": 81,
+    "text": "Training \u2013 Identification, Nomination and Completion of training"
+  },
+  {
+    "id": "HO-123",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should maintain a single history of all the training programs taken by the user whether they are class room training or self-study through E - Learning"
+  },
+  {
+    "id": "HO-124",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should support for nominating officers/award sta ff for various trainings given by Banks own training college/centres, Outside institutes with in the country and also abroad based on skill requirement"
+  },
+  {
+    "id": "HO-125",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should compile nominations from various Regional Offices for a particular training program"
+  },
+  {
+    "id": "HO-126",
+    "module": "Head Office",
+    "page": 81,
+    "text": "System should capture details of the batch -size, faculty, participants, participant attendance, feedback and about the courses held at different centres, and evaluation Page 82 of 112"
+  },
+  {
+    "id": "HO-127",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should automate the workflow of training requisitions, approvals"
+  },
+  {
+    "id": "HO-128",
+    "module": "Head Office",
+    "page": 82,
+    "text": "Promotions/Career and Succession Planning"
+  },
+  {
+    "id": "HO-129",
+    "module": "Head Office",
+    "page": 82,
+    "text": "Should create standard career paths in the organization in terms of various possible moves from the current level/grade in the organization"
+  },
+  {
+    "id": "HO-130",
+    "module": "Head Office",
+    "page": 82,
+    "text": "Should define grade advancements within a level based on the criteria of time as we ll as merit"
+  },
+  {
+    "id": "HO-131",
+    "module": "Head Office",
+    "page": 82,
+    "text": "Should define the rules for promotion eligibility in terms of tenure, consistent achievement of high performance grades, etc."
+  },
+  {
+    "id": "HO-132",
+    "module": "Head Office",
+    "page": 82,
+    "text": "Should define additional rules specific to service in terms of suspensions, disciplinary actions"
+  },
+  {
+    "id": "HO-133",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should support full (complete) promotion processes from sub -staff to clerical, clerical to officer and from one scale to another amongst officer/executive cadres (Provide for various categories through parameterization among sub -staff. So that promotions within sub-staff category can be effected)"
+  },
+  {
+    "id": "HO-134",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should support preparation of seniority list/merit list/waiting list/empaneled list, etc."
+  },
+  {
+    "id": "HO-135",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should support advising salary fitment on promotion. The fitment made should automatically go to payroll module"
+  },
+  {
+    "id": "HO-136",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should maintain and track retirements, resignations, other vacancy positions Payroll"
+  },
+  {
+    "id": "HO-137",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should be able to define multiple pay structures"
+  },
+  {
+    "id": "HO-138",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should be able to define earning, deduction, contribution and provision heads for each pay structure"
+  },
+  {
+    "id": "HO-139",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should run multiple payrolls in a single instance"
+  },
+  {
+    "id": "HO-140",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should maintain a single central payroll depository and should be run and access payroll from any location in a centralized or decentralized manner"
+  },
+  {
+    "id": "HO-141",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should define various pa y elements like earnings and deductions using a rules - based framework"
+  },
+  {
+    "id": "HO-142",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should group individual earnings and deductions and link them to employees as per their eligibilities"
+  },
+  {
+    "id": "HO-143",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should run separate payrolls for officers and staff depending on the eligibilities and rules applicable for each category"
+  },
+  {
+    "id": "HO-144",
+    "module": "Head Office",
+    "page": 82,
+    "text": "System should be able to define various formulae and should link them to other calculation formula/elements such that when there is a change in the rule, only that component which has undergone a change will be effected (affected) Page 83 of 112"
+  },
+  {
+    "id": "HO-145",
+    "module": "Head Office",
+    "page": 83,
+    "text": "Should compute the dearness allowance (DA) using options such as Fixed DA, linkage to consumer price index (CPI)"
+  },
+  {
+    "id": "HO-146",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should perform tax computation and it should be handled as per Income Tax Act without any need for repeated manual calculations. The tax slabs, rates and surcharges should be maintained by the system and the tax should be computed automatically"
+  },
+  {
+    "id": "HO-147",
+    "module": "Head Office",
+    "page": 83,
+    "text": "Should handle unlimited number of allowances and deductions. Should configure characteristics for payment, taxability, computation and so on to suit (as per the) banks' requirements"
+  },
+  {
+    "id": "HO-148",
+    "module": "Head Office",
+    "page": 83,
+    "text": "Should compute various benefits provided to our employees such as Leave Travel Allowance, Medical Reimbursement, Medical Insurance, Furniture, House Rent Allowance, Company Cars, Company Housing and other long term reimbursements"
+  },
+  {
+    "id": "HO-149",
+    "module": "Head Office",
+    "page": 83,
+    "text": "Eligibility, computation and taxability should be considered"
+  },
+  {
+    "id": "HO-150",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should compute the Provident Fund, Contributions, Labour Welfare Fund and Professional Tax for all states wherever applicable at the correct frequency"
+  },
+  {
+    "id": "HO-151",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should calculate gratuity and superannuation for mu ltiple trusts and user definable contributions"
+  },
+  {
+    "id": "HO-152",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should give statutory reports relating to PF, Pension, Income Tax, Professional Tax either on a monthly, half yearly or annual basis"
+  },
+  {
+    "id": "HO-153",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should support passing of accounting entries for salary pa yments and maintenance of related books of accounts and registers. Generation of month -wise, quarterly-wise, half yearly and yearly statement of accounts"
+  },
+  {
+    "id": "HO-154",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should support payment of salary to special appointees, temporary staff, etc."
+  },
+  {
+    "id": "HO-155",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should have a link with CBS system to credit the salary, loan instalments to their corresponding accounts of the staff directly"
+  },
+  {
+    "id": "HO-156",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should support main, supplementary and partial payroll run"
+  },
+  {
+    "id": "HO-157",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should support location based payroll run"
+  },
+  {
+    "id": "HO-158",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should perform pay slip number generation based on user defined logic such as category and pay mode"
+  },
+  {
+    "id": "HO-159",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should support to view pay details of current month, pay history, net amount paid, unpaid deductions \u2013 Employee-wise and month-wise, financial year-wise"
+  },
+  {
+    "id": "HO-160",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should allow payment of officiating allowance based on user defined criteria"
+  },
+  {
+    "id": "HO-161",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should capture details of different perks paid to the employees/executives perks register and generation of perks statement for ITO"
+  },
+  {
+    "id": "HO-162",
+    "module": "Head Office",
+    "page": 83,
+    "text": "System should support payme nt of subsistence allowance in case of suspended employees and facility for rephrasing various staff loans when on loss of pay and suspension Page 84 of 112"
+  },
+  {
+    "id": "HO-163",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should support payment/disbursement and salary to individual staff account in their place of posting"
+  },
+  {
+    "id": "HO-164",
+    "module": "Head Office",
+    "page": 84,
+    "text": "Deferred salary payment in case of salary withheld due legal/dispute, etc."
+  },
+  {
+    "id": "HO-165",
+    "module": "Head Office",
+    "page": 84,
+    "text": "In case of over payment of salary option should be there for deduction of additional salary in subsequent months"
+  },
+  {
+    "id": "HO-166",
+    "module": "Head Office",
+    "page": 84,
+    "text": "Deduction of Income tax, Professional tax, etc."
+  },
+  {
+    "id": "HO-167",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should ca lculate Income tax, Professional tax, etc., in all modules which have incidents of such taxes i.e., payroll, pension, etc. The system has to adequately support all requirements of statutory tax deduction"
+  },
+  {
+    "id": "HO-168",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should be configuring various tax rules (e. g. Income tax, Professional taxes, etc.) announced by government for (from) time-to-time"
+  },
+  {
+    "id": "HO-169",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should calculate and deduct Income tax, Professional tax, etc., at the time of: Accrual and Payment"
+  },
+  {
+    "id": "HO-170",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should support for all statutory reports/tax returns, based on, but not limited to"
+  },
+  {
+    "id": "HO-171",
+    "module": "Head Office",
+    "page": 84,
+    "text": "Classification of taxes, accounting entity, location/branch, state and nature of transaction. PF & Terminal Benefit Management"
+  },
+  {
+    "id": "HO-172",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should support pooling the monthly contribution of PF, Pension Fund in to the PF management system"
+  },
+  {
+    "id": "HO-173",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should support calculation of periodic interest and crediting the amount to the accounts"
+  },
+  {
+    "id": "HO-174",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should perform PF application processing, loan sanctioning, loan disbursement , modification of loan instalments, loan short closure, recovery through payroll, final settlement during closing/transfer for different types of PF loan"
+  },
+  {
+    "id": "HO-175",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should have facility to credit sanctioned PF loan/withdrawal amount directly to their respective accounts through CBS System"
+  },
+  {
+    "id": "HO-176",
+    "module": "Head Office",
+    "page": 84,
+    "text": "System should maintain nominee details and payment to nominee in case of death of an employee. Disciplinary Proceeding"
+  },
+  {
+    "id": "HO-177",
+    "module": "Head Office",
+    "page": 84,
+    "text": "Investigation & Preliminary Report"
+  },
+  {
+    "id": "HO-178",
+    "module": "Head Office",
+    "page": 84,
+    "text": "Charge sheet \u2013 Article of charge, Implementation of charge"
+  },
+  {
+    "id": "HO-179",
+    "module": "Head Office",
+    "page": 84,
+    "text": "Appointment of Enquiry Officer"
+  },
+  {
+    "id": "HO-180",
+    "module": "Head Office",
+    "page": 84,
+    "text": "Appointment of Presenting Officer Page 85 of 112"
+  },
+  {
+    "id": "HO-181",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Holding of hearing and enquiry of prime suspects"
+  },
+  {
+    "id": "HO-182",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Noting and recording of submissions by all participants in the enquiry"
+  },
+  {
+    "id": "HO-183",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Issue of enquiry proceedings"
+  },
+  {
+    "id": "HO-184",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Submission of Enquiry Report"
+  },
+  {
+    "id": "HO-185",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Copy of enquiry report sent to the delinquent"
+  },
+  {
+    "id": "HO-186",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Matter to be placed before the Disciplinary Authority or Board"
+  },
+  {
+    "id": "HO-187",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Board will consider and proposes punishment"
+  },
+  {
+    "id": "HO-188",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Proposed punishment should be intimated to charge sheeted employee/officers"
+  },
+  {
+    "id": "HO-189",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Representation of delinquent"
+  },
+  {
+    "id": "HO-190",
+    "module": "Head Office",
+    "page": 85,
+    "text": "System should record history of disciplinary actions against the employee including date of charge, nature of charge, amount of financial loss to bank, date of punishment and nature of punishment. Master Data Set Up"
+  },
+  {
+    "id": "HO-191",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Provide for storage of totals as large as \"999,999,999,999,999.99\". Numbers in thousands, lakhs and crores"
+  },
+  {
+    "id": "HO-192",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Multiple business units, multiple products, multiple cost centres, multiple profit-centres, multiple delivery channels"
+  },
+  {
+    "id": "HO-193",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Bank logo should be available in the log-in entry page"
+  },
+  {
+    "id": "HO-194",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Branch information, Branch code up to four digits"
+  },
+  {
+    "id": "HO-195",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Support capturing of details of the branch including but not limited to: Branch Name, Bank Code, Branch ID, Branch Code (for clearing), Address, Phone Number, Telex Number, Branch Category, Branch Size, MICR Code, Area Code, State Code, Weekly Holiday, Extension Counter/s, Whether ATM attached, how many and also whether on site/off site, IFSC"
+  },
+  {
+    "id": "HO-196",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Product Accounting: Provide for configuring/defining accounting rules for individual product and generating accounting entries that will be passed to the GL module"
+  },
+  {
+    "id": "HO-197",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Ensure automatic generation of accounting entries, online at the time of data entry or batch update itself, based on the predefined rules above"
+  },
+  {
+    "id": "HO-198",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Provide for interfacing with the GL module at individual transaction entry level (individual entry routed to GL) or as consolidated entries (consolidated for a period, transaction type, etc.) based on predefined parameters (say, for pension payments)"
+  },
+  {
+    "id": "HO-199",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Entries/modifications in masters/parameters, etc., are authorized"
+  },
+  {
+    "id": "HO-200",
+    "module": "Head Office",
+    "page": 85,
+    "text": "Allow data entry as well as printing of transaction as well as total amounts with following Page 86 of 112 formats (both in figures and words) for all screens, reports, documents (including cheque printing)"
+  },
+  {
+    "id": "HO-201",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Support rounding up/rounding down of the amount to the nearest user -defined unit for specific transactions e.g. Income Tax, TDS, Interest, etc."
+  },
+  {
+    "id": "HO-202",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Ensure interface with external data feeds for but not limited to:"
+  },
+  {
+    "id": "HO-203",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Customer Rating Information, etc."
+  },
+  {
+    "id": "HO-204",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Payroll data from Institutions. Batch Updates"
+  },
+  {
+    "id": "HO-205",
+    "module": "Head Office",
+    "page": 86,
+    "text": "All modules in the proposed solution should have batch update capability, as per requirements specified hereunder"
+  },
+  {
+    "id": "HO-206",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Provide for Batch Update or Job Stream update for all data entry screens"
+  },
+  {
+    "id": "HO-207",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Ensure that validations and authorization for batch processing necessarily follows the settings defined for corresponding online data entry transactions"
+  },
+  {
+    "id": "HO-208",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Provide for identification and alerts for missing batches based on batch numbers"
+  },
+  {
+    "id": "HO-209",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Provide control and monitoring support for batch -processing updates with support for review of batch values before committing the postings"
+  },
+  {
+    "id": "HO-210",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Provide for complete rollback of the entire batch in the event of failure of batch processing"
+  },
+  {
+    "id": "HO-211",
+    "module": "Head Office",
+    "page": 86,
+    "text": "System should perm it EOD processing only after ensuring that all transactions are authorized"
+  },
+  {
+    "id": "HO-212",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Provide for defining and processing of activities/tasks for say:"
+  },
+  {
+    "id": "HO-213",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Start of day, Start of week, Start of month, Start of quarter, Start of year, End of day, End of week, End of month, End of quarter and End of year."
+  },
+  {
+    "id": "HO-214",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Multiple level of makers (based on a predefined number)"
+  },
+  {
+    "id": "HO-215",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Multiple level of checkers (based on a predefined number)"
+  },
+  {
+    "id": "HO-216",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Maker cannot be a checker and vice versa"
+  },
+  {
+    "id": "HO-217",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Allow maker-checker concept to be mandatory fo r all transactions including to master and parameter files"
+  },
+  {
+    "id": "HO-218",
+    "module": "Head Office",
+    "page": 86,
+    "text": "Provide maker and checker concept allowing, for entry, verification, and authorization and post commit verification and audit by different users based on: Product type, Account Type, Transaction type, Transaction amount, Authorization levels, User-wise. Page 87 of 112"
+  }
+]

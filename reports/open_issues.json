@@ -1,0 +1,51 @@
+[
+  {
+    "requirement_id": "HO-015",
+    "issues": [
+      "duplicate"
+    ],
+    "status": "needs_clarification"
+  },
+  {
+    "requirement_id": "INT-060",
+    "issues": [
+      "duplicate"
+    ],
+    "status": "needs_clarification"
+  },
+  {
+    "requirement_id": "INT-062",
+    "issues": [
+      "duplicate"
+    ],
+    "status": "needs_clarification"
+  },
+  {
+    "requirement_id": "TXN-078",
+    "issues": [
+      "duplicate"
+    ],
+    "status": "needs_clarification"
+  },
+  {
+    "requirement_id": "LOCK-009",
+    "issues": [
+      "duplicate"
+    ],
+    "status": "needs_clarification"
+  },
+  {
+    "requirement_id": "LOCK-013",
+    "issues": [
+      "duplicate"
+    ],
+    "status": "needs_clarification"
+  },
+  {
+    "requirement_id": "LOCK-026",
+    "issues": [
+      "duplicate"
+    ],
+    "status": "needs_clarification"
+  }
+]

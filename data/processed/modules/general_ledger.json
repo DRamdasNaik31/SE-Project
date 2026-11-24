@@ -1,0 +1,662 @@
+[
+  {
+    "id": "GL-001",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "System should provide user -friendly met hod for introducing/creating new GL codes along with their specified nature at HO level only"
+  },
+  {
+    "id": "GL-002",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "System should have provision to maintain debit/credit restriction at GL level"
+  },
+  {
+    "id": "GL-003",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "System should provide numeric codification of GL codes having scientific nomenclature"
+  },
+  {
+    "id": "GL-004",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Summary Trial Balance \u2013 System should summarize listing of all account activity for the accounting period, including open and posted transactions"
+  },
+  {
+    "id": "GL-005",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "No debit entry to be accepted by the system on HO a/c except Transfer price and P&L a/c (Option to be given)."
+  },
+  {
+    "id": "GL-006",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "All GL accounts should have on sub account/ account level"
+  },
+  {
+    "id": "GL-007",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "System should calculate Working Fund/Cost of Fund/Yield/Cost of Deposit/Gross Margin/Net Margin/Operating Expenses/Base rate calculation"
+  },
+  {
+    "id": "GL-008",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Support defining organization hierarchy allowing multiple levels reporting of Financials (trial balance, balance sheet and profit and loss accounts)"
+  },
+  {
+    "id": "GL-009",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Support multi-level GL hierarchy definition supporting at least 5 levels"
+  },
+  {
+    "id": "GL-010",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Support recognizing, accounting and reporting of transactions with respect to various heads including, but not limited to: Asset, Liability, Income, Expense, Contingent"
+  },
+  {
+    "id": "GL-011",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Ensure that bank reconciliation process does not interfere with the regular accounting process or maintaining books of accounts"
+  },
+  {
+    "id": "GL-012",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Provide for defining individual general ledger accounts with following parameters, including but not limited to:"
+  },
+  {
+    "id": "GL-013",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Effective dates of the account"
+  },
+  {
+    "id": "GL-014",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Overall blocking of account"
+  },
+  {
+    "id": "GL-015",
+    "module": "General Ledger",
+    "page": 66,
+    "text": "Mapping of each general ledger account to any node (subsidiary heads) of the chart Page 67 of 112 of account(s)"
+  },
+  {
+    "id": "GL-016",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Mapping of each general ledger account to one or more interfacing chart of accounts (since multiple systems would be interfacing with the general ledger)"
+  },
+  {
+    "id": "GL-017",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Support each general ledger account to be maintained in different currencies"
+  },
+  {
+    "id": "GL-018",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Provide facility to identify certain General Ledger accounts as bank/cash accounts"
+  },
+  {
+    "id": "GL-019",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Support online update to GL accounts for all types of transactions"
+  },
+  {
+    "id": "GL-020",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Provide for generation of daily Trial Balance in Bank\u2018s General Ledger Balance Format and in the prescribed format of RBI."
+  },
+  {
+    "id": "GL-021",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Provide for total of credit balances in current accounts on the liabilities side and total of debit balances in cash credit accounts on the asset sides respectively by taking into account the total of debit balances in current accounts on the assets side and total of credit balances in cash credit accounts on the liabilities side every day \u2013 to be reflecting in the General Ledger Balance"
+  },
+  {
+    "id": "GL-022",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Provide for specifically recording of following additional definitions to general ledger accounts representing bank accounts, including but not limited to:"
+  },
+  {
+    "id": "GL-023",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Standard Bank Code (as understood across the banking sector for the country/world)"
+  },
+  {
+    "id": "GL-024",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Authorized signatories (multiple) and their limits"
+  },
+  {
+    "id": "GL-025",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Validity dates for authorized signatories"
+  },
+  {
+    "id": "GL-026",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Account Identification Number"
+  },
+  {
+    "id": "GL-027",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Account Location, State, Country"
+  },
+  {
+    "id": "GL-028",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Telephone and Fax numbers, Contact person, etc. (multiple)"
+  },
+  {
+    "id": "GL-029",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Date of opening/closing of account"
+  },
+  {
+    "id": "GL-030",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Method(s) of on-line communication with the bank."
+  },
+  {
+    "id": "GL-031",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Provide for fiscal year (April to March) accounting"
+  },
+  {
+    "id": "GL-032",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Allow splitting of fiscal year as defined by user"
+  },
+  {
+    "id": "GL-033",
+    "module": "General Ledger",
+    "page": 67,
+    "text": "Support user-defined financial reporting periods other than fiscal year, e.g. 15 months or 9 months Page 68 of 112"
+  },
+  {
+    "id": "GL-034",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Support monthly/quarterly/half-yearly accounting periods within each fiscal year with facility for aggregation of monthly figures into quarterly/half-yearly figures"
+  },
+  {
+    "id": "GL-035",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Provide for automatic maintenance and carry forward of period-end account balances to subsequent periods for:"
+  },
+  {
+    "id": "GL-036",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Each accounting period within a fiscal year"
+  },
+  {
+    "id": "GL-037",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Across fiscal years/financial reporting periods"
+  },
+  {
+    "id": "GL-038",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Allow reporting of figures as at end of monthly accounting periods over a quarter/half year/year(s)"
+  },
+  {
+    "id": "GL-039",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Allow sorting of figures at the end of monthly accounting periods as per user - defined parameters"
+  },
+  {
+    "id": "GL-040",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Allow postings pertaining to prior dates after authorization (restricted to current accounting period)."
+  },
+  {
+    "id": "GL-041",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Provide for continuing oper ations into the new fiscal year with authorization even if due to some contingency, closing of accounts for the prior fiscal year remains incomplete"
+  },
+  {
+    "id": "GL-042",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Provide for detailed logging of all events related to opening and closing of accounting periods"
+  },
+  {
+    "id": "GL-043",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Allow user-defined closing cycles for any fiscal year with authorization"
+  },
+  {
+    "id": "GL-044",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Provide for different accounting entities to close independently"
+  },
+  {
+    "id": "GL-045",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Provide for acceptance and posting of only balanced journal entry transactions"
+  },
+  {
+    "id": "GL-046",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Support automatic calculation of Retained Earnings for each fiscal year and its automatic carry forward to the next fiscal year"
+  },
+  {
+    "id": "GL-047",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "System should provide processing and maintaining all the types of transactions viz., cash, clearing and transfer"
+  },
+  {
+    "id": "GL-048",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "System should provide multi -currency entry, verification, process ing and maintenance of transactions"
+  },
+  {
+    "id": "GL-049",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Facilitate opening and maintenance of any number of GL heads and GL sub -heads (alpha, numeric, alpha-numeric, etc.) in the system"
+  },
+  {
+    "id": "GL-050",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Facilitate opening and maintenance of any number of accounts under each GL heads and GL sub-heads in the system"
+  },
+  {
+    "id": "GL-051",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Facilitate control of access to various GL heads/sub -heads branch- wise, user -level wise, etc."
+  },
+  {
+    "id": "GL-052",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Generation of currency-wise subsidiaries, branch-wise, region-wise, circle-wise, lead district-wise, bank-wise general ledger"
+  },
+  {
+    "id": "GL-053",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Facility to open any number of schemes under each GL sub-head"
+  },
+  {
+    "id": "GL-054",
+    "module": "General Ledger",
+    "page": 68,
+    "text": "Should provide consolidation of transactions under various heads currency -wise, Page 69 of 112 branch-wise and consolidated"
+  },
+  {
+    "id": "GL-055",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Generation of related reports, subsidiaries, general ledger, etc. currency -wise, branch-wise and consolidated for the above"
+  },
+  {
+    "id": "GL-056",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "System should support automatic updating of respective accounts, GL sub- head as defined upon each entry/verification/end-day activities"
+  },
+  {
+    "id": "GL-057",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facility to mark an account/scheme-wise as interest bearing or otherwise"
+  },
+  {
+    "id": "GL-058",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facilitate summation of number of transactions under each GL head/sub - head/scheme/debit/credit-wise and generate relevant report"
+  },
+  {
+    "id": "GL-059",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "System should support summation of transactions GL head/sub- head wise and debit and credit-wise, branch-wise and generate report as a whole, etc."
+  },
+  {
+    "id": "GL-060",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "System should support summation of transactions under each delivery channels"
+  },
+  {
+    "id": "GL-061",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "System should support inquiry/search by users on any transactions by giving various selection criteria"
+  },
+  {
+    "id": "GL-062",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facility for updating of number of accounts opened and closed for each day under each main head and sub -head of general ledger and provide facility for inquiry and print for details as on any date and range of dates"
+  },
+  {
+    "id": "GL-063",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "System should facilitate maintenance of account, transaction details under each GL head and sub-head for each branch or region or circle or bank as a whole"
+  },
+  {
+    "id": "GL-064",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facilitate merging of non-CBS branches GL data with CBS branches GL data and arrive at Consolidated GL data of the bank, branch-wise, region-wise, circle-wise, bank-wise"
+  },
+  {
+    "id": "GL-065",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facilitate generation and print of detailed and summary of daily subsidiaries GL-head and sub-head-wise for particular branch/Region/Circle or bank as a whole"
+  },
+  {
+    "id": "GL-066",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "System must provide for a check to ensure authorization of all financial and non - financial transactions before day end process at branches"
+  },
+  {
+    "id": "GL-067",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facility to transfer accounts from one GL-subhead to other GL-subhead (automatically based one parameters)"
+  },
+  {
+    "id": "GL-068",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "System to provide GL consolidation based on category of branches like specialized branches, rural branches, metro branches, etc. (parameterized)"
+  },
+  {
+    "id": "GL-069",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facility for handling of reconciliation of selected type of accounts like ATM transactions, inter-branch transactions, Demand Draft transactions, etc."
+  },
+  {
+    "id": "GL-070",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facilitate generation of unique transaction id for each financial/non- financial transactions including system generated transactions"
+  },
+  {
+    "id": "GL-071",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facilitate detailed balancing and non-detailed balancing account-wise, GL head-wise, GL sub -head wise, scheme -wise, branch -wise, region -wise, circle -wise, bank -wise, etc., as on date and as on any date"
+  },
+  {
+    "id": "GL-072",
+    "module": "General Ledger",
+    "page": 69,
+    "text": "Facilitate for entry of transactions individually or through batch processing Page 70 of 112"
+  },
+  {
+    "id": "GL-073",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facilitate generation of day book and trial balance currency -wise, branch -wise, region-wise, circle-wise, bank as a whole, etc."
+  },
+  {
+    "id": "GL-074",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facilitate head-wise particulars of deposit accounts with debit balance and loan and OD/CC accounts with credit balance in the day book"
+  },
+  {
+    "id": "GL-075",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facility to maintain notional rate as on effective dates and facilitate revaluation of accounts"
+  },
+  {
+    "id": "GL-076",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "System should support generation/printing of slips/vouchers for transactions verified in bank's predefined format"
+  },
+  {
+    "id": "GL-077",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "System should be flexible enough to allow classification/sub-grouping of certain group of accounts by applying user-defined set of rules"
+  },
+  {
+    "id": "GL-078",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Generation of P&L account in bank's predefined format branch- wise, region -wise, circle-wise, bank as a whole, etc."
+  },
+  {
+    "id": "GL-079",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facilitate generation of balance sheet as per bank's predefined format for a branch or group of branches i.e., region, circle or bank as a whole"
+  },
+  {
+    "id": "GL-080",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facilitate to maintain contingent liabilities like collection of bills, guarantees, letter of credit, etc."
+  },
+  {
+    "id": "GL-081",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facilitate generation of supporting sheets for Balance Sheet and P&L Account in bank's predefined format branch-wise, region-wise, circle-wise, bank-wise, etc."
+  },
+  {
+    "id": "GL-082",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Provide generation of list of deleted transactions for given date, range of dates"
+  },
+  {
+    "id": "GL-083",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facilitate generation of list of transactions batch- wise, account -wise, GL -sub-head wise, scheme-wise, etc."
+  },
+  {
+    "id": "GL-084",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Minor subsidiaries/income & expenditure accounts:"
+  },
+  {
+    "id": "GL-085",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facility to support handling transactions of all types of accounts viz., pointing debit transactions, pointing credit transactions, exact matching transactions, non-pointing debits, non-pointing credits, etc. and summation/consolidation of same."
+  },
+  {
+    "id": "GL-086",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Facilitate part and full reversal of amounts under pointing type of accounts"
+  },
+  {
+    "id": "GL-087",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Reversal entries under pointing type of acco unts and exact match type of accounts should have reference to originating transactions"
+  },
+  {
+    "id": "GL-088",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "The system should not permit transactions if the amount to be adjusted towards any entry is more than the outstanding amount under that transaction"
+  },
+  {
+    "id": "GL-089",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Marking transactions as originating debit or originating credit depending on the sub - head"
+  },
+  {
+    "id": "GL-090",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Provision to maintain the date of reversal, amount of part reversal, balance amount and support periodical balancing of such accounts/transactions"
+  },
+  {
+    "id": "GL-091",
+    "module": "General Ledger",
+    "page": 70,
+    "text": "Provision for defining permissible limits, on officers at various levels, for verification Page 71 of 112 of transactions and throwing messages for transactions done beyond permitted limits"
+  },
+  {
+    "id": "GL-092",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Facilitate generation of balancing (detailed and non -detailed) report of minor subsidiary accounts as of date as well as on any date"
+  },
+  {
+    "id": "GL-093",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "System should facilitate generation/printing of report showing entries outstanding beyond a given period (user definable and user enterable) \u2013 head/sub-head-wise/ account-wise for each branch/group of branches or bank as a whole as on date an d as on any date"
+  },
+  {
+    "id": "GL-094",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "System should provide generation of all supporting documents under minor subsidiaries in bank's predefined format for the purpose of balance sheet"
+  },
+  {
+    "id": "GL-095",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Provide generation of general charges register containing details like date, particulars, amount, GC number etc., from the system"
+  },
+  {
+    "id": "GL-096",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Automatic generation of System Serial number for each entry in general charges accounts"
+  },
+  {
+    "id": "GL-097",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Facility to inquire/generate report on history of adjustment entries for any type of pointing type of accounts like sundry liabili ties, sundry deposits accounts, branch adjustment a/c, etc."
+  },
+  {
+    "id": "GL-098",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Provision to maintain list of items for local purchase requiring prior permission from higher authorities"
+  },
+  {
+    "id": "GL-099",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Support maintenance of list of permitted items for local purchase at branches/offices"
+  },
+  {
+    "id": "GL-100",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Facilitate maintenance of standing instructions for periodical recurring expenses like rent, charges, etc."
+  },
+  {
+    "id": "GL-101",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Support deduction of TDS for rent and other payments and accounting of the same including generation of relevant reports for remitting TDS to appropriate authorities"
+  },
+  {
+    "id": "GL-102",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Facilitate provisional adjustment for the purpose of periodical P&L and Balance Sheet"
+  },
+  {
+    "id": "GL-103",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "System should provide facility to analyze and monitor income and expenditure accounts vis-\u00e0-vis target branch-wise, region-wise, circle-wise, bank-wise, etc."
+  },
+  {
+    "id": "GL-104",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Write-off and write-back facility for accounts under minor subsidiaries"
+  },
+  {
+    "id": "GL-105",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Banker's account and accounts with other banks including RBI and accounts of other banks with our bank"
+  },
+  {
+    "id": "GL-106",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Facilitate capturing full details for opening of current account with other bank's branch-wise"
+  },
+  {
+    "id": "GL-107",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "System should facilitate opening and maintenance of bankers' account of other bank's account"
+  },
+  {
+    "id": "GL-108",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "Support noting of staff details for operating the banker's account"
+  },
+  {
+    "id": "GL-109",
+    "module": "General Ledger",
+    "page": 71,
+    "text": "System should provide generation of Bankers Reconciliation Statement in the bank's predefined format (PRR-14) Page 72 of 112"
+  },
+  {
+    "id": "GL-110",
+    "module": "General Ledger",
+    "page": 72,
+    "text": "System to throw alert message when there is adverse position in banker's account."
+  }
+]

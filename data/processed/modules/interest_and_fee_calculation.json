@@ -1,0 +1,434 @@
+[
+  {
+    "id": "INT-001",
+    "module": "Interest and Fee Calculation",
+    "page": 51,
+    "text": "Allow interest calculation based on but not limited to: Daily product, Month end balance (staff housing loans, mini mum balance between two predefined dates (savings a/c). Average balance maintained in the account between predefined dates/periods"
+  },
+  {
+    "id": "INT-002",
+    "module": "Interest and Fee Calculation",
+    "page": 51,
+    "text": "Support stepped interest rate calculation based on stepped interest rate"
+  },
+  {
+    "id": "INT-003",
+    "module": "Interest and Fee Calculation",
+    "page": 51,
+    "text": "Based on amounts (e.g. 0 \u2013 500: 5%, 501-1000: 5.5%)"
+  },
+  {
+    "id": "INT-004",
+    "module": "Interest and Fee Calculation",
+    "page": 51,
+    "text": "Based on period (e.g. 1st yr 5%, 2nd yr 5.5%, etc.)"
+  },
+  {
+    "id": "INT-005",
+    "module": "Interest and Fee Calculation",
+    "page": 51,
+    "text": "Provide for maintaining multiple fixed and floating interest rates applicable to different products"
+  },
+  {
+    "id": "INT-006",
+    "module": "Interest and Fee Calculation",
+    "page": 51,
+    "text": "Enable floating rate to be held as Base rate + Spread (both of which are variable, independent of each other). The spread could be positive or negative"
+  },
+  {
+    "id": "INT-007",
+    "module": "Interest and Fee Calculation",
+    "page": 51,
+    "text": "Support interest calculation based on but not limited to: 360 days, 365 days, leap year Page 52 of 112 adjustment, 12 months and balance days/30"
+  },
+  {
+    "id": "INT-008",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support interest rate changes with retrospective effect and consequential recalculation of interest automatically on all interest bearing assets and liabilities"
+  },
+  {
+    "id": "INT-009",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Provide for back value dated interest rate calculations for 'X' months where 'X' is a parameter"
+  },
+  {
+    "id": "INT-010",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Provide ability to define fees and charges to be applied to all products bas ed on, but not limited to: Flat charges, Tiered, Variable, Transaction type, Account type, Customer type, Product, Register Type, Segment/sector, Area type, Combination of the above, Service tax on the fees charged on specified categories for each transaction at predetermined rates, period-wise"
+  },
+  {
+    "id": "INT-011",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Provide a facility for defining a minimum or maximum amount to be charged based on period, amount, transaction, etc."
+  },
+  {
+    "id": "INT-012",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Allow the user to override the predefined charges or waive them with a facility for automatic reversion after a predefined period"
+  },
+  {
+    "id": "INT-013",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Provide a facility to charge customer for statement sent by other than by ordinary post, duplicate statements, and ad hoc statements, etc."
+  },
+  {
+    "id": "INT-014",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Enable creation of an interest rate master for various types of deposit and borrower accounts. The application should maintain a history of interest rate changes"
+  },
+  {
+    "id": "INT-015",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support defining interest rates for credit and debit balances separately for each account"
+  },
+  {
+    "id": "INT-016",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support creation of penal interest rate masters for various types of deposit and borrower accounts and maintain history of changes in the penal interest rates"
+  },
+  {
+    "id": "INT-017",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support defining penal interest for each type of advance product/facility, for more than one factor which includes, but is not limited to:"
+  },
+  {
+    "id": "INT-018",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support defining cap for penal interest rate for each product / facility separately with facility for waiver"
+  },
+  {
+    "id": "INT-019",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support defining cap for aggregate interest rate (applicable interest rate+ penal rate), for each product/facility separately"
+  },
+  {
+    "id": "INT-020",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Allow user to choose method for charging penal interest from time to time, at account level"
+  },
+  {
+    "id": "INT-021",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support charging of penal interest for past periods"
+  },
+  {
+    "id": "INT-022",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support capturing the factors in respect of which penal interest rate is to be charged"
+  },
+  {
+    "id": "INT-023",
+    "module": "Interest and Fee Calculation",
+    "page": 52,
+    "text": "Support linking interest rate on advance to in terest rate on deposit held as security Page 53 of 112 (loan against deposit)"
+  },
+  {
+    "id": "INT-024",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Support defining spread/differential over deposit interest rate for arriving at interest rate on the corresponding loan account. Support defining the spread differently for Customer type, Segment type, Location type"
+  },
+  {
+    "id": "INT-025",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide capability for user-definable Interest rate for debit and credit interest"
+  },
+  {
+    "id": "INT-026",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide for interest rates to be linked to keys change in interest rate in master file should be applied to all accounts through the keys"
+  },
+  {
+    "id": "INT-027",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide for fixed as well floating interest rates"
+  },
+  {
+    "id": "INT-028",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Enable floating rate to be further divided into but not limited to:"
+  },
+  {
+    "id": "INT-029",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Support for interest rate calculation based on but not limited to \u2013 360 days or 365 days or leap year"
+  },
+  {
+    "id": "INT-030",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Support interest rate changes with retrospective effect"
+  },
+  {
+    "id": "INT-031",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Support changing rates of interests both in the master and at the account level \u2013 with future effect."
+  },
+  {
+    "id": "INT-032",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide capability to handle automatic calculation of local taxes on interest earnings and deduct withholding tax/TDS on it with alerts for tax de ducted in the previous month but not remitted"
+  },
+  {
+    "id": "INT-033",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide a capability to define different tax rates for different customer types and exemptions"
+  },
+  {
+    "id": "INT-034",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Enable users to define the interest accounting in case of holiday: In advance to a holiday or subsequent to holiday"
+  },
+  {
+    "id": "INT-035",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide facility to set the new interest rate with an effective date and to generate customer advice viz. letter/e-mail"
+  },
+  {
+    "id": "INT-036",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide for recalculation of interest based on value date"
+  },
+  {
+    "id": "INT-037",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide support for changes in interest rates during the tenure of the products with: Retrospective effect, Current effect, Future effect"
+  },
+  {
+    "id": "INT-038",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide support for charging penal interest at different rates on all kinds of products, for reasons defined by the user e.g. non -submission of stock statement, excess over limit, QIS non-submission"
+  },
+  {
+    "id": "INT-039",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "For deposits maturing on holidays, calculation of interest should be through to the morning of the next working day"
+  },
+  {
+    "id": "INT-040",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Provide a facility to define frequency of compounding differently for different products"
+  },
+  {
+    "id": "INT-041",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Support choosing method of interest calculation simple, compounding at the product facility level with past and future effect"
+  },
+  {
+    "id": "INT-042",
+    "module": "Interest and Fee Calculation",
+    "page": 53,
+    "text": "Support multiple compounding frequencies for each product, with option to choose Page 54 of 112 the frequency at account level"
+  },
+  {
+    "id": "INT-043",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Support compounding of interest, whether the accrued intere st is applied (debited/credited) to the account or not"
+  },
+  {
+    "id": "INT-044",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Provide a facility to segregate the interest/compounded interest and the original principal for business reporting purpose"
+  },
+  {
+    "id": "INT-045",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Provide for recalculation of interest for time deposits \u2013 in case the time dep osit is broken before the specified term and the interest to be given is lesser than the original interest rate"
+  },
+  {
+    "id": "INT-046",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "In case of premature closure of deposit accounts, system to automatically pick up the interest rate applicable for the actual period the deposit is held and penal rate (from penal rate master item) and arrive at the rate at which interest is to be charged with waiver in case of deceased claim settlement, premature extension and conversion into another term deposit scheme with maturity period covering remaining period of original deposit"
+  },
+  {
+    "id": "INT-047",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "No penalty should be levied for closure of term deposit accounts by nominee or legal heir(s) due to death of a customer"
+  },
+  {
+    "id": "INT-048",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "The applicable rate of interest will be the rate for the actual period as applicable at the start date of the deposit"
+  },
+  {
+    "id": "INT-049",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "System to reflect the above details at the time of subsequent closure of deposit when required"
+  },
+  {
+    "id": "INT-050",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Provide capability to define interest rates for above kind of time deposit products"
+  },
+  {
+    "id": "INT-051",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "System should automatically make adjustments in intere st provisions, where recalculation is required"
+  },
+  {
+    "id": "INT-052",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Provide facility to calculate the penalty interest in case time deposit is partly/fully broken"
+  },
+  {
+    "id": "INT-053",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Support feature of maintaining the history record of the interest rate changes"
+  },
+  {
+    "id": "INT-054",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Support for defining of differentia l interest rates for time deposit based on but not limited to:"
+  },
+  {
+    "id": "INT-055",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Partly broken at predefined frequency"
+  },
+  {
+    "id": "INT-056",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Fully withdrawn before maturity"
+  },
+  {
+    "id": "INT-057",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Interest accrual/application."
+  },
+  {
+    "id": "INT-058",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Support defining frequency of application of accrued interest for each product / facility separately"
+  },
+  {
+    "id": "INT-059",
+    "module": "Interest and Fee Calculation",
+    "page": 54,
+    "text": "Allow defining of interest application frequency based on a parameterized value, for any type of account or transaction Page 55 of 112"
+  },
+  {
+    "id": "INT-060",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Support creation of interest provisions and receivables, based on accrued interest calculated"
+  },
+  {
+    "id": "INT-061",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Support maintenance of provision/receivable accounts separately for each account type, product, General Ledger Head separately"
+  },
+  {
+    "id": "INT-062",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Support application of interest by debit / credit to provisions/receivable accounts"
+  },
+  {
+    "id": "INT-063",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Allow interest on debit balance to be applied either as p er the parameterized frequency or on the balance becoming credit"
+  },
+  {
+    "id": "INT-064",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Support generation of certificates at user defined periodicity for the customers regarding interest applied on the account"
+  },
+  {
+    "id": "INT-065",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Allow user to choose options for calculation of accrued interest, di fferently for different products. The options should include but not be limited to:"
+  },
+  {
+    "id": "INT-066",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "At predefined frequencies on average balance in the preceding period"
+  },
+  {
+    "id": "INT-067",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Minimum balance during a period in the preceding period"
+  },
+  {
+    "id": "INT-068",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Maximum balance during a period in the preceding period"
+  },
+  {
+    "id": "INT-069",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "End of the period balance."
+  },
+  {
+    "id": "INT-070",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "The frequencies should include: weekly, fortnightly, monthly, quarterly, half- yearly, yearly"
+  },
+  {
+    "id": "INT-071",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Support calculation of interest by treating the year as consisting of 360/365/366 days, taking the actu al no. of days in a month, and arriving at accrual/application on quarterly basis as per financial year/calendar quarter from date of opening of Term Deposit and keeping record of monthly payment of interest at a discounted rate"
+  },
+  {
+    "id": "INT-072",
+    "module": "Interest and Fee Calculation",
+    "page": 55,
+    "text": "Support display of interest rate charts applicable from effective dates, historical up to ten years."
+  }
+]

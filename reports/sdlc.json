@@ -1,0 +1,49 @@
+{
+  "winner": "RAD",
+  "approval_status": "pending_human_review",
+  "scores": [
+    {
+      "model": "RAD",
+      "score": 18.88,
+      "raw": 0.7475
+    },
+    {
+      "model": "Agile",
+      "score": 18.12,
+      "raw": 0.7175
+    },
+    {
+      "model": "Prototype",
+      "score": 18.06,
+      "raw": 0.715
+    },
+    {
+      "model": "Iterative",
+      "score": 15.53,
+      "raw": 0.615
+    },
+    {
+      "model": "Spiral",
+      "score": 11.05,
+      "raw": 0.4375
+    },
+    {
+      "model": "Waterfall",
+      "score": 9.97,
+      "raw": 0.395
+    },
+    {
+      "model": "V-Model",
+      "score": 8.39,
+      "raw": 0.3325
+    }
+  ],
+  "factors": {
+    "stability": 0.6,
+    "risk": 0.35,
+    "feedback": 0.6,
+    "change": 0.6,
+    "delivery": 0.6
+  },
+  "explanation": "RAD ranks highest under the supplied factors; scores are normalized from the documented rubric."
+}

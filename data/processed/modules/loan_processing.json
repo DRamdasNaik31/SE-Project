@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "LOAN-001",
+    "module": "Loan Processing",
+    "page": 26,
+    "text": "Provide capability to segregate advances into various types like but not limited to Overdraft, Cash Credit, Clean Advances, Term loans, Working capital loans, Hire Purchase, Bills Purchased (a) Inland (b) Foreign, Advance Bills Purchased Account (Bills under devolved LCs), Letter of Credit Bank Guarantee, Deferred Payment Guarantee Discounting of Bills under LC (Inland), Advances to Infrastructure Projects (Eligible for tax exceptions under Section 10(23) G of IT Act)"
+  },
+  {
+    "id": "LOAN-002",
+    "module": "Loan Processing",
+    "page": 26,
+    "text": "Provide capability to segregate advances into: \u2018Standard' \u2013 with provision for age wise sub classification \u2018Sub -standard\u2018 \u2013 with provision for age wise sub classification \u2018Doubtful\u2018 \u2013 with provision for age wise sub classification \u2018Loss\u2018"
+  },
+  {
+    "id": "LOAN-003",
+    "module": "Loan Processing",
+    "page": 26,
+    "text": "Provide trigger for special watch accounts (probable NPA a/cs or overdue a/cs for user defined period"
+  },
+  {
+    "id": "LOAN-004",
+    "module": "Loan Processing",
+    "page": 26,
+    "text": "Provide capability to segregate advances into various Schemes/Categories like but not limited to: each scheme would be specific to each of the UCB \u2013 provide for automatic classification of accounts into priority sector."
+  },
+  {
+    "id": "LOAN-005",
+    "module": "Loan Processing",
+    "page": 26,
+    "text": "Small scale industries, retail trade and small business, Composite loan (bank credit for Artisans village & Cottage industries), Loans to professional & self - employed, Direct loan to small road & water transport operators Differential Page 27 of 112 Rate of Interest (DRI) scheme, Education, Rural housing consumption loans, Self- Help Groups, National Equity Fund Scheme, Wind Mill/Solar Power, Personal loan, Vehicle loan, Demand loan (staff), Demand loan (others), Salary linked personal loan, Gold loan, Loan for Rain water harvesting, Joint liability group loan, Loan against banks deposit/NSC/KVP/LIC shares/other banks deposit, Car loan, Loan against flexi RD-( age wise credit limit e.g. Big Samridhi loan scheme), staff loans (not limited to) house loan, additional house loan, overdraft scheme, vehicle loan, festival loan, consumer loan anytime money for salaried persons/comm. agents, etc."
+  },
+  {
+    "id": "LOAN-006",
+    "module": "Loan Processing",
+    "page": 27,
+    "text": "Provide capability for configuring templates for lending products with, but not limited to, following parameters:"
+  },
+  {
+    "id": "LOAN-007",
+    "module": "Loan Processing",
+    "page": 27,
+    "text": "Name of the lending product, target group for the lending product, eligibility criteria for the product, quantum of loan, minimum, maximum rate of interest, minimum, maximum, method of charging interest \u2013 simple/periodic compounding (with option not to charge/to charge interest during moratorium), security \u2013 primary and collateral (provision for modification for security subject to authorisation), owner of the collateral, if o wner of collateral is a third party, then there should be a mandatory field for guarantee, (in case of FDR as collateral security, the guarantee should be limited to the extent of principal and interest of FDR), repayment schedule with options to show dail y, monthly, quarterly, half yearly, annual, etc. with or without moratorium \u2013 suitable option for running accounts and loan accounts, prepayment charges, commitment charges, insurance requirements with provision indicating different clauses and extent of c overage with reference to value of goods, processing charges/up -front fees, prepayment incentive (e.g. education loan, etc.)"
+  },
+  {
+    "id": "LOAN-008",
+    "module": "Loan Processing",
+    "page": 27,
+    "text": "Provide for margin sensitive interest rates"
+  },
+  {
+    "id": "LOAN-009",
+    "module": "Loan Processing",
+    "page": 27,
+    "text": "Support creating composite loan products using the generic loan products/facilities under each of the lending classifications"
+  },
+  {
+    "id": "LOAN-010",
+    "module": "Loan Processing",
+    "page": 27,
+    "text": "Support definition of main- limit, outer -limit, inner- limit, interchangeable limit, earmarking for other facilities, month -wise operating limit for seasonal activities (e.g., tea, sugar, etc.)"
+  },
+  {
+    "id": "LOAN-011",
+    "module": "Loan Processing",
+    "page": 27,
+    "text": "Support maintenance of more than one limit per customer for a type of facility"
+  },
+  {
+    "id": "LOAN-012",
+    "module": "Loan Processing",
+    "page": 27,
+    "text": "Support maintenance of main limit in one product with sub -limits/inner-limits in other loan products/in other branches Page 28 of 112"
+  },
+  {
+    "id": "LOAN-013",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Allow creating of notes, which have to be attached to the loan details. These could be in the form of additional text fields in the loans"
+  },
+  {
+    "id": "LOAN-014",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Separate form attached to the original detailed form"
+  },
+  {
+    "id": "LOAN-015",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Separate note linked to the loan details form and security documents"
+  },
+  {
+    "id": "LOAN-016",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support for marking lien on deposits within the branch or with another bran ch, offered as security for any loan with option to generate report/certificate of lien"
+  },
+  {
+    "id": "LOAN-017",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support marking lien on limit/drawing power of loan accounts (for issuing Commercial Paper, Letters of Comfort, Letters of Credit, Bank Guarantees, Short Term Loan, etc.)"
+  },
+  {
+    "id": "LOAN-018",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support auto reduction of limit to the extent of excess drawals in other specified loan account(s) selected i.e. defining the overall group exposure"
+  },
+  {
+    "id": "LOAN-019",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support seeking online confirmation for lifting of lien, on closure of loan account"
+  },
+  {
+    "id": "LOAN-020",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support reflection o f liens details for a loan account, marked against any deposit/liability products"
+  },
+  {
+    "id": "LOAN-021",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support reflection of liens marked on a loan limit"
+  },
+  {
+    "id": "LOAN-022",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Allow and support different due dates for principal interest and other charge types with both structured or irregular periodicity"
+  },
+  {
+    "id": "LOAN-023",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Provide for transfer of loan accounts from one branch (location) to another. This should not be treated as pre -mature closure of account with option to transfer such accounts within core banking branches and other branches and necessary inter-branch trans"
+  },
+  {
+    "id": "LOAN-024",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Provide for validation of the time/demand deposit in case it is offered in lien for the loan"
+  },
+  {
+    "id": "LOAN-025",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support loan application where the collateral is held with another branch/bank"
+  },
+  {
+    "id": "LOAN-026",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support selecting mode of sending notices to borrowers/guarantors both individually for each type of notice and collectively for borrower and group of borrowers/gurantors (multilingual)"
+  },
+  {
+    "id": "LOAN-027",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Support blocking either credits or debits or both in any account with reasons and reports along with option for generating notice advising the account holder"
+  },
+  {
+    "id": "LOAN-028",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Provision to maintain records of securities for loans against shares with options for temporary in/out: Physical/demat with option for validating acceptability of shares against set of predetermined list of shares and option."
+  },
+  {
+    "id": "LOAN-029",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Provision to maintain loans against own bank deposits and/or government certificates/bonds (LIC POLICY)"
+  },
+  {
+    "id": "LOAN-030",
+    "module": "Loan Processing",
+    "page": 28,
+    "text": "Provision to generate reports of shares company wise, category wise, with number and face value, market value with annual high and low Page 29 of 112"
+  },
+  {
+    "id": "LOAN-031",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Provision to update share value with provision for interface with external source: Offline/Online"
+  },
+  {
+    "id": "LOAN-032",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Provide for surrender value of LIC"
+  },
+  {
+    "id": "LOAN-033",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Provision to calculate drawing power as per the definition and generation of advice letters to party in case of excess/overdrawing for regularization"
+  },
+  {
+    "id": "LOAN-034",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Support capture of records based on the following parameters and validate the exposure limit, but not limited to:"
+  },
+  {
+    "id": "LOAN-035",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Sanction/application reference, scheme -wise, industry -wise, sanctioning authority, facility/product, limit -wise (amount), provide for capturing detail of reference person"
+  },
+  {
+    "id": "LOAN-036",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Limit maintenance support capture of following information:"
+  },
+  {
+    "id": "LOAN-037",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Name and address of the borrower"
+  },
+  {
+    "id": "LOAN-038",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Category of borrower (Priority/Non-Priority/Export/Special Schemes, etc.)"
+  },
+  {
+    "id": "LOAN-039",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Restructured account (CDR or otherwise), accounts under compromise, sick unit, etc."
+  },
+  {
+    "id": "LOAN-040",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Date of sanction/renewal/review"
+  },
+  {
+    "id": "LOAN-041",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Due date for limit renewal"
+  },
+  {
+    "id": "LOAN-042",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Age in number of days from date of renewal and review"
+  },
+  {
+    "id": "LOAN-043",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Sanctioning authority with validation for sanctioning powers as per delegated authority"
+  },
+  {
+    "id": "LOAN-044",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Nature of limits (division wise limit If any)"
+  },
+  {
+    "id": "LOAN-045",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Limit with progressive reductions"
+  },
+  {
+    "id": "LOAN-046",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Sub Limits for charging differential rate of interest"
+  },
+  {
+    "id": "LOAN-047",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Amount of limit (Peak and Non-Peak Level)"
+  },
+  {
+    "id": "LOAN-048",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Support setting up limits in stages for a custom er account i.e., support setting of limits for each product/facility separately"
+  },
+  {
+    "id": "LOAN-049",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Provision to override the exceptions for partial disbursements up to a particular amount/nos. of transactions only with proper authorisation."
+  },
+  {
+    "id": "LOAN-050",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Provision to maintain partial/full disbursements"
+  },
+  {
+    "id": "LOAN-051",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Provide capability to set overdraft limits for the current accounts"
+  },
+  {
+    "id": "LOAN-052",
+    "module": "Loan Processing",
+    "page": 29,
+    "text": "Enable setting of limits and exposures for loans to be sanctioned to a Customer / group Page 30 of 112"
+  },
+  {
+    "id": "LOAN-053",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support usage of a single overall limit by all disbursement products (with level / break-up of disbursement)"
+  },
+  {
+    "id": "LOAN-054",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Allow for setting up of lines/provisional limit in case the customer has used up the limit defined."
+  },
+  {
+    "id": "LOAN-055",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Provide capability to automatically reduce the overdraft limit based on a predefined frequency"
+  },
+  {
+    "id": "LOAN-056",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support design (template) to check compliance, of related terms and conditions of sanction"
+  },
+  {
+    "id": "LOAN-057",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support modification of check List to make account specific modification requirements of terms of sanction"
+  },
+  {
+    "id": "LOAN-058",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support capture of data in stages, for details of compliance for each application/sanction reference"
+  },
+  {
+    "id": "LOAN-059",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support capturing details of registration of charge with Registrar of Companies (ROC), Registrar of Assurances, Depository, etc. for each limit separately with provision for recording the modifications there to with maintenance of the history"
+  },
+  {
+    "id": "LOAN-060",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support tracking and give alerts for primary securities and collaterals pending registration of charge with ROC, Registrar of Assurances, etc., at predefined frequencies"
+  },
+  {
+    "id": "LOAN-061",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support for flagging of limit for non-compliance of terms and conditions"
+  },
+  {
+    "id": "LOAN-062",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support definition of mandatory compliance (in the standard list of compliance) for lifting the flag, to make the limit operational"
+  },
+  {
+    "id": "LOAN-063",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support capturing dates of execution of each document stipulated in the sanction"
+  },
+  {
+    "id": "LOAN-064",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support seeking online confirmation(s) for making a limit ope rational/for overdrawing, etc."
+  },
+  {
+    "id": "LOAN-065",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Ensure that no limit is set up unless sanction details are recorded"
+  },
+  {
+    "id": "LOAN-066",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Capability to ensure that there is no duplication in the limit set up for any sanctioned limit"
+  },
+  {
+    "id": "LOAN-067",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support obtaining of special approval for sanctioning of advan ce, where the advance is linked to the line of credit and not the limit itself"
+  },
+  {
+    "id": "LOAN-068",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Enable conversion of the line into limit in case payment of any other advance releases the limit with approval of the delegated authority"
+  },
+  {
+    "id": "LOAN-069",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "In the case of a change of constitution of the customer, support linking accounts to the new customer profile with past history"
+  },
+  {
+    "id": "LOAN-070",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Support alerts/messages in case the collateral amount goes below the pre determines level, where the limit is linked to the collateral"
+  },
+  {
+    "id": "LOAN-071",
+    "module": "Loan Processing",
+    "page": 30,
+    "text": "Allow for setting up of limits as a percentage of the collateral held Page 31 of 112"
+  },
+  {
+    "id": "LOAN-072",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support updating of the limits on enhancement, reductions or ad hoc sanctions and maintain history of changes"
+  },
+  {
+    "id": "LOAN-073",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Ability to update the sanction details for completion of the legal formalities and execution of documents, registration of charges, etc."
+  },
+  {
+    "id": "LOAN-074",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Provide for generation of alerts/ exception reports when any loan / credit limit is sanctioned by an Authority beyond the powers delegated to him"
+  },
+  {
+    "id": "LOAN-075",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Provide for periodical valuation of immovable properties and verification of encumbrances against the properties"
+  },
+  {
+    "id": "LOAN-076",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Provide for sale of assets given as security/collateral through auction / e-tendering Collateral Management"
+  },
+  {
+    "id": "LOAN-077",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support capturing history of creation/addition/modification in the collateral security"
+  },
+  {
+    "id": "LOAN-078",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support blocking/freeze (manual) and defreeze link to relevant authority"
+  },
+  {
+    "id": "LOAN-079",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Provide for maintaining value of collateral security with relevant date and history of valuations"
+  },
+  {
+    "id": "LOAN-080",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support tracking of date of valuation of collateral, vis -\u00e0-vis predefined validity periods and prompt the use r to update valuations. User to be able to define validity period for each category of Collateral"
+  },
+  {
+    "id": "LOAN-081",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Provide a reminder facility, based on a predefined frequency, for revaluation of collateral"
+  },
+  {
+    "id": "LOAN-082",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Provide alerts where the collateral value drops below the predefined limit"
+  },
+  {
+    "id": "LOAN-083",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support interface with deposits module for recording liens on deposits"
+  },
+  {
+    "id": "LOAN-084",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Provide a facility to monitor collateral where the collateral (mainly time / demand deposits) is held with another Branch"
+  },
+  {
+    "id": "LOAN-085",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support seeking on -line confirmation for de -linking of time / demand deposit to the loan limit, in case the loan is paid up"
+  },
+  {
+    "id": "LOAN-086",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support seeking on-line confirmation for lifting lien in case the relative Letters of Credit, Bank Guarantee is retired"
+  },
+  {
+    "id": "LOAN-087",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Allow for management of collateral even in case the loan is paid up"
+  },
+  {
+    "id": "LOAN-088",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Single loan to multiple collateral"
+  },
+  {
+    "id": "LOAN-089",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Multiple loans to single collateral"
+  },
+  {
+    "id": "LOAN-090",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Single collateral to multiple customers."
+  },
+  {
+    "id": "LOAN-091",
+    "module": "Loan Processing",
+    "page": 31,
+    "text": "Support validation of the collateral against the existing database, to find if it is being currently used for any other loan/advance Page 32 of 112"
+  },
+  {
+    "id": "LOAN-092",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Allow for capturing the following, but not limited to:"
+  },
+  {
+    "id": "LOAN-093",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Valuation details (external consultant, etc.)"
+  },
+  {
+    "id": "LOAN-094",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Details of loans for which the security is held as collateral"
+  },
+  {
+    "id": "LOAN-095",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Provision to maintain details of suit filed details borrower/account wise"
+  },
+  {
+    "id": "LOAN-096",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Legal Action: Date of closure of loan, filing of ARC, amount of ARC, date of hearing of arbitrator, date of decree, amount of decree, execution amount, nature of execution (money/mortgage, etc.), charges paid, stages of decree, date of decree, date of preliminary decree, final decree, date of execution of decree, execution amount, notice issued under securitization act., status of action under securitization act, etc."
+  },
+  {
+    "id": "LOAN-097",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Facility to automatically restrict operation on the c ollateral with provision to override by authorized users"
+  },
+  {
+    "id": "LOAN-098",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Provide for closing/marking the collateral in case the collateral is disposed off in the market"
+  },
+  {
+    "id": "LOAN-099",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Maintenance of primary and collateral securities separately should include:"
+  },
+  {
+    "id": "LOAN-100",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Acknowledgement of securities"
+  },
+  {
+    "id": "LOAN-101",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Addition/or release of securities"
+  },
+  {
+    "id": "LOAN-102",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Registered mortgage or equitable mortgage"
+  },
+  {
+    "id": "LOAN-103",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "If registered mortgage, amount and date of registration"
+  },
+  {
+    "id": "LOAN-104",
+    "module": "Loan Processing",
+    "page": 32,
+    "text": "Description of security, legal opinion date, search report, valuation, report name of valuer. Page 33 of 112 Disbursals"
+  },
+  {
+    "id": "LOAN-105",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Enable a phased draw-down schedule for the disbursal of the loan amount"
+  },
+  {
+    "id": "LOAN-106",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Support checking of balance and drawing power and ability to display record of past disbursement before the disbursal of the loan"
+  },
+  {
+    "id": "LOAN-107",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ability to check authority limit of disbursing officer / approving authority"
+  },
+  {
+    "id": "LOAN-108",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ability to check company / industry exposure prior to disbursement"
+  },
+  {
+    "id": "LOAN-109",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ability to generate disbursement memo with disbursement request and overall exposure details"
+  },
+  {
+    "id": "LOAN-110",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Provision to track disbursement, full/partial. Provision for blocking further debits except interest, after completion of final disbursements."
+  },
+  {
+    "id": "LOAN-111",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ability to modify disbursement Schedule during the tenure of a facility"
+  },
+  {
+    "id": "LOAN-112",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ability to keep track of future disbursement schedule"
+  },
+  {
+    "id": "LOAN-113",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Support cheque operated loan accounts (cash credit accounts on lines of current account)"
+  },
+  {
+    "id": "LOAN-114",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Provision to remit/draw disbursements related to scheme parameters through DD/PO/TT/MT/Cash/Cheques, etc."
+  },
+  {
+    "id": "LOAN-115",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Provision to enter the proof of end use of funds like:"
+  },
+  {
+    "id": "LOAN-116",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Support bulk credits/Recoveries in retail loans e.g. (salary, etc.)"
+  },
+  {
+    "id": "LOAN-117",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ability to account for fee based income with characteristics similar to interest rates"
+  },
+  {
+    "id": "LOAN-118",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ability to handle transactions with only fee-based income"
+  },
+  {
+    "id": "LOAN-119",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Support for prepayment, part payment, pre-closure and closure of loans"
+  },
+  {
+    "id": "LOAN-120",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Allow pre-payment of loans on user-defined rules/charges model"
+  },
+  {
+    "id": "LOAN-121",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Support checks to ensure non -closure of loans till all outstanding and interest accrued against it has been repaid"
+  },
+  {
+    "id": "LOAN-122",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Ensure release of lien in case of prepayments"
+  },
+  {
+    "id": "LOAN-123",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Provision to generate predefined lists before closure of accounts to check for: charges to be recovered, interest to be recovered, interest in dummy ledger, cheque books to be surrendered, ATM/credit card/debit card or any other card transactions"
+  },
+  {
+    "id": "LOAN-124",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Provide for cheques deposited \u2013 but not cleared, lien on deposits, subsidy details, margin details, list of securities, operations in related accounts"
+  },
+  {
+    "id": "LOAN-125",
+    "module": "Loan Processing",
+    "page": 33,
+    "text": "Provision for authorization of account closure after all the Page 34 of 112 exceptions/cautions are attended"
+  },
+  {
+    "id": "LOAN-126",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "On authorization of account closure the related security documents have to be marked accordingly. Drawing Power"
+  },
+  {
+    "id": "LOAN-127",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Support automatic (rule based)/manual setting up of \u2018drawing powers' and restricting disbursals/drawings based on the same"
+  },
+  {
+    "id": "LOAN-128",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Allow defining rules for calculating drawing power based on Security (percentage/absolute value)"
+  },
+  {
+    "id": "LOAN-129",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Support limiting drawing in a loan account to drawing power (like a running account)"
+  },
+  {
+    "id": "LOAN-130",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Support allowing drawings in excess of \u2018drawing power' with onlin e approval of authorized users with exception reporting"
+  },
+  {
+    "id": "LOAN-131",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "System to prompt for period of validity each time drawing power is updated with default date as system date while updating"
+  },
+  {
+    "id": "LOAN-132",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Support selecting method/methods of computation of \u2018drawing power' for each limit set up on the system"
+  },
+  {
+    "id": "LOAN-133",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Support selecting items of security for calculation of drawing power"
+  },
+  {
+    "id": "LOAN-134",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Drawing power available for cash credit/working capital demand loan"
+  },
+  {
+    "id": "LOAN-135",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "System should enable capture of margins, caps (sub- limits), periodicity of valuation, etc., specified for securities"
+  },
+  {
+    "id": "LOAN-136",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "System to maintain these values for period specified by the user (minimum of 12 months)"
+  },
+  {
+    "id": "LOAN-137",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Support tracking of periodicity of valuation vis-\u00e0-vis the stipulated periodicity"
+  },
+  {
+    "id": "LOAN-138",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Support design of standard templates for capturing details like"
+  },
+  {
+    "id": "LOAN-139",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Date of valuation(date of stock statement),"
+  },
+  {
+    "id": "LOAN-140",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Value of each item of security(market value)"
+  },
+  {
+    "id": "LOAN-141",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "For deposit receipts system should arrive DP after reducing margin on present value of deposit. Lien should be marked on the deposits"
+  },
+  {
+    "id": "LOAN-142",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "For all other securities like NSC, shares, etc. security type, value of security, margin and description should be accepted and DP arrived accordingly by the system"
+  },
+  {
+    "id": "LOAN-143",
+    "module": "Loan Processing",
+    "page": 34,
+    "text": "Ability to record tracking of key events/milestones during the project analysis stage like financial c losure, implementation, implementation status, clearance (statutory and others), etc. Page 35 of 112"
+  },
+  {
+    "id": "LOAN-144",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Facilitate identifying/monitoring defaulting loans based on:"
+  },
+  {
+    "id": "LOAN-145",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Interest default, Principal default, Charges/fees default"
+  },
+  {
+    "id": "LOAN-146",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Ability to generate standard notice/Legal notice/suit/plaint documents/letters of invocation of guarantee, etc."
+  },
+  {
+    "id": "LOAN-147",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Provision unique repayment schedule for each of the disbursements"
+  },
+  {
+    "id": "LOAN-148",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Support fixing repayment schedule for a limit. The methods of repayment could be:"
+  },
+  {
+    "id": "LOAN-149",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Periodical (monthly, quarterly, half-yearly, Yearly, seasonal (harvest) etc.)"
+  },
+  {
+    "id": "LOAN-150",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Irregular and progressive"
+  },
+  {
+    "id": "LOAN-151",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "With or without initial moratorium"
+  },
+  {
+    "id": "LOAN-152",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Separate repayment schedules for Interest and principal"
+  },
+  {
+    "id": "LOAN-153",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Equated instalments, with or without Moratorium"
+  },
+  {
+    "id": "LOAN-154",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Equated monthly instalments (EMI)"
+  },
+  {
+    "id": "LOAN-155",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Equal or un-equal instalments"
+  },
+  {
+    "id": "LOAN-156",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Provide for accepting repayments by:"
+  },
+  {
+    "id": "LOAN-157",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Post-dated cheque (with due date maintenance for presentation)"
+  },
+  {
+    "id": "LOAN-158",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Transfer from other account"
+  },
+  {
+    "id": "LOAN-159",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Automatic debiting of any other account"
+  },
+  {
+    "id": "LOAN-160",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Support \"clearing\" repayments against loan amount. Insurance Details"
+  },
+  {
+    "id": "LOAN-161",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Support capturing insurance details for each item of primary security as also each interim Collateral security (for which insurance cover is stipulated in the sanction)."
+  },
+  {
+    "id": "LOAN-162",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "The details should include:"
+  },
+  {
+    "id": "LOAN-163",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Insurance company, Policy date, Policy number, Asset covered, Risks covered, Insurance cover, Premium, Beneficiary Due date for renewal"
+  },
+  {
+    "id": "LOAN-164",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Provision to note Insurance cover/guarantee cover. Inspection"
+  },
+  {
+    "id": "LOAN-165",
+    "module": "Loan Processing",
+    "page": 35,
+    "text": "Support capturing dates of inspection customer-wise for both primary and collateral Page 36 of 112"
+  },
+  {
+    "id": "LOAN-166",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Support inputting of remarks/report of Inspecting officials/agencies (memo field)."
+  },
+  {
+    "id": "LOAN-167",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Provision to enter/upload remarks and Replies of audits like external, statutory, Concurrent, RBI, External"
+  },
+  {
+    "id": "LOAN-168",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Support capturing names of the officials/Agencies who conducted the inspections"
+  },
+  {
+    "id": "LOAN-169",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Provide for tracking the periodicity of Inspections with the periodicity of inspections specified in the Sanction Customer -wise for both primary and Collateral security"
+  },
+  {
+    "id": "LOAN-170",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Recording of inspection of assets"
+  },
+  {
+    "id": "LOAN-171",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Generation of letters/reports to customers/higher authorities about the Inspections of assets"
+  },
+  {
+    "id": "LOAN-172",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Inspection Details: Date of last inspection, Inspection Schedule. Asset Classification and Provisioning"
+  },
+  {
+    "id": "LOAN-173",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Support definition of norms for asset Classification and income recogn ition differently for each sector with provision to deal with restructured accounts as per terms of restructure"
+  },
+  {
+    "id": "LOAN-174",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Support auto classification of all loans into performing (including special watch accounts) and non- performing assets, based on user defined cri teria and RBI guidelines. support classification into NPA customer wise i.e., if one loan account is NPA, all loan accounts of the customer are to be marked as NPA."
+  },
+  {
+    "id": "LOAN-175",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Support manual over-ride facility for asset classification by authorized users with exception report"
+  },
+  {
+    "id": "LOAN-176",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Ability to identify and categorize assets into various categories such as standard, sub-standard, doubtful and loss assets based on multiple criteria"
+  },
+  {
+    "id": "LOAN-177",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Ability to trigger when there is a possibility of one or more criteria being met"
+  },
+  {
+    "id": "LOAN-178",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Store date on which the asset classification Changes from performing asset to non- performing asset"
+  },
+  {
+    "id": "LOAN-179",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Support automatic change of asset status (standard, sub -standard, etc.) based on user defined criteria after obtaining on screen confirmation from user"
+  },
+  {
+    "id": "LOAN-180",
+    "module": "Loan Processing",
+    "page": 36,
+    "text": "Provision to classify accounts as per Income recognition norms with calculation of interest and charges to be reversed and account accordingly Page 37 of 112 with report generation:"
+  },
+  {
+    "id": "LOAN-181",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Support separate calculation of interest Accruals for non-performing assets (NPAs) on an on-going basis"
+  },
+  {
+    "id": "LOAN-182",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Provision to maintain dummy account Ledger for NPA accounts/written off accounts. (A dummy ledger is one where notional entries are made without affecting any of the accounting heads)"
+  },
+  {
+    "id": "LOAN-183",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Provision to accrue in terest on dummy ledger accounts/written off accounts (off balance sheet item) without applying the same."
+  },
+  {
+    "id": "LOAN-184",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Provision to close dummy ledger on automatic upgrading of advance account"
+  },
+  {
+    "id": "LOAN-185",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Support compounding of interest at the user specified frequency for NPAs while computing Interest accrued"
+  },
+  {
+    "id": "LOAN-186",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Support maintenance of income suspense/interest not collected account"
+  },
+  {
+    "id": "LOAN-187",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Automatically calculate write -off/write back amount outstanding in specified NPA accounts based on user defined criteria"
+  },
+  {
+    "id": "LOAN-188",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Automatically calculate specific provisions based on user defined criteria and formulae"
+  },
+  {
+    "id": "LOAN-189",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Support creation of interest provisions and Receivables, based on accrued interest calculated"
+  },
+  {
+    "id": "LOAN-190",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Support maintenance of provision/receivable accounts separately for each account type separately"
+  },
+  {
+    "id": "LOAN-191",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Support application of interest by debit/credit to provisions/receivable accounts"
+  },
+  {
+    "id": "LOAN-192",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Support user defining calendar for reversal of outstanding in provision/receivable accounts"
+  },
+  {
+    "id": "LOAN-193",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Provision to reversal of interest out of recoveries, in the dummy ledger"
+  },
+  {
+    "id": "LOAN-194",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "The asset classification data should be available for future reference"
+  },
+  {
+    "id": "LOAN-195",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Provision to maintain income recognition norms for asset classification"
+  },
+  {
+    "id": "LOAN-196",
+    "module": "Loan Processing",
+    "page": 37,
+    "text": "Provision to appropriate recoveries to:"
+  },
+  {
+    "id": "LOAN-197",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Provision to record receipt of guarantee claims like ECGC/CGFSI and proportionate refund from recoveries/claim accounts"
+  },
+  {
+    "id": "LOAN-198",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Provision to generate reports of asset classification for any given date/back date"
+  },
+  {
+    "id": "LOAN-199",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Generate potential NPA (special watch) statements as per pre -defined norms/formats"
+  },
+  {
+    "id": "LOAN-200",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Provision to calculate un -recovered interest on newly identified NPA accounts"
+  },
+  {
+    "id": "LOAN-201",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Provision to define accounting entries for unrecovered interest amounts"
+  },
+  {
+    "id": "LOAN-202",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "System should check whe ther credit monitoring statement of large borrower accounts \u2013 Accounts with Rs. 10 Lakh and above (parameterisable) is generated:"
+  },
+  {
+    "id": "LOAN-203",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Debit and credit summations"
+  },
+  {
+    "id": "LOAN-204",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Overdue bills (Number and Amount)"
+  },
+  {
+    "id": "LOAN-205",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Excess/Ad hoc allowed, date of adjustment"
+  },
+  {
+    "id": "LOAN-206",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Details of guarantee invoked, etc. \u2022Indirect Lending"
+  },
+  {
+    "id": "LOAN-207",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Provision for Direct and Indirect Lending for loan product type"
+  },
+  {
+    "id": "LOAN-208",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Opening of a new account/authorization"
+  },
+  {
+    "id": "LOAN-209",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Modification of an existing account depending on status"
+  },
+  {
+    "id": "LOAN-210",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Closing of an existing account"
+  },
+  {
+    "id": "LOAN-211",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Calculation of interest and instalment amount based on instalment calculation method. Check list for release of subsequent instalment"
+  },
+  {
+    "id": "LOAN-212",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Calculation of due dates for instalment"
+  },
+  {
+    "id": "LOAN-213",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Diary creation for every account:"
+  },
+  {
+    "id": "LOAN-214",
+    "module": "Loan Processing",
+    "page": 38,
+    "text": "Provision of giving grace period and grace policy for every instalment or only in first instalment \u2022Interest application policies (on, when) \u2022Calculation of instalment amounts on different amounts (ledger balance, disburse amount, loan sanction) Page 39 of 112"
+  },
+  {
+    "id": "LOAN-215",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Methods for calculating instalment amount should be configurable (initial, monthly, half yearly, balloon, etc.)"
+  },
+  {
+    "id": "LOAN-216",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "System will calculate exact instalment amount depending on instalment calculation method \u2022System provides facility of giving moratorium period to loan account"
+  },
+  {
+    "id": "LOAN-217",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Diary will get created takin g in to consideration due date, instalment amount, moratorium, etc."
+  },
+  {
+    "id": "LOAN-218",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Different repayment modes are provided in system like daily, quarterly, monthly, bimonthly, half yearly, yearly, lump sum"
+  },
+  {
+    "id": "LOAN-219",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "In deposition, facility is given to account holder what he/she want to adjust first, any Interest or principal"
+  },
+  {
+    "id": "LOAN-220",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Depending on Interest charge frequency interest will get automatically posted to his Account."
+  },
+  {
+    "id": "LOAN-221",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Security of term loan detail recording. Prepayment/EMI guarantor for loan \u2013 detail recording"
+  },
+  {
+    "id": "LOAN-222",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Guarantor for loan \u2013 detail recording"
+  },
+  {
+    "id": "LOAN-223",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "System will keep track of account holder and his guarantors"
+  },
+  {
+    "id": "LOAN-224",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Partial Disbursement is allowed"
+  },
+  {
+    "id": "LOAN-225",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Facility of transferring term loan account from one branch to another. Re - scheduling/compromise settlement"
+  },
+  {
+    "id": "LOAN-226",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Loans for different types of loan produc ts (configurable) \u2013 House Building, Transport etc. loan to/SHG. Appraisal process, Interest terms, duration, payment terms, etc., are configurable parameters"
+  },
+  {
+    "id": "LOAN-227",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Provide for interfaces from RBI, other banks, Credit Information Bureau, for credit risk information/default status"
+  },
+  {
+    "id": "LOAN-228",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Integration with collateral management facilities for verification/entry of details of collateral"
+  },
+  {
+    "id": "LOAN-229",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Configurable alerting process (for staff and loan customers) for recovery"
+  },
+  {
+    "id": "LOAN-230",
+    "module": "Loan Processing",
+    "page": 39,
+    "text": "Configurable parameter for re-scheduling and restructuring loans."
+  }
+]

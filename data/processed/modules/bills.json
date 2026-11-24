@@ -1,0 +1,578 @@
+[
+  {
+    "id": "BILL-001",
+    "module": "Bills",
+    "page": 39,
+    "text": "Defining work flow requirements for authorizations based on hierarchy levels and amounts for different types of transactions"
+  },
+  {
+    "id": "BILL-002",
+    "module": "Bills",
+    "page": 39,
+    "text": "Unique reference number generated for each transaction should be a combination based on branch ID, type of transaction, currency and serial number Page 40 of 112"
+  },
+  {
+    "id": "BILL-003",
+    "module": "Bills",
+    "page": 40,
+    "text": "User should be able to define the order of this combination"
+  },
+  {
+    "id": "BILL-004",
+    "module": "Bills",
+    "page": 40,
+    "text": "To enable users to hold the captured data as an incomplete transaction and the same may be accepted or committed after all the fields are captured"
+  },
+  {
+    "id": "BILL-005",
+    "module": "Bills",
+    "page": 40,
+    "text": "To provide for creation of multi-level authorisation for the purpose of committing the transactions"
+  },
+  {
+    "id": "BILL-006",
+    "module": "Bills",
+    "page": 40,
+    "text": "To prompt the user before any transaction is committed"
+  },
+  {
+    "id": "BILL-007",
+    "module": "Bills",
+    "page": 40,
+    "text": "To provide for any entries in the accounts and the GL, only when the final authorities have approved the transaction"
+  },
+  {
+    "id": "BILL-008",
+    "module": "Bills",
+    "page": 40,
+    "text": "To support blocking either credits or debits or both in any account"
+  },
+  {
+    "id": "BILL-009",
+    "module": "Bills",
+    "page": 40,
+    "text": "To process all types of transactions and to provide for all types of facility to draw up the list of documents missing when the user is processing the transaction"
+  },
+  {
+    "id": "BILL-010",
+    "module": "Bills",
+    "page": 40,
+    "text": "In case of any discrepan cies during the validation of documents against the check list, the same should be forwarded to the next approving authority as per the workflow defined by the user"
+  },
+  {
+    "id": "BILL-011",
+    "module": "Bills",
+    "page": 40,
+    "text": "To enable creation of new transaction by copying an existing transaction with the facility to change all fields"
+  },
+  {
+    "id": "BILL-012",
+    "module": "Bills",
+    "page": 40,
+    "text": "Provide for linking of all transactions to day book, subsidiary and GL"
+  },
+  {
+    "id": "BILL-013",
+    "module": "Bills",
+    "page": 40,
+    "text": "To enable picking up of customer information for all transaction from the database"
+  },
+  {
+    "id": "BILL-014",
+    "module": "Bills",
+    "page": 40,
+    "text": "To provide capability to search a transaction based on various fields or a combin ation of fields such as customer ID, date of transaction/range of dates, due date, reference number, type of transaction, amounts, selection criteria defined by the user"
+  },
+  {
+    "id": "BILL-015",
+    "module": "Bills",
+    "page": 40,
+    "text": "To enable customisation of new products as and when introduced by the bank masters"
+  },
+  {
+    "id": "BILL-016",
+    "module": "Bills",
+    "page": 40,
+    "text": "Allow the user to define the desired fields as mandatory fields for all types of products. Interface with customer master module to capture customer details"
+  },
+  {
+    "id": "BILL-017",
+    "module": "Bills",
+    "page": 40,
+    "text": "Provide for keeping a record of directory of bank branches giving details like bank name, branch name, branch address, fax/telephone number, e -mail address, SWIFT address, contact person, BSR/PIN/CBS BRANCH/MICR/IFSC Number"
+  },
+  {
+    "id": "BILL-018",
+    "module": "Bills",
+    "page": 40,
+    "text": "Outward bills \u2013 cheque for collection"
+  },
+  {
+    "id": "BILL-019",
+    "module": "Bills",
+    "page": 40,
+    "text": "Provide reference number, date of lodg ing, name of the party/account number, Cheque/DD number wi th date, drawn on bank/branch with city, amount of cheque/instrument, drawee account no. and name, sent for collection to whom like service branch, our branch, other bank with address, commission, postage, returned instruments with reasons thereof"
+  },
+  {
+    "id": "BILL-020",
+    "module": "Bills",
+    "page": 40,
+    "text": "Provide for a separate head in P&L subsidiary \u2015 Interest paid account on delayed collection, Waiver of commission for staff and & quasi government bodies"
+  },
+  {
+    "id": "BILL-021",
+    "module": "Bills",
+    "page": 40,
+    "text": "Provide for printing \u2013 Different schedules for each type of destination along with Page 41 of 112 instructions for dispatch e.g. courier, speed post etc., single and multiple schedules bank-wise"
+  },
+  {
+    "id": "BILL-022",
+    "module": "Bills",
+    "page": 41,
+    "text": "Passing of contra voucher"
+  },
+  {
+    "id": "BILL-023",
+    "module": "Bills",
+    "page": 41,
+    "text": "Reminders for unrealized instruments beyond specified number of days"
+  },
+  {
+    "id": "BILL-024",
+    "module": "Bills",
+    "page": 41,
+    "text": "Realization of cheque sent for collection"
+  },
+  {
+    "id": "BILL-025",
+    "module": "Bills",
+    "page": 41,
+    "text": "Provide for payment of interest for delayed colle ction of cheques beyond specified period in respect of state capitals and other places as per Goiporia Committee recommendations \u2013 specified period to be parameterized separately for state capital and other places"
+  },
+  {
+    "id": "BILL-026",
+    "module": "Bills",
+    "page": 41,
+    "text": "Provide for realization register with the details like \u2013 date, our number, amount realized and amount credited, our commission, other bank's charges, postages, number of days taken for realization, interest for delayed period if any, returned instruments"
+  },
+  {
+    "id": "BILL-027",
+    "module": "Bills",
+    "page": 41,
+    "text": "Transfer from collection to purchase"
+  },
+  {
+    "id": "BILL-028",
+    "module": "Bills",
+    "page": 41,
+    "text": "To provide for authorization \u2013 details of credit to be given"
+  },
+  {
+    "id": "BILL-029",
+    "module": "Bills",
+    "page": 41,
+    "text": "To provide for separate schedule/code numbers"
+  },
+  {
+    "id": "BILL-030",
+    "module": "Bills",
+    "page": 41,
+    "text": "National clearing realization"
+  },
+  {
+    "id": "BILL-031",
+    "module": "Bills",
+    "page": 41,
+    "text": "Outward Bills for Collection Register"
+  },
+  {
+    "id": "BILL-032",
+    "module": "Bills",
+    "page": 41,
+    "text": "To provide for collection register with the details \u2013 Date of lodgment, our bill number, name of the party/account number, amount, drawee details, details of us sance/due date, our commission and collecting bank's charges, if any, postage, interest charges/recovered as per drawers instructions, details of documents enclosed like invoice, lorry/railway receipt/airway bill, etc. with date/number/amount, instruction to party (regarding commission, C form, overdue interest and disposal instructions), sent to whom for collection, details of bill returned"
+  },
+  {
+    "id": "BILL-033",
+    "module": "Bills",
+    "page": 41,
+    "text": "Register for a given period"
+  },
+  {
+    "id": "BILL-034",
+    "module": "Bills",
+    "page": 41,
+    "text": "Covering schedule along with necessary instructions."
+  },
+  {
+    "id": "BILL-035",
+    "module": "Bills",
+    "page": 41,
+    "text": "To provide reminders for unrealized bills after due date or parameterized period"
+  },
+  {
+    "id": "BILL-036",
+    "module": "Bills",
+    "page": 41,
+    "text": "To provide for register with details \u2013 Bill number, Name of party/account number, Date of realization, Amount realized and amount credited, Other Bank's charges, our commission/postages"
+  },
+  {
+    "id": "BILL-037",
+    "module": "Bills",
+    "page": 41,
+    "text": "To sense the bill from the bill number, date of lodgement and original bill amount"
+  },
+  {
+    "id": "BILL-038",
+    "module": "Bills",
+    "page": 41,
+    "text": "To provide for register with the details for cheque purchase \u2013 Date, our number, name of the party/account number, staff/non -staff, amount of cheque and Page 42 of 112 amount credited, cheque number and date (date to be validated), drawee bank/branch, to whom sent for collection, interest/commission/postage/other bank's charges, if any, date of realization"
+  },
+  {
+    "id": "BILL-039",
+    "module": "Bills",
+    "page": 42,
+    "text": "To generate covering schedule for dispatch including remittance and dispatch instructions on realization (e.g.TT/Courier) as also necessary vouchers and provide for charging of commission upfront"
+  },
+  {
+    "id": "BILL-040",
+    "module": "Bills",
+    "page": 42,
+    "text": "To generate reminders for unrealized cheques and maintenance of ledgers party wise"
+  },
+  {
+    "id": "BILL-041",
+    "module": "Bills",
+    "page": 42,
+    "text": "Realization of cheques purchased."
+  },
+  {
+    "id": "BILL-042",
+    "module": "Bills",
+    "page": 42,
+    "text": "To generate register with the details \u2013 Date of realization , our number, amount realized/credited, rate of interest, amount of interest, other bank's charges, column for returned instrument (to be debited to past due and dishonored bills account in case of insufficient funds in the party's account) with reasons thereof"
+  },
+  {
+    "id": "BILL-043",
+    "module": "Bills",
+    "page": 42,
+    "text": "To provide for entries for converting from:"
+  },
+  {
+    "id": "BILL-044",
+    "module": "Bills",
+    "page": 42,
+    "text": "Cheque purchase to cheque collection, returning of cheques with reasons thereof, charging of interest from day one with penal interest, our bill number, name of party/account number, bill amount/amount credited, margin held, drawee details, whether documentary or clean bill, details of demand bills (Demand bills purchased are to be shown separately in general ledger (GL) under inland bills purchased (Demand) account head), details of documents enclosed like invoice, lorry/railway receipt, airway bill, etc. , with date/number/amount/transport operator (validation of date of LR/RR with provision to override with exception report), our commission and collecting bank's charges if any, postage, interest charges/recovered, instruction to party (regarding commission, C form, overdue interest and disposal instructions), sent to whom for collection, date of realization, details of returned instrument (to be debited to past due and dishonored bills account in case of insufficient funds in the party's account) with reasons."
+  },
+  {
+    "id": "BILL-045",
+    "module": "Bills",
+    "page": 42,
+    "text": "Covering schedules for dispatch along with instructions of the drawers of the bill"
+  },
+  {
+    "id": "BILL-046",
+    "module": "Bills",
+    "page": 42,
+    "text": "To generate reminders based on instructions of the drawer in the schedule or after parameterized period to drawer and drawee/bank"
+  },
+  {
+    "id": "BILL-047",
+    "module": "Bills",
+    "page": 42,
+    "text": "Maintenance of Bills Purchase Register and Bills Purchase Ledger party wise"
+  },
+  {
+    "id": "BILL-048",
+    "module": "Bills",
+    "page": 42,
+    "text": "Maintenance of pointed account for margin held Page 43 of 112"
+  },
+  {
+    "id": "BILL-049",
+    "module": "Bills",
+    "page": 43,
+    "text": "To provide for register with the details \u2013 Bill number, amount purchased/realized, date of realization, overdue interest, amount, number of days, interest rate and penal rate"
+  },
+  {
+    "id": "BILL-050",
+    "module": "Bills",
+    "page": 43,
+    "text": "Provide for realization register and vouchers along with advice for party"
+  },
+  {
+    "id": "BILL-051",
+    "module": "Bills",
+    "page": 43,
+    "text": "To provide for two fields for interest calculation upfront at the time of realisation"
+  },
+  {
+    "id": "BILL-052",
+    "module": "Bills",
+    "page": 43,
+    "text": "To provide for penal interest at the time of overdue bills realization"
+  },
+  {
+    "id": "BILL-053",
+    "module": "Bills",
+    "page": 43,
+    "text": "To generate register with the details: Date of purchase, bill number and bill date, name of the party/account number, amount, drawee, details of B/E, number of days of usance period and due date, details of documents enclosed like invoice, lorry/railway receipt, airway bill, etc. with date/numb er/amount/transport operator (validation of date of LR/RR with provision to override with exception report), discount, amount of discount, commission/postage, date of realization, margin deducted, details of returned instrument (to be debited to past due and dishonored bills account in case of insufficient funds in the party's account) with reasons thereof"
+  },
+  {
+    "id": "BILL-054",
+    "module": "Bills",
+    "page": 43,
+    "text": "To generate schedule for dispatch along with instructions"
+  },
+  {
+    "id": "BILL-055",
+    "module": "Bills",
+    "page": 43,
+    "text": "Maintenance of Bills Discounted Register and Bills Discounted Ledger party wise"
+  },
+  {
+    "id": "BILL-056",
+    "module": "Bills",
+    "page": 43,
+    "text": "Maintenance of pointed account for margin held"
+  },
+  {
+    "id": "BILL-057",
+    "module": "Bills",
+    "page": 43,
+    "text": "Maintenance of list of IBA approved transport operators and validation thereof while purchasing bills"
+  },
+  {
+    "id": "BILL-058",
+    "module": "Bills",
+    "page": 43,
+    "text": "To generate reminders one week before due date to drawer and drawee/bank"
+  },
+  {
+    "id": "BILL-059",
+    "module": "Bills",
+    "page": 43,
+    "text": "Realisation of discounted bills"
+  },
+  {
+    "id": "BILL-060",
+    "module": "Bills",
+    "page": 43,
+    "text": "To provide for r egister with the details: Date of realization, name of the party/account number, amount of bill and amount realized, number of days, rate of interest, overdue interest, penal interest, margin deducted, details of returned instrument (to be debited to past due and dishonoured bills account in case of insufficient funds in the party's account) with reasons thereof"
+  },
+  {
+    "id": "BILL-061",
+    "module": "Bills",
+    "page": 43,
+    "text": "To generate realisation register"
+  },
+  {
+    "id": "BILL-062",
+    "module": "Bills",
+    "page": 43,
+    "text": "Inward cheques and bills received for collection"
+  },
+  {
+    "id": "BILL-063",
+    "module": "Bills",
+    "page": 43,
+    "text": "To provide for register with the details: Our number, date, their number, name of our customer/drawee, bill number/cheque number and date (date to be validated in case of cheque), amount, from whom received with address \u2013 (a) from branches"
+  },
+  {
+    "id": "BILL-064",
+    "module": "Bills",
+    "page": 43,
+    "text": "from others \u2013 the contra entries with respect to these two categories are to be shown separately in GL: Their commission and interest, our commission and postage, details of documents enclosed like invoice, lorry/railway receipt, airway bill, etc., with date/number/amount/transport operator (validation of date of Page 44 of 112 LR/RR with provisi on to override with exception report), due date, instruments returned with reasons thereof. Drawee-in-need is to be referred before return of instrument. Details of drawee-in-need to be captured while registering bill"
+  },
+  {
+    "id": "BILL-065",
+    "module": "Bills",
+    "page": 44,
+    "text": "Provide for register, schedule, presen tation memo incorporating instruction from the drawer including commission, interest details, mode of remitting realisation proceeds, etc."
+  },
+  {
+    "id": "BILL-066",
+    "module": "Bills",
+    "page": 44,
+    "text": "To generate contra vouchers"
+  },
+  {
+    "id": "BILL-067",
+    "module": "Bills",
+    "page": 44,
+    "text": "To generate reminders on overdue bills to both drawer/collecting bank and drawee"
+  },
+  {
+    "id": "BILL-068",
+    "module": "Bills",
+    "page": 44,
+    "text": "Realization of inward bills"
+  },
+  {
+    "id": "BILL-069",
+    "module": "Bills",
+    "page": 44,
+    "text": "To generate register with details: Date, name of customer/drawer/drawee, branch, Amount of bill, Amount remitted, bank's commission including charges on post parcels if any and postage /their charges, Interest details including number of days and rate of interest."
+  },
+  {
+    "id": "BILL-070",
+    "module": "Bills",
+    "page": 44,
+    "text": "To generate realisation register and contra voucher and remittance of proceeds as per instructions of drawer/bank. System should prepare DD in case of cheques / bills received other than from our own branches. In case of our own branches system should prepare IBCN. The amount to be remitted should be based on the instructions of the drawer"
+  },
+  {
+    "id": "BILL-071",
+    "module": "Bills",
+    "page": 44,
+    "text": "Immediate credit of outstation cheques"
+  },
+  {
+    "id": "BILL-072",
+    "module": "Bills",
+    "page": 44,
+    "text": "Provide for register with the details: Date of lodgment , bank number, name of party, account type and account number, cheque number, date, amount, to whom sent for collection, date of realization/return, commission and other bank charges if any, postages."
+  },
+  {
+    "id": "BILL-073",
+    "module": "Bills",
+    "page": 44,
+    "text": "Provide for validation only for individual accounts and account should have been operative at least for preceding six months"
+  },
+  {
+    "id": "BILL-074",
+    "module": "Bills",
+    "page": 44,
+    "text": "To provide for periodicals reference code wise"
+  },
+  {
+    "id": "BILL-075",
+    "module": "Bills",
+    "page": 44,
+    "text": "Statement of overdue inward and outward bills/cheques separa tely. Generation of statement of overdue bills purchased/discounted to be submitted to controlling office"
+  },
+  {
+    "id": "BILL-076",
+    "module": "Bills",
+    "page": 44,
+    "text": "Advance against Bills in Course of Collection"
+  },
+  {
+    "id": "BILL-077",
+    "module": "Bills",
+    "page": 44,
+    "text": "Name of the customer/party"
+  },
+  {
+    "id": "BILL-078",
+    "module": "Bills",
+    "page": 44,
+    "text": "Date of sanction Page 45 of 112"
+  },
+  {
+    "id": "BILL-079",
+    "module": "Bills",
+    "page": 45,
+    "text": "To generate regist er with the details: Date of lodgement, bill no., name of the customer/drawer, branch of bank/branch/agency on whom it is drawn, amount of bill, drawee details"
+  },
+  {
+    "id": "BILL-080",
+    "module": "Bills",
+    "page": 45,
+    "text": "Due date/details of usance"
+  },
+  {
+    "id": "BILL-081",
+    "module": "Bills",
+    "page": 45,
+    "text": "Our commission and collecting bank's charges"
+  },
+  {
+    "id": "BILL-082",
+    "module": "Bills",
+    "page": 45,
+    "text": "Interest charges/recovered as per drawer's instructions either from drawer/drawee"
+  },
+  {
+    "id": "BILL-083",
+    "module": "Bills",
+    "page": 45,
+    "text": "Whether documentary/clean bill."
+  },
+  {
+    "id": "BILL-084",
+    "module": "Bills",
+    "page": 45,
+    "text": "Details of documents enclosed like invoice, lorry/railway receipts/airway bill, etc. with date/number/amount/Transport Operator (validation of date of LR/RR with provision to override with exception report)"
+  },
+  {
+    "id": "BILL-085",
+    "module": "Bills",
+    "page": 45,
+    "text": "Details of usance/due date"
+  },
+  {
+    "id": "BILL-086",
+    "module": "Bills",
+    "page": 45,
+    "text": "Commission and collecting bank's charges if any"
+  },
+  {
+    "id": "BILL-087",
+    "module": "Bills",
+    "page": 45,
+    "text": "Interest charges/recovered as per drawer's instructions"
+  },
+  {
+    "id": "BILL-088",
+    "module": "Bills",
+    "page": 45,
+    "text": "Instruction to party (regarding commission, C form, overdue interest and disposal instructions)"
+  },
+  {
+    "id": "BILL-089",
+    "module": "Bills",
+    "page": 45,
+    "text": "To whom sent for collection and city"
+  },
+  {
+    "id": "BILL-090",
+    "module": "Bills",
+    "page": 45,
+    "text": "Amount realized and amount credited"
+  },
+  {
+    "id": "BILL-091",
+    "module": "Bills",
+    "page": 45,
+    "text": "Details of returned bills/instruments (to be debited to past due and dishonored bills)"
+  },
+  {
+    "id": "BILL-092",
+    "module": "Bills",
+    "page": 45,
+    "text": "Account in case of insufficient funds in the party's account) with reasons."
+  },
+  {
+    "id": "BILL-093",
+    "module": "Bills",
+    "page": 45,
+    "text": "Provide for generating \u2013 (a) register (b) covering schedules for dispatch along with instructions of the drawers of the bill (c) vouchers and (d) party wise ledger (e) control vouchers"
+  },
+  {
+    "id": "BILL-094",
+    "module": "Bills",
+    "page": 45,
+    "text": "To generate reminders based on instructions of the drawer in the schedule or after parameterised period to drawer and drawee/bank"
+  },
+  {
+    "id": "BILL-095",
+    "module": "Bills",
+    "page": 45,
+    "text": "To generate realization register"
+  },
+  {
+    "id": "BILL-096",
+    "module": "Bills",
+    "page": 45,
+    "text": "To generate decontrol vouchers. Page 46 of 112"
+  }
+]

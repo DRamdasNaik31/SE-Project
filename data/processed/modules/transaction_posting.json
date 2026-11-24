@@ -1,0 +1,608 @@
+[
+  {
+    "id": "TXN-001",
+    "module": "Transaction Posting",
+    "page": 55,
+    "text": "Provide capability to enquire in real time the status of the transaction and track its progress throughout its life history, e.g. entered, but not yet submitted for approval, waiting for approval, waiting for limit checking, etc."
+  },
+  {
+    "id": "TXN-002",
+    "module": "Transaction Posting",
+    "page": 55,
+    "text": "Allow generation of a unique reference number for each transaction"
+  },
+  {
+    "id": "TXN-003",
+    "module": "Transaction Posting",
+    "page": 55,
+    "text": "Transfer from CBS branch to CBS branch to be allowed without charging any penalty and vice versa"
+  },
+  {
+    "id": "TXN-004",
+    "module": "Transaction Posting",
+    "page": 55,
+    "text": "Provide for a utomatic generation of entries/transactions based on duly authenticated/authorized structured messages between CBS and external SFMS RTGS/NEFT gateway at member bank branch, DEMAT internet, etc."
+  },
+  {
+    "id": "TXN-005",
+    "module": "Transaction Posting",
+    "page": 55,
+    "text": "Provide for alerts based on pre -defined frequency for monitor ing of due dates and Page 56 of 112 maturity lists for time deposits, payments, repayments, sanctions, collaterals, insurance, loan instalments, loan documents etc."
+  },
+  {
+    "id": "TXN-006",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "While transacting, throw an alert if the account is KYC non-compliant"
+  },
+  {
+    "id": "TXN-007",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for generation of Debit Note Issued"
+  },
+  {
+    "id": "TXN-008",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for generation of clearing register based on clearing type and batch number"
+  },
+  {
+    "id": "TXN-009",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for generation of advices and vouchers"
+  },
+  {
+    "id": "TXN-010",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Support generation of auto referral to the authorized persons in case of insufficient funds"
+  },
+  {
+    "id": "TXN-011",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for Trigger/Alert on Transaction in Minor accounts on Minor Turning Major"
+  },
+  {
+    "id": "TXN-012",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for value dated transactions, which result in a change in the end -of-day account balance and / or targeted to an account linked to a tiered interest rate structure. These should be flagged as exceptions' and processed via the end -of-day interest recalculation program"
+  },
+  {
+    "id": "TXN-013",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for capture and automatic processing of account operating instructions (Standing Instructions) of different types including but not limited to: for fixed amount fixed period, for variable amount, for variable amount with limit, for variable frequency, Event driven"
+  },
+  {
+    "id": "TXN-014",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for retrieval of customer information required by the product (for asset as well as liability products) e.g. all deposit products or all credit products subscribed to by a customer"
+  },
+  {
+    "id": "TXN-015",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for assigning and usage of specific accounting vouchers (documents) for specific types of transactions"
+  },
+  {
+    "id": "TXN-016",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Automatically generate and assign sequential numbers to accounting documents for each document type independently for:"
+  },
+  {
+    "id": "TXN-017",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Support changes to only selective fields of posted documents while allowing for changes to all fields of documents put on-hold"
+  },
+  {
+    "id": "TXN-018",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Provide for automatic reversal of accounting document:"
+  },
+  {
+    "id": "TXN-019",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Collectively based on, but not limited to, parameters like document type, accounting entity, document reference number, location, user, etc."
+  },
+  {
+    "id": "TXN-020",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Support capture of reason for every reversal"
+  },
+  {
+    "id": "TXN-021",
+    "module": "Transaction Posting",
+    "page": 56,
+    "text": "Ensure that reversal transactions do not affect the analysis of accoun ts for the purpose of MIS (e.g. a debit into an account and its reversal by a credit entry should Page 57 of 112 not be considered while reporting movements i.e. additions' and reductions' to the account during the period) but reversals should be included in audit trail"
+  },
+  {
+    "id": "TXN-022",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide for creating recurring entries that allocates one amount to multiple accounts based on user-definable ratios"
+  },
+  {
+    "id": "TXN-023",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide for setting of starting and ending date, period/year for recurring entries."
+  },
+  {
+    "id": "TXN-024",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide for automatic/scheduled processing of recurring /repetitive documents for user definable dates and period e.g. monthly, bi-monthly, quarterly, etc."
+  },
+  {
+    "id": "TXN-025",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide for automatic recasting of balance in the main account whenever a transaction is posted in the sub-ledger account"
+  },
+  {
+    "id": "TXN-026",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Support restriction of direct postings to main accounts where sub -ledger account is maintained"
+  },
+  {
+    "id": "TXN-027",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Allow selecting desired general ledger accounts (such as employee loan accounts, travel advance, etc.) to provide similar functionality for clearing of open debit and credit transactions within the general ledger account"
+  },
+  {
+    "id": "TXN-028",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide for defining for each account (which is chosen to offer the clearing functionality) what should be the nature of the originating transaction (debit or credit) and what should be the nature of clearing transaction (corresponding credit or debit)"
+  },
+  {
+    "id": "TXN-029",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "The system should enforce the definition"
+  },
+  {
+    "id": "TXN-030",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Allow for defining account level rules to automatically charge-off tolerable differences (user-definable and based on definable authorizations) to specific accounts while clearing open unbalanced debit and credit transactions"
+  },
+  {
+    "id": "TXN-031",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Allow definition of rules for automatic processing (clearing) of open transactions in batches. The definition of rules should allow combination of various selection parameters like, but not limited to:"
+  },
+  {
+    "id": "TXN-032",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Accounting entity, S pecific GL account, Definable set of GL accounts, Branch/Location, Group of Branches, Nature of transaction, Definable set of Document types, any of the reference number fields, amount"
+  },
+  {
+    "id": "TXN-033",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide for alerts for duplicate vouchers based on a combination of the following:"
+  },
+  {
+    "id": "TXN-034",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide standard fields for recording of narration at the following levels:"
+  },
+  {
+    "id": "TXN-035",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Provide for capture of following dates per transaction (with automatic update by system wherever possible), but not limited to:"
+  },
+  {
+    "id": "TXN-036",
+    "module": "Transaction Posting",
+    "page": 57,
+    "text": "Date (and time) of preparing the document Page 58 of 112"
+  },
+  {
+    "id": "TXN-037",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Date (and time) of authorizing the document"
+  },
+  {
+    "id": "TXN-038",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Date (and time) when document was changed"
+  },
+  {
+    "id": "TXN-039",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Date of reference document if any"
+  },
+  {
+    "id": "TXN-040",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Date when document was reversed"
+  },
+  {
+    "id": "TXN-041",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Date of exchange rate used for foreign currency translation."
+  },
+  {
+    "id": "TXN-042",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Support defining rules for automatically calculating and accounting for, but not limited to:"
+  },
+  {
+    "id": "TXN-043",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Difference on clearing unbalanced open items, exchange rate difference postings (at the time of clearance of open transactions), Income Tax (payable as well as recoverable), Service Tax, Sales Tax, Purchase Tax, Cash Discounts, Interest on over-due amounts, Service Charges."
+  },
+  {
+    "id": "TXN-044",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Ensure correct on-line generation of automatic entries based on defined rules at the time of data-entry or batch update itself"
+  },
+  {
+    "id": "TXN-045",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Accounts Receivable/Accounts Payable:"
+  },
+  {
+    "id": "TXN-046",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Provide definition of sub-ledgers for desired main ledger accounts"
+  },
+  {
+    "id": "TXN-047",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Allow linking of multiple sub -ledger accounts (receivables as well as payables) within the accounting entity to behave as one account"
+  },
+  {
+    "id": "TXN-048",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Support definition of following codes and their assigning to specific sub -ledger accounts (valid across receivable as well as payable accounts)"
+  },
+  {
+    "id": "TXN-049",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Provide alerts for remitting/payment of taxes to concerned authorities at predefined periods"
+  },
+  {
+    "id": "TXN-050",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Provide ability to post miscellaneous receivable and payable transactions such as:"
+  },
+  {
+    "id": "TXN-051",
+    "module": "Transaction Posting",
+    "page": 58,
+    "text": "Receivables: Service Charges/Commission/Rent e.g. from Fund Transfer, Agency, Lockers, Sale of assets, Down payments/Advance payments, Security Deposits (e.g. rent, telephone, electricity etc.), Adjustment journals (e.g. exchange rate difference etc.) Inter-unit reconciliation entries, Receipts (manual as well as through electronic mode), Payments (refunds), Income Tax, Service Tax/Any other Tax. Page 59 of 112"
+  },
+  {
+    "id": "TXN-052",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Bills Payables : Bidder/Lead Partner invoice, Debit/Credit notes to Bidder/Lead Partner, Down payments/Advance payments, Adjustment journals (e.g. rebate on bills, amortized discounts, provisions, exchange rate difference etc.), Payments (manual as well as automatic, including electronic mode), Receipts (refunds), Employee related payments, Withholding Tax (including automatic printing of tax certificates), Service Tax (including automatic printing of tax certificates), Inter -Unit reconciliation of accounts, Specific/Part reversal of entries."
+  },
+  {
+    "id": "TXN-053",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Provide for generation/printing of, including but not limited to:"
+  },
+  {
+    "id": "TXN-054",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Payment Advice/Receipt Advice."
+  },
+  {
+    "id": "TXN-055",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Correspondence based on account balance, un -cleared transactions, payment made, amount received, etc."
+  },
+  {
+    "id": "TXN-056",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Accounts analysis (based on due dates, etc.)"
+  },
+  {
+    "id": "TXN-057",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Managing receivables and payables:"
+  },
+  {
+    "id": "TXN-058",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Provide support for complete tracking of receivables, through one visual/printable interface, with regard to:"
+  },
+  {
+    "id": "TXN-059",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Date of receipt of payment"
+  },
+  {
+    "id": "TXN-060",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Date when deposited with bank"
+  },
+  {
+    "id": "TXN-061",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Provide support for complete tracking of payables, through one visual/printable interface, with regard to:"
+  },
+  {
+    "id": "TXN-062",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Accounting of the Invoice"
+  },
+  {
+    "id": "TXN-063",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Approval of Invoice for payment"
+  },
+  {
+    "id": "TXN-064",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Due date and other terms of payment."
+  },
+  {
+    "id": "TXN-065",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Date of printing of payment instrument/instruction"
+  },
+  {
+    "id": "TXN-066",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Date of release of payment"
+  },
+  {
+    "id": "TXN-067",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Date of realization of payment"
+  },
+  {
+    "id": "TXN-068",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Facilitate automatic payments based on user definable payment terms using following parameters, but not limited to:"
+  },
+  {
+    "id": "TXN-069",
+    "module": "Transaction Posting",
+    "page": 59,
+    "text": "Payment method (e.g. cheque, transfer, etc.) preferred for the Payee/Bidder/Lead Partner Page 60 of 112"
+  },
+  {
+    "id": "TXN-070",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Bank account from which payment may be made (based on definable authorizations specific to a branch/location)."
+  },
+  {
+    "id": "TXN-071",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Facilities for \u2015copy of the last transaction"
+  },
+  {
+    "id": "TXN-072",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Single Debit with multiple credits & Multiple debits with single credit"
+  },
+  {
+    "id": "TXN-073",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Support generation of single payment for multiple transaction, cutting across one or more receivable, payable or general ledger accounts"
+  },
+  {
+    "id": "TXN-074",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Provide support for recording of:"
+  },
+  {
+    "id": "TXN-075",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Cancelled cheques / other instruments"
+  },
+  {
+    "id": "TXN-076",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "For payments made, provide support for automatic recording and accounting for: collection charges, service charges or any other charges."
+  },
+  {
+    "id": "TXN-077",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Ensure automatic reversal of accounting documents in the event of, but not limited to:"
+  },
+  {
+    "id": "TXN-078",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Cancelled cheques/other instruments"
+  },
+  {
+    "id": "TXN-079",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Allow user to update cheque inventory only for select bank accounts based on definable authorizations"
+  },
+  {
+    "id": "TXN-080",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Provide for querying/printing of cheque register for individual bank accounts based on definable authorizations"
+  },
+  {
+    "id": "TXN-081",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Provision of automatically printing of correspondence for payment made/amount received to any one or combination of the following:"
+  },
+  {
+    "id": "TXN-082",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Provide fully functional interface for affecting inter -branch/location, inter -bank accounts funds transfer with complete integration with general ledger functionality"
+  },
+  {
+    "id": "TXN-083",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Support reconciliation of bank accounts using bank statements inputs either as:"
+  },
+  {
+    "id": "TXN-084",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Online manual entry, or upload of flexible structure soft file (different for each bank or bank account)"
+  },
+  {
+    "id": "TXN-085",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Support automation of bank reconciliation based on combination of following filter parameters, but not limited to:"
+  },
+  {
+    "id": "TXN-086",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Transaction code (e.g. Inward clearing, Outward clearing, Service charges, Interest, etc.)"
+  },
+  {
+    "id": "TXN-087",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Bank/Branch code/MICR code"
+  },
+  {
+    "id": "TXN-088",
+    "module": "Transaction Posting",
+    "page": 60,
+    "text": "Date of transaction Page 61 of 112"
+  },
+  {
+    "id": "TXN-089",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Amount. Standing Instructions"
+  },
+  {
+    "id": "TXN-090",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Periodical Standing Instructions to be executed at the time of Day Begin/Midday/ End of day, with provision to execute during working hours also at higher authorization level"
+  },
+  {
+    "id": "TXN-091",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Provide flexibility for setting up and processing any type of standing instructions as and when required with different parameters including but not limited to: Fixed Amount/Fixed Period/Variable amount/Variable amount with limit/Variable frequency/Event driven/Maintenance of balance (e.g. keeping a balance of Rs. 5,000/-, remaining amount to be transferred to another account)"
+  },
+  {
+    "id": "TXN-092",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Provide a facility to allow carry forward of the standing instructions, for some user definable period, till the condition for processing the standing instruction is met or number of attempts made (should be flagged off as exceptions)"
+  },
+  {
+    "id": "TXN-093",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Provide for recovery of charge Rs. X per failed attempt"
+  },
+  {
+    "id": "TXN-094",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Provide capability to automatically cancel the standing instruction for the current cycle if it has been carried forward for more than the predefined number of attempts (to be defined as a parameter) with generation of a report for advising the customer"
+  },
+  {
+    "id": "TXN-095",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Provide facility to add/modify/delete/display/print a standing instruction"
+  },
+  {
+    "id": "TXN-096",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Allow for sweep option to transf er amounts from SB/CA accounts when the balance exceeds the limit set and create FDs with such amounts and credit back to relative SB/CA account, on FIFO or LIFO basis, one or more of such FDs executing premature payment whenever required (sweep facility)."
+  },
+  {
+    "id": "TXN-097",
+    "module": "Transaction Posting",
+    "page": 61,
+    "text": "Provide for stopping execution of standing instructions of a customer upon his death. Similarly, Power of Attorney / authorization given by a customer to operate his account also becomes legally void upon his death. Page 62 of 112 Minimum Balance Requirements"
+  },
+  {
+    "id": "TXN-098",
+    "module": "Transaction Posting",
+    "page": 62,
+    "text": "Allow defining of minimum balance based on the following but not limited to:"
+  },
+  {
+    "id": "TXN-099",
+    "module": "Transaction Posting",
+    "page": 62,
+    "text": "Customer type e.g. Staff, Pensioner, Individual, Firms and Companies, etc."
+  },
+  {
+    "id": "TXN-100",
+    "module": "Transaction Posting",
+    "page": 62,
+    "text": "Cheque facility available (SB account)"
+  },
+  {
+    "id": "TXN-101",
+    "module": "Transaction Posting",
+    "page": 62,
+    "text": "Cheque facility not available (SB account)."
+  }
+]

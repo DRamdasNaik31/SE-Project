@@ -1,0 +1,158 @@
+[
+  {
+    "id": "CASH-001",
+    "module": "Cash Department at Branch",
+    "page": 23,
+    "text": "\u2022Provide facility to define functions/operations, which can be performed by each teller/cashier \u2022Support limits for tellers based on: \u2022Type of accounts, Type of transactions, Amount of transactions \u2022Teller/Cashier Operation \u2022Provide facility for the teller to view customer's signature on screen for verification and account operating instructions \u2022Provide teller functions in local currency (Indian Rupees) as well as foreign currencies \u2022Support exchange of currency, denomination -wise, between two or more tellers/cashiers and head cashier \u2022Support tendering of change to customer, denomination-wise \u2022Support payment of cash for demand drafts, pay orders, bank orders, traveler's cheques, etc. \u2022Provide for issue/printing of drafts, pay orders, bank orders, etc. by the teller \u2022Cashier Operations: Cashier to be able to query/call on terminal-only cash transactions already authorized for payment, pay cash, enter denominations and flag transaction"
+  },
+  {
+    "id": "CASH-002",
+    "module": "Cash Department at Branch",
+    "page": 23,
+    "text": "Provide for enquiry on cash on hand and denominations to monitor cash"
+  },
+  {
+    "id": "CASH-003",
+    "module": "Cash Department at Branch",
+    "page": 23,
+    "text": "Provide for enquiring on status of transactions, whether entered, already authorized, etc., based on amount, account number and type, etc."
+  },
+  {
+    "id": "CASH-004",
+    "module": "Cash Department at Branch",
+    "page": 23,
+    "text": "Generation of cash scrolls, payment and receipt for end-of-day handing over of cash to Chief/Head Cashier/Cashier-in-Charge. Page 24 of 112"
+  },
+  {
+    "id": "CASH-005",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Chief/Head Cashier Operations"
+  },
+  {
+    "id": "CASH-006",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Support facility to record open/close status of vault"
+  },
+  {
+    "id": "CASH-007",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Support automatic verification of Cash-on-Hand position (as per GL) at end-of-day (EOD) with EOD cash inventory position and pop -up message in case of discrepancy. (EOD to be allowed to go ahead only if there is no difference)"
+  },
+  {
+    "id": "CASH-008",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Should allow for a teller function and a cashier function optionally"
+  },
+  {
+    "id": "CASH-009",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Cashier should be able to receive/pay amounts with authorizati ons. At least two levels of authorizations must be provided for"
+  },
+  {
+    "id": "CASH-010",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "There should be a provision for storing a token number and scroll number for each cash payment/cash receipt."
+  },
+  {
+    "id": "CASH-011",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Provide a facility for cash deposit to all permitted account types for credit of accounts across all CBS branches. (subject to user defined charges over and above redefined limit of cash deposit)"
+  },
+  {
+    "id": "CASH-012",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Provide for cash handling charges on User defined parameters."
+  },
+  {
+    "id": "CASH-013",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Support cheque deposit (and their classification for the purpose of printing of statements and monitoring) of the following types:"
+  },
+  {
+    "id": "CASH-014",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Cheque drawn on another customer of same branch, cheque drawn on another customer of s ame bank but different branch, cheque drawn on another customer of another bank in the s ame city, cheque drawn on another customer of another bank in different cities."
+  },
+  {
+    "id": "CASH-015",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Enable cash withdrawal from specified account type using withdrawal slips/vouchers."
+  },
+  {
+    "id": "CASH-016",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Allow withdrawal of cash using cheques as well as payment of DDs, POs, BOs (in case of DDs, POs, BOs and term deposit accounts a predefined limit should be fixed for cash payment; say Rs. 20000/-)"
+  },
+  {
+    "id": "CASH-017",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Allow cash withdrawal across branches and validate for cheque number, cheque date, stop payments in case cheques are used for withdrawals."
+  },
+  {
+    "id": "CASH-018",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Data Input for Teller Operations"
+  },
+  {
+    "id": "CASH-019",
+    "module": "Cash Department at Branch",
+    "page": 24,
+    "text": "Provide facility to enter transaction (e.g. Cheques) in batch mode or single Page 25 of 112 transaction mode"
+  },
+  {
+    "id": "CASH-020",
+    "module": "Cash Department at Branch",
+    "page": 25,
+    "text": "Support input of transactions affecting internal accounts like Cash- Remittance-in Transit, Working Expenses, Sundry Debtors, Rent Payable, etc."
+  },
+  {
+    "id": "CASH-021",
+    "module": "Cash Department at Branch",
+    "page": 25,
+    "text": "Allow authorization of inputs, when done for a batch, only when the batch is balanced. Support for unbalanced batches based on entry/partial updation, etc. in case of problems during entry/updation"
+  },
+  {
+    "id": "CASH-022",
+    "module": "Cash Department at Branch",
+    "page": 25,
+    "text": "Allow marking of transactions as reverse d (rather than passing contra entry to cancel the erroneous entry) which should be captured in exception report"
+  },
+  {
+    "id": "CASH-023",
+    "module": "Cash Department at Branch",
+    "page": 25,
+    "text": "Support functionality to allow access to the above -mentioned facility only to predefined users"
+  },
+  {
+    "id": "CASH-024",
+    "module": "Cash Department at Branch",
+    "page": 25,
+    "text": "Support facility to authorize multiple transactio ns using a single function with overrides if any for transactions. Any overrides should be captured in exception report."
+  },
+  {
+    "id": "CASH-025",
+    "module": "Cash Department at Branch",
+    "page": 25,
+    "text": "Printing of passbook, statement, DD and pay order at teller counter"
+  },
+  {
+    "id": "CASH-026",
+    "module": "Cash Department at Branch",
+    "page": 25,
+    "text": "Passbook layouts and transactions should be user-definable."
+  }
+]

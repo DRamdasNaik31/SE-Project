@@ -1,0 +1,110 @@
+[
+  {
+    "id": "CCOD-001",
+    "module": "Cash Credit and Overdraft",
+    "page": 25,
+    "text": "\u2022Appraisal for CC/OD. Fields to be captured are: Recording date, date of membership, Validity date, Sanctioned Limit, Fixation/Calculation of limits, margin, drawing power \u2022Should go through regular account opening process. Chequebook related functionality and other facilities and regulations available for an account \u2022Monitoring of the CC/OD account. Max. outgoing/Min. outgoing/Credit Balances number recording with ref. date \u2022Facility to upload appraisal related documentation. Details reg arding the security furnished \u2022Closing of an existing account \u2022Recording and posting of debit entries \u2022Recording and posting of credit entries \u2022Calculation and debiting of interest \u2022Accepts the relevant information of CC/OD application form"
+  },
+  {
+    "id": "CCOD-002",
+    "module": "Cash Credit and Overdraft",
+    "page": 25,
+    "text": "Cash deposit with scroll number"
+  },
+  {
+    "id": "CCOD-003",
+    "module": "Cash Credit and Overdraft",
+    "page": 25,
+    "text": "Provides input for RBI specifications viz. margin applicable industry-wise"
+  },
+  {
+    "id": "CCOD-004",
+    "module": "Cash Credit and Overdraft",
+    "page": 25,
+    "text": "Records information from the monthly stock statement"
+  },
+  {
+    "id": "CCOD-005",
+    "module": "Cash Credit and Overdraft",
+    "page": 25,
+    "text": "Provides input for RBI specified penal interest for late submission of stock statements, etc. Page 26 of 112"
+  },
+  {
+    "id": "CCOD-006",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "MPBF, limit and drawing power"
+  },
+  {
+    "id": "CCOD-007",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Details of the securities provided with reference to the valuation and date"
+  },
+  {
+    "id": "CCOD-008",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Modification to value of security, if any"
+  },
+  {
+    "id": "CCOD-009",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Allows modifications to an account and only with the authority"
+  },
+  {
+    "id": "CCOD-010",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Application for modification with relevant details"
+  },
+  {
+    "id": "CCOD-011",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Allows withdrawal by cheque, standing instructions and internal voucher signed by an Officer"
+  },
+  {
+    "id": "CCOD-012",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Records date and scroll of the transaction"
+  },
+  {
+    "id": "CCOD-013",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Allows deposit to the account through cheque, cash, remittance, standing instruction and internal transfer signed by an Officer"
+  },
+  {
+    "id": "CCOD-014",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Allows modification of interest rates for past quarter"
+  },
+  {
+    "id": "CCOD-015",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Accepts parameter details for charging the cheque return"
+  },
+  {
+    "id": "CCOD-016",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Provides facility for classifying assets, provisioning and upgradation"
+  },
+  {
+    "id": "CCOD-017",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Allows freezing and de-freezing of accounts with earmarking."
+  },
+  {
+    "id": "CCOD-018",
+    "module": "Cash Credit and Overdraft",
+    "page": 26,
+    "text": "Provide for re-setting interest rates in case of floating rate loans"
+  }
+]

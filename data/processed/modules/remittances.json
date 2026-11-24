@@ -1,0 +1,680 @@
+[
+  {
+    "id": "REM-001",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Remittance transactions involve funds transfer which will include and is not restricted to: Demand Draft, Pay Order, Bank Order, Electronic Fund Transfer, (in local and foreign Currency), RTGS, NEFT. This includes inward and outward remittance"
+  },
+  {
+    "id": "REM-002",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Allow remittance for customers and non-customers"
+  },
+  {
+    "id": "REM-003",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Provide creation of transaction type which include specific multi-purpose products like: DD, pay order, bank order (denominations to be parameterised), direc t transfer of funds, electronic fund transfers (NEFT), RTGS, bulk payment of products"
+  },
+  {
+    "id": "REM-004",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Enable setting up and maintenance of bank lists, branch lists, branch id, alpha code and drawing limits for paying branches"
+  },
+  {
+    "id": "REM-005",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Enable creation of a daily rate master for definition of foreign currency conversion rates to be applied for retail transactions"
+  },
+  {
+    "id": "REM-006",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Support automatic reconciliation of inter-branch transactions, DD issued and paid"
+  },
+  {
+    "id": "REM-007",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Allow overriding default currency rates. Such overriding should be captured in exception report"
+  },
+  {
+    "id": "REM-008",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Enable waiver/reduction of charges on specific transactions for any account with appropriate approval and inclusion in exception report"
+  },
+  {
+    "id": "REM-009",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Enable definition of amendments possible in the transaction details without canceling transaction"
+  },
+  {
+    "id": "REM-010",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Enable online approval of transaction by auto referral to appropriate authority"
+  },
+  {
+    "id": "REM-011",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Enable processing of transactions in both on line and batch mode. Transaction entry should be possible in singe input mode and bulk import of data"
+  },
+  {
+    "id": "REM-012",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Provide automatic generation of instrument num ber. The information will include but is not restricted to:"
+  },
+  {
+    "id": "REM-013",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Issuing branch code and ID no."
+  },
+  {
+    "id": "REM-014",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Paying branch-wise yearly running serial number (to be reset to 0 at the beginning of each financial year)"
+  },
+  {
+    "id": "REM-015",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Type of instrument (the structure of the number is to user definable)."
+  },
+  {
+    "id": "REM-016",
+    "module": "Remittances",
+    "page": 46,
+    "text": "Provide for issuance of DD/PO/EFT/against the following mode of payments \u2013 cash, debiting account of the customer at the same branch and debiting account of the customer at another branch (should support multi branch trans actions). Internal debit note/voucher, bill negotiated/discounted and debiting third party account with proper authorization"
+  },
+  {
+    "id": "REM-017",
+    "module": "Remittances",
+    "page": 46,
+    "text": "DD/PO should not be issued against cash payment beyond the limit specified by RBI/ Income Tax Authorities periodically Page 47 of 112"
+  },
+  {
+    "id": "REM-018",
+    "module": "Remittances",
+    "page": 47,
+    "text": "PAN details have to be obtained for cash transactions beyond specified limit"
+  },
+  {
+    "id": "REM-019",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Due diligence checks for issuing DD/PO to non-customers against cash deposit"
+  },
+  {
+    "id": "REM-020",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide for issuance of DD on another data centre of the bank"
+  },
+  {
+    "id": "REM-021",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide printing of instruments in pre-printed continuous stationery"
+  },
+  {
+    "id": "REM-022",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide user definition of criteria for generation of issuance advice to the paying bank/branch which will be used based on paying bank/branch"
+  },
+  {
+    "id": "REM-023",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Correspondent bank (in case of Foreign Currency Drafts) Advice for DD in a given amount range"
+  },
+  {
+    "id": "REM-024",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide maintenance of stock of instruments with alpha series and issue of books/running stationery there against"
+  },
+  {
+    "id": "REM-025",
+    "module": "Remittances",
+    "page": 47,
+    "text": "System should have facility to automatically pick up the next DD/PO/MT instrument number from the stock"
+  },
+  {
+    "id": "REM-026",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide for issuance of DD/Fund Transfer/Pay Order/Bank Order"
+  },
+  {
+    "id": "REM-027",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide input for name of the payee, amount and date"
+  },
+  {
+    "id": "REM-028",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide branch name in a drop down list box"
+  },
+  {
+    "id": "REM-029",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide drawee branch Name and Code in a drop down list box"
+  },
+  {
+    "id": "REM-030",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide (Branch ID for drawer and drawee branch"
+  },
+  {
+    "id": "REM-031",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Branch Name for drawer and drawee branch, appropriate"
+  },
+  {
+    "id": "REM-032",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Transaction Code for Inter- branch (IBT) and Direct Head Office (DHO) Transactions, Daily"
+  },
+  {
+    "id": "REM-033",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Transfer DDs issued but not paid to stale DDs account after expiry of three months from the date of issue"
+  },
+  {
+    "id": "REM-034",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide for account status at the time of posting of voucher"
+  },
+  {
+    "id": "REM-035",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide instant printing of DD/Pay Order/Bank Order"
+  },
+  {
+    "id": "REM-036",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Enable control over security items support maintenance of inventory module end to end from placing indent, order on printer, dispatch to branches, delivery to counter and issue to customer, etc."
+  },
+  {
+    "id": "REM-037",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Enable Running Number and Missing Number"
+  },
+  {
+    "id": "REM-038",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Enable defining service charges (parameters)"
+  },
+  {
+    "id": "REM-039",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Enable passing of accounting entries"
+  },
+  {
+    "id": "REM-040",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide for advice as per bank's requirements"
+  },
+  {
+    "id": "REM-041",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide updation of master"
+  },
+  {
+    "id": "REM-042",
+    "module": "Remittances",
+    "page": 47,
+    "text": "System must check DD presented for payment that it is not already paid"
+  },
+  {
+    "id": "REM-043",
+    "module": "Remittances",
+    "page": 47,
+    "text": "Provide charging of out of pocket expenses and actual postage"
+  },
+  {
+    "id": "REM-044",
+    "module": "Remittances",
+    "page": 47,
+    "text": "System must check DD presented for payment with DD issue details and permit Page 48 of 112 payment only when they match"
+  },
+  {
+    "id": "REM-045",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide transmission of messages by SWIFT"
+  },
+  {
+    "id": "REM-046",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide for bulk remittances"
+  },
+  {
+    "id": "REM-047",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide for multiple debits and single/multiple remittances"
+  },
+  {
+    "id": "REM-048",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Enable DD issued on Service Branch at centres where such service branches exist \u2013 separate field for reversal"
+  },
+  {
+    "id": "REM-049",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide for bank orders (fixed amount)"
+  },
+  {
+    "id": "REM-050",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Facility for receipt and authorizing payment which will include but not restricted to:"
+  },
+  {
+    "id": "REM-051",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Batch receipt of messages"
+  },
+  {
+    "id": "REM-052",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Validation of instruments noted for caution instruments reported lost (stop payments)"
+  },
+  {
+    "id": "REM-053",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Validation for date of instrument (period to be parameterised)"
+  },
+  {
+    "id": "REM-054",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Validation for duplicate issued"
+  },
+  {
+    "id": "REM-055",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Validation for instruments already paid"
+  },
+  {
+    "id": "REM-056",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Validation of ALPHA number of the instrument."
+  },
+  {
+    "id": "REM-057",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide for payment on instrument/instructions in the modes which include but not restricted to:"
+  },
+  {
+    "id": "REM-058",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Cash (ceiling for cash payment should be parameterised)"
+  },
+  {
+    "id": "REM-059",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Crediting account of customer at the same branch or another branch i.e. (it should provide for IBCN generations in such cases)"
+  },
+  {
+    "id": "REM-060",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Issue of another instrument/remittance instructions like banker's cheque"
+  },
+  {
+    "id": "REM-061",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Crediting third party accounts and internal accounts."
+  },
+  {
+    "id": "REM-062",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide for cancellation of instruments against user determined conditions for"
+  },
+  {
+    "id": "REM-063",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Cancellation. Facility to cancel an instrument and pay cash/credit customers accounts with proceeds with recovery of charges for cancellation"
+  },
+  {
+    "id": "REM-064",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide for recording of caution for instruments reported lost (stop payment). These instructions can be originated by the user or internally generated"
+  },
+  {
+    "id": "REM-065",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Provide for validation of instrument numbers against stop payment instruction before actual payout of the amount"
+  },
+  {
+    "id": "REM-066",
+    "module": "Remittances",
+    "page": 48,
+    "text": "Support validation of instruments before payment that will ensure that instrument/remittance are not paid twice or instruments cancelled/reported as lost are not honored. The validation will include \u2013 (a) Instruments/remittances issued by the issuing branch exceeding Rs.10,000/-; (b) Instruments noted for caution; (c) Instruments report as lost; (d) Instrument remittances paid; (e) Intra office suspense account. Page 49 of 112"
+  },
+  {
+    "id": "REM-067",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for recording of reason for dishonour of instruments with minimum of 99 types of reasons for dishonour"
+  },
+  {
+    "id": "REM-068",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for overriding facility with user -defined authorization for issue of instruments with direct debits when an account exceeds the authorised account limit and provision for exception report"
+  },
+  {
+    "id": "REM-069",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Support issuance of duplicate/revalidation by the issuing branch. Period for allowing revalidation to be user-definable with recovery of charges for the same"
+  },
+  {
+    "id": "REM-070",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for transfer of outstanding instruments beyond the cut off date/period to Head Office with related IBCN entries and user specific details"
+  },
+  {
+    "id": "REM-071",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Allow facility to record prerequisite conditions for duplicate issue. Validation against these conditions will include but is not restricted to:"
+  },
+  {
+    "id": "REM-072",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Receipt of non-payment advice"
+  },
+  {
+    "id": "REM-073",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Receipt of indemnity bond."
+  },
+  {
+    "id": "REM-074",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Prior permission from head office for issue of drafts above Rs. x/ - amount (x to be parameterised)"
+  },
+  {
+    "id": "REM-075",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for referencing the original instrument/remittance while issuing a duplicate instruments/remittance"
+  },
+  {
+    "id": "REM-076",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for cancellation of DD (including cash DD)/Remittance on the date of issue after authorization"
+  },
+  {
+    "id": "REM-077",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for cancellation of DD (including cash DD)/Remittance on subsequent dates"
+  },
+  {
+    "id": "REM-078",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for generation of accounting entries"
+  },
+  {
+    "id": "REM-079",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Ability to automatically issue instructions for canceling the validity of the original instruments on issuance of duplicate"
+  },
+  {
+    "id": "REM-080",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for generation of duplicate DD with marking duplicate issued in li eu of original DD bearing number .........reported lost"
+  },
+  {
+    "id": "REM-081",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for generation of revalidated DD and remittance"
+  },
+  {
+    "id": "REM-082",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for generating the advice for duplicate and revalidation of DD / remittance"
+  },
+  {
+    "id": "REM-083",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide issue and payment of MT on non-computerised branches -define parameters"
+  },
+  {
+    "id": "REM-084",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide for capture of DD payment details"
+  },
+  {
+    "id": "REM-085",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Provide identification by:"
+  },
+  {
+    "id": "REM-086",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Cash voucher no. for customer"
+  },
+  {
+    "id": "REM-087",
+    "module": "Remittances",
+    "page": 49,
+    "text": "Passport / Identification card Page 50 of 112"
+  },
+  {
+    "id": "REM-088",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Voter ID, Driving license/Electric/Telephone Bill/Defence ID Card/PAN Card, Aadhaar card"
+  },
+  {
+    "id": "REM-089",
+    "module": "Remittances",
+    "page": 50,
+    "text": "To be done by the system and fresh revalidated DD/PO/BO to be issued"
+  },
+  {
+    "id": "REM-090",
+    "module": "Remittances",
+    "page": 50,
+    "text": "No advice to be generated in above cases"
+  },
+  {
+    "id": "REM-091",
+    "module": "Remittances",
+    "page": 50,
+    "text": "List of outstanding DD Payable in case of instrument in excess Rs.10,000/ - for which advices have been received from issuing branch to be generated"
+  },
+  {
+    "id": "REM-092",
+    "module": "Remittances",
+    "page": 50,
+    "text": "It should generate reminders for issuing branches on outstanding in DD payable accounts after three months from the date of issue."
+  },
+  {
+    "id": "REM-093",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Provide for creation of differential charge structure which should consider parameters like: Customer (Branch Customer, Cooperative Bank etc.), Product (DD Issued, etc.), Cancellation charges, Amount, Slab or tier charges, Postal/Telegraph, combination of one or more above parameters"
+  },
+  {
+    "id": "REM-094",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Provide for creation of differential charge for issuance to non customer against cash, etc."
+  },
+  {
+    "id": "REM-095",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Support for marking of certain accounts/class of accounts for automatic waiver of commission/charge."
+  },
+  {
+    "id": "REM-096",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Provide facility for issuing duplicate Statement/Passbook, etc. by authorized official with recovery of charge @ Rs. x \u2016 per occasion, \u2013 x\u2016 determined on the basis of number of past entries required by the customer"
+  },
+  {
+    "id": "REM-097",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Provide generation of reports and queries for daily activity at branch product wise to include but not restricted to:"
+  },
+  {
+    "id": "REM-098",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Pay order issued register"
+  },
+  {
+    "id": "REM-099",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Draft Account issued and paid details"
+  },
+  {
+    "id": "REM-100",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Bank Order issued register with additional column for date of issue of IBCN"
+  },
+  {
+    "id": "REM-101",
+    "module": "Remittances",
+    "page": 50,
+    "text": "DD/PO/issued on a particular day"
+  },
+  {
+    "id": "REM-102",
+    "module": "Remittances",
+    "page": 50,
+    "text": "DD/PO/paid on a particular day"
+  },
+  {
+    "id": "REM-103",
+    "module": "Remittances",
+    "page": 50,
+    "text": "Transaction volumes for specified period. \u2022Provide for status for specific instrument/remittance which may include but is not restricted to: unique reference number, transaction type, date, customer, branch, Page 51 of 112 customer identification number, combination of any two or more of the above"
+  },
+  {
+    "id": "REM-104",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Provide for MIS report generation for computing flow for the branch at the following levels:"
+  },
+  {
+    "id": "REM-105",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Customer, Branch, Product, Period, Combination of the above \u2022Provide for generation of control Reports for reconciliation which includes but is not restricted to: unpaid instrumen ts listing, aging of unpaid of instruments. (Note: This report will be with respect to a branch, product and customer)"
+  },
+  {
+    "id": "REM-106",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Generate reports as per the user requirements for enabling inter branch reconciliation"
+  },
+  {
+    "id": "REM-107",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Do not allow modification of DD/Remittance once it is printed"
+  },
+  {
+    "id": "REM-108",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Allow entries to be authorized by the officials"
+  },
+  {
+    "id": "REM-109",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Allow printing of DD/PO only on authorisation"
+  },
+  {
+    "id": "REM-110",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Allow printing of DD only once"
+  },
+  {
+    "id": "REM-111",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Draft Account should be a pointing account (drop down list). It must have the facility to mark individual DDs as paid b ased on which corresponding accounting entries should be passed"
+  },
+  {
+    "id": "REM-112",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Draft accounts entries will point to the issuing/paying branch for generation of DD"
+  },
+  {
+    "id": "REM-113",
+    "module": "Remittances",
+    "page": 51,
+    "text": "Provide for accounting entries at all stages of instrument which will include but not be restricted to: Issue, payment including certain inter-branch entries as per user definition for reconciliation, reversal of entries in the inter-branch account for payments, parking entries in inter -office suspense accounts, suspense accounts reversal/reconciliation in no., inter office suspense accounts, cancellation, charges, issuance of duplicate, instruments/instructions."
+  }
+]
