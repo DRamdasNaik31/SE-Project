@@ -2,12 +2,14 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from app.agent2 import score
 from app.build_corpus import build
 from app.agent1 import _parse_generated_json
 from app.security import mask_sensitive, sanitize_input
 from app.analysis_agents import conflict_check, generate_use_cases, generate_user_stories
+from app.orchestrator import Session, handle
 
 
 class CoreTests(unittest.TestCase):
@@ -55,6 +57,34 @@ class CoreTests(unittest.TestCase):
         models = {item["model"] for item in result["scores"]}
         self.assertIn("DevSecOps", models)
         self.assertIn("Agile-V-Model", models)
+
+    def test_sdlc_agent_runs_only_after_explicit_request(self):
+        requirements = [{"id": "PS-001", "statement": "The system shall support finance requirements."}]
+        session = Session(use_adapter=False)
+        with patch("app.orchestrator.rag.guess_module", return_value="Agentic AI Requirements"), \
+             patch("app.orchestrator.run_agent1", return_value={
+                 "requirements": requirements,
+                 "summary": "Generated one requirement.",
+                 "retrieved": [{"id": "PS-001", "module": "Agentic AI Requirements", "page": 1, "text": "Finance requirements", "source_text": "Finance requirements"}],
+             }) as requirement_agent, \
+             patch("app.orchestrator.agent2.score", wraps=score) as sdlc_agent:
+            requirement_result = handle(session, "Generate requirements for Agentic AI")
+            self.assertIn("Agent 1", requirement_result["text"])
+            requirement_agent.assert_called_once()
+            sdlc_agent.assert_not_called()
+
+            sdlc_result = handle(session, "Recommend an SDLC model")
+            self.assertIn("Agent 2", sdlc_result["text"])
+            sdlc_agent.assert_called_once()
+
+    def test_sdlc_request_without_requirements_prompts_for_requirements(self):
+        session = Session(use_adapter=False)
+        with patch("app.orchestrator.run_agent1") as requirement_agent, \
+             patch("app.orchestrator.agent2.score") as sdlc_agent:
+            result = handle(session, "Recommend an SDLC model")
+        self.assertIn("Generate requirements first", result["text"])
+        requirement_agent.assert_not_called()
+        sdlc_agent.assert_not_called()
 
 
 if __name__ == "__main__":

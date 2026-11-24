@@ -42,18 +42,36 @@ def handle(session: Session, message: str) -> dict[str, Any]:
         return {"text": "Hello! Ask for banking requirements or an SDLC recommendation.", "requirements": None, "evidence": None, "sdlc": None}
     if HELP.search(message):
         return {"text": "I retrieve source evidence, generate traceable requirements, and score SDLC models. Try: 'requirements for Loan Processing'.", "requirements": None, "evidence": None, "sdlc": None}
-    if SDLC.search(message) and session.requirements:
+    if SDLC.search(message):
+        if not session.requirements:
+            return {
+                "text": "Generate requirements first, then ask me to recommend an SDLC model.",
+                "requirements": None,
+                "evidence": None,
+                "sdlc": None,
+            }
         session.sdlc = agent2.score(session.requirements, session.constraints)
         session.artifacts = artifact_bundle(session.requirements, session.sdlc)
         session.log("Agent 2", f"winner={session.sdlc['winner']}")
-        return {"text": session.sdlc["explanation"], "requirements": session.requirements, "evidence": None, "sdlc": session.sdlc}
+        return {
+            "text": f"Agent 2 — SDLC recommendation: {session.sdlc['explanation']}",
+            "requirements": session.requirements,
+            "evidence": None,
+            "sdlc": session.sdlc,
+        }
     started = time.time()
     module = rag.guess_module(message)
     result = run_agent1(message, rag.retrieve, module=module, use_adapter=session.use_adapter)
     session.requirements = result["requirements"]
+    session.sdlc = None
     classify(session.requirements)
     session.artifacts = artifact_bundle(session.requirements)
     session.last_request, session.last_module = message, module
     session.log("Retrieval", f"{len(result['retrieved'])} passage(s)", started)
     session.log("Agent 1", f"{len(result['requirements'])} requirement(s)")
-    return {"text": result["summary"], "requirements": result["requirements"], "evidence": result["retrieved"], "sdlc": None}
+    return {
+        "text": f"Agent 1 — Requirements: {result['summary']}",
+        "requirements": result["requirements"],
+        "evidence": result["retrieved"],
+        "sdlc": None,
+    }

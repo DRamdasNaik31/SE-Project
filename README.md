@@ -171,6 +171,13 @@ Which SDLC model fits this project?
 Show the evidence for these requirements
 ```
 
+Use the two agents in sequence: first ask for requirements, then ask for an SDLC
+recommendation. Both are available in the same Streamlit chat page, but the
+orchestrator routes requirement requests to Agent 1 and routes a later SDLC
+request to Agent 2. Agent 2 uses the requirements already generated in that
+session. If asked for an SDLC recommendation before any requirements exist, the
+application asks the user to generate requirements first.
+
 The available module names include Account Opening, Customer Information,
 Cheque Book Facility, Service Branches and Clearing, Cash Department at Branch,
 Cash Credit and Overdraft, Loan Processing, Bills, Remittances, Interest and Fee
