@@ -13,11 +13,15 @@ decisions.
 
 - Extracts requirements from a page-preserving copy of the IDRBT CBS requirements PDF.
 - Retrieves evidence by module or through lexical/embedding search.
+- Ingests the Word problem statement as a traceable Agentic AI requirements module.
 - Generates structured, page-traceable requirements.
 - Classifies requirements and creates quality, compliance, risk, and traceability artifacts.
+- Generates user stories, use cases, acceptance criteria, assumptions, and dependency records.
+- Checks for duplicate or possible conflicting requirements.
 - Recommends an SDLC model using a documented, normalized decision rubric.
 - Masks sensitive input and blocks prompt-injection patterns.
 - Exports an auditable report bundle and supports human approval gates.
+- Supports reviewing, modifying, accepting, rejecting, and regenerating requirement baselines.
 
 ## Agent flow
 
@@ -115,6 +119,7 @@ Then build the processed corpus:
 ```powershell
 python app\extract_pdf.py data\raw\idrbt_cbs_ucb.pdf
 python app\build_corpus.py
+python app\extract_problem_statement.py "C:\Users\dramd\Downloads\Problem Statement (2).docx"
 python app\create_training_data.py
 python app\validate_dataset.py data\training\train.jsonl data\training\validation.jsonl data\training\test.jsonl
 python app\evaluate.py
@@ -136,6 +141,14 @@ python -c "from app.rag_index import build_index; print(build_index())"
 The optional index uses `sentence-transformers/all-MiniLM-L6-v2`. If embedding
 packages or the index are unavailable, the application automatically falls back
 to dependency-light lexical retrieval.
+
+## SDLC recommendation factors
+
+The Streamlit sidebar allows users to set requirement stability, stakeholder
+feedback, and delivery pressure before requesting an SDLC recommendation. The
+decision engine ranks Agile, Waterfall, V-Model, Spiral, Iterative, RAD,
+Prototype, DevSecOps, and Agile–V-Model candidates with a normalized transparent
+score.
 
 ## Run the application
 
@@ -230,6 +243,10 @@ This creates or updates files such as:
 - `reports\traceability.json`
 - `reports\open_issues.json`
 - `reports\sdlc.json`
+- `reports\conflict_findings.json`
+- `reports\user_stories.json`
+- `reports\use_cases.json`
+- `reports\assumptions_and_dependencies.json`
 
 ## Current project metrics
 
@@ -237,6 +254,8 @@ The processed real-corpus run contains:
 
 - 112 source PDF pages
 - 1,682 page-traceable fragments
+- 85 problem-statement fragments
+- 1,767 combined fragments
 - 18 functional modules
 - 1,345 training examples
 - 168 validation examples

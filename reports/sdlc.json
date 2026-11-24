@@ -4,37 +4,47 @@
   "scores": [
     {
       "model": "RAD",
-      "score": 18.88,
+      "score": 14.38,
       "raw": 0.7475
     },
     {
       "model": "Agile",
-      "score": 18.12,
+      "score": 13.8,
       "raw": 0.7175
     },
     {
       "model": "Prototype",
-      "score": 18.06,
+      "score": 13.76,
       "raw": 0.715
     },
     {
+      "model": "DevSecOps",
+      "score": 12.41,
+      "raw": 0.645
+    },
+    {
       "model": "Iterative",
-      "score": 15.53,
+      "score": 11.83,
       "raw": 0.615
     },
     {
+      "model": "Agile-V-Model",
+      "score": 11.4,
+      "raw": 0.5925
+    },
+    {
       "model": "Spiral",
-      "score": 11.05,
+      "score": 8.42,
       "raw": 0.4375
     },
     {
       "model": "Waterfall",
-      "score": 9.97,
+      "score": 7.6,
       "raw": 0.395
     },
     {
       "model": "V-Model",
-      "score": 8.39,
+      "score": 6.4,
       "raw": 0.3325
     }
   ],

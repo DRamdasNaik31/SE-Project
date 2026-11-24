@@ -8,6 +8,7 @@ from collections import Counter
 from pathlib import Path
 
 MODULES = {
+    "Agentic AI Requirements": "PS",
     "Account Opening": "ACC",
     "Customer Information": "CUST",
     "Cheque Book Facility": "CHQ",

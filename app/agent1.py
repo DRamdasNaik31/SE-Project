@@ -16,12 +16,23 @@ _MODEL_CACHE: dict[str, Any] = {}
 def _fallback_requirements(request: str, evidence: list[dict[str, Any]]) -> list[dict[str, Any]]:
     requirements = []
     for item in evidence:
+        statement = f"The system shall {str(item['text']).rstrip('.')}."
         requirements.append({
             "id": str(item["id"]),
-            "statement": f"The system shall {str(item['text']).rstrip('.')}.",
+            "statement": statement,
             "type": "functional",
+            "category": "functional",
+            "categories": ["functional"],
             "priority": "medium",
             "approval_status": "pending_human_review",
+            "source_stakeholder": "Banking policy/document",
+            "business_justification": f"Supports the requested {item['module']} capability.",
+            "dependencies": [],
+            "assumptions": ["Applicable organisational policy and implementation details require human confirmation."],
+            "acceptance_criteria": [f"Demonstrate that {statement[:-1] if statement.endswith('.') else statement}"],
+            "applicable_regulations": ["Jurisdiction and applicability to be confirmed by compliance"],
+            "risk_level": "medium",
+            "confidence_score": 0.9,
             "rationale": f"Supports the requested {item['module']} capability.",
             "evidence": [{
                 "module": item["module"],
@@ -30,6 +41,33 @@ def _fallback_requirements(request: str, evidence: list[dict[str, Any]]) -> list
             }],
         })
     return requirements
+
+
+def _normalise_requirements(requirements: list[dict[str, Any]], evidence: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    evidence_by_id = {str(item["id"]): item for item in evidence}
+    normalised = []
+    for requirement in requirements:
+        item = dict(requirement)
+        identifier = str(item.get("id") or "")
+        source = evidence_by_id.get(identifier)
+        if source:
+            item.setdefault("evidence", [{
+                "module": source["module"],
+                "page": source["page"],
+                "source_text": source["text"],
+            }])
+        item.setdefault("approval_status", "pending_human_review")
+        item.setdefault("source_stakeholder", "Source document")
+        item.setdefault("business_justification", "Traceable to approved source evidence")
+        item.setdefault("dependencies", [])
+        item.setdefault("assumptions", [])
+        item.setdefault("acceptance_criteria", [])
+        item.setdefault("applicable_regulations", [])
+        item.setdefault("risk_level", "medium")
+        item.setdefault("confidence_score", 0.7)
+        item.setdefault("categories", [str(item.get("category") or item.get("type") or "functional")])
+        normalised.append(item)
+    return normalised
 
 
 def _load_adapter(adapter_path: Path) -> tuple[Any, Any]:
@@ -137,6 +175,7 @@ def run(
         if tuned:
             requirements, generation_s = tuned
             model_name = "Qwen2.5-1.5B-Instruct + trained LoRA adapter"
+    requirements = _normalise_requirements(requirements, evidence)
     unsupported = 0 if evidence else 1
     return {
         "requirements": requirements,

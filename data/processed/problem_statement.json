@@ -1,0 +1,512 @@
+[
+  {
+    "id": "PS-001",
+    "module": "Agentic AI Requirements",
+    "page": 1,
+    "text": "Financial institutions operate in a highly regulated, security-sensitive, and rapidly evolving environment. Gathering and analysing software requirements in this sector is largely manual, time-consuming, and prone to ambiguity, inconsistency, regulatory omissions, and inadequate stakeholder alignment. Requirements originate from diverse sources—including customers, business teams, compliance officers, security teams, regulators, legacy systems, and policy documents—and are often expressed in unstructured natural language. These challenges can lead to incorrect scope, unsuitable development practices, security and compliance gaps, project delays, and costly rework."
+  },
+  {
+    "id": "PS-002",
+    "module": "Agentic AI Requirements",
+    "page": 2,
+    "text": "The problem is to design and develop an Agentic AI–based Large Language Model system for automated requirement gathering, analysis, and SDLC identification in the financial sector. The proposed system should employ autonomous, collaborative AI agents to interact with stakeholders, analyse conversations and documents, ask context-aware clarification questions, detect incomplete or conflicting requirements, and transform validated inputs into structured functional and non-functional requirements, user stories, use cases, acceptance criteria, and traceability records."
+  },
+  {
+    "id": "PS-003",
+    "module": "Agentic AI Requirements",
+    "page": 3,
+    "text": "The system should classify requirements across business, technical, security, privacy, compliance, performance, availability, auditability, and operational dimensions. It should map them to applicable financial regulations, organisational policies, risk controls, and legacy-system constraints, while maintaining evidence and human-approval checkpoints. Based on the analysed requirements, project characteristics, risks, regulatory criticality, and expected frequency of change, the system should recommend an appropriate Software Development Life Cycle model—such as Agile, DevSecOps, Spiral, V-Model, Waterfall, or a hybrid model—and generate a justified, project-specific SDLC workflow with phases, activities, roles, deliverables, validation gates, security controls, and compliance checkpoints."
+  },
+  {
+    "id": "PS-004",
+    "module": "Agentic AI Requirements",
+    "page": 4,
+    "text": "The research must address challenges associated with LLM hallucinations, explainability, handling sensitive financial data, bias, prompt injection, access control, regulatory change, interoperability, and human oversight. The proposed solution should use retrieval-grounded generation, rule-based compliance validation, multi-agent coordination, confidence scoring, audit trails, and human-in-the-loop verification to ensure that its outputs are accurate, traceable, secure, and accountable."
+  },
+  {
+    "id": "PS-005",
+    "module": "Agentic AI Requirements",
+    "page": 5,
+    "text": "The system’s effectiveness should be evaluated using representative financial-sector case studies, such as digital banking, loan processing, payment systems, fraud detection, insurance, and regulatory reporting. Evaluation should measure requirement completeness, correctness, consistency, ambiguity detection, regulatory control coverage, suitability of SDLC recommendations, traceability, processing time, hallucination rate, and stakeholder satisfaction, compared with conventional requirements engineering practices."
+  },
+  {
+    "id": "PS-006",
+    "module": "Agentic AI Requirements",
+    "page": 6,
+    "text": "The proposed system can be designed as a multi-agent platform in which specialised AI agents collaborate across requirement engineering, compliance analysis, risk assessment, and SDLC selection."
+  },
+  {
+    "id": "PS-007",
+    "module": "Agentic AI Requirements",
+    "page": 7,
+    "text": "Specify the financial services and projects the system will support, such as:"
+  },
+  {
+    "id": "PS-008",
+    "module": "Agentic AI Requirements",
+    "page": 8,
+    "text": "Define expected outputs: Software Requirements Specification (SRS), user stories, use cases, acceptance criteria, compliance mappings, risk register, traceability matrix, and recommended SDLC model."
+  },
+  {
+    "id": "PS-009",
+    "module": "Agentic AI Requirements",
+    "page": 9,
+    "text": "Identify the parties from whom requirements will be collected:"
+  },
+  {
+    "id": "PS-010",
+    "module": "Agentic AI Requirements",
+    "page": 10,
+    "text": "Create role-specific interview templates because each stakeholder provides different categories of requirements."
+  },
+  {
+    "id": "PS-011",
+    "module": "Agentic AI Requirements",
+    "page": 11,
+    "text": "The system should accept both structured and unstructured inputs:"
+  },
+  {
+    "id": "PS-012",
+    "module": "Agentic AI Requirements",
+    "page": 12,
+    "text": "Sensitive information should be classified, masked, and protected before being submitted to an LLM."
+  },
+  {
+    "id": "PS-013",
+    "module": "Agentic AI Requirements",
+    "page": 13,
+    "text": "A central orchestrator should manage agent communication, execution order, shared context, and approval gates."
+  },
+  {
+    "id": "PS-014",
+    "module": "Agentic AI Requirements",
+    "page": 14,
+    "text": "Develop an authorised and version-controlled knowledge base containing:"
+  },
+  {
+    "id": "PS-015",
+    "module": "Agentic AI Requirements",
+    "page": 15,
+    "text": "Financial terminology and business processes"
+  },
+  {
+    "id": "PS-016",
+    "module": "Agentic AI Requirements",
+    "page": 16,
+    "text": "Templates for SRS, user stories, and use cases"
+  },
+  {
+    "id": "PS-017",
+    "module": "Agentic AI Requirements",
+    "page": 17,
+    "text": "Every knowledge item should include its source, jurisdiction, effective date, version, and applicability."
+  },
+  {
+    "id": "PS-018",
+    "module": "Agentic AI Requirements",
+    "page": 18,
+    "text": "6. Implement retrieval-grounded generation"
+  },
+  {
+    "id": "PS-019",
+    "module": "Agentic AI Requirements",
+    "page": 19,
+    "text": "Use Retrieval-Augmented Generation to ensure that responses are grounded in approved sources."
+  },
+  {
+    "id": "PS-020",
+    "module": "Agentic AI Requirements",
+    "page": 20,
+    "text": "Classify the stakeholder query or requirement."
+  },
+  {
+    "id": "PS-021",
+    "module": "Agentic AI Requirements",
+    "page": 21,
+    "text": "Retrieve relevant policies, regulations and domain documents."
+  },
+  {
+    "id": "PS-022",
+    "module": "Agentic AI Requirements",
+    "page": 22,
+    "text": "Escalate unsupported or low-confidence outputs for human review."
+  },
+  {
+    "id": "PS-023",
+    "module": "Agentic AI Requirements",
+    "page": 23,
+    "text": "This reduces hallucinations and improves regulatory traceability."
+  },
+  {
+    "id": "PS-024",
+    "module": "Agentic AI Requirements",
+    "page": 24,
+    "text": "7. Design requirement-gathering conversations"
+  },
+  {
+    "id": "PS-025",
+    "module": "Agentic AI Requirements",
+    "page": 25,
+    "text": "The interaction agent should conduct adaptive interviews rather than use a fixed questionnaire."
+  },
+  {
+    "id": "PS-026",
+    "module": "Agentic AI Requirements",
+    "page": 26,
+    "text": "The agent should ask follow-up questions when an answer is incomplete, vague or inconsistent."
+  },
+  {
+    "id": "PS-027",
+    "module": "Agentic AI Requirements",
+    "page": 27,
+    "text": "Convert stakeholder input into a standard requirement structure:"
+  },
+  {
+    "id": "PS-028",
+    "module": "Agentic AI Requirements",
+    "page": 28,
+    "text": "FR-PAY-001: The system shall require step-up authentication for transactions exceeding the organisation-approved risk threshold."
+  },
+  {
+    "id": "PS-029",
+    "module": "Agentic AI Requirements",
+    "page": 29,
+    "text": "Availability and reliability requirements"
+  },
+  {
+    "id": "PS-030",
+    "module": "Agentic AI Requirements",
+    "page": 30,
+    "text": "Operational and maintenance requirements"
+  },
+  {
+    "id": "PS-031",
+    "module": "Agentic AI Requirements",
+    "page": 31,
+    "text": "Multi-label classification should be allowed because one requirement may belong to several categories."
+  },
+  {
+    "id": "PS-032",
+    "module": "Agentic AI Requirements",
+    "page": 32,
+    "text": "The analysis agents should check each requirement for:"
+  },
+  {
+    "id": "PS-033",
+    "module": "Agentic AI Requirements",
+    "page": 33,
+    "text": "Requirements that fail these checks should be returned to the clarification agent."
+  },
+  {
+    "id": "PS-034",
+    "module": "Agentic AI Requirements",
+    "page": 34,
+    "text": "11. Perform compliance and security analysis"
+  },
+  {
+    "id": "PS-035",
+    "module": "Agentic AI Requirements",
+    "page": 35,
+    "text": "Map each requirement to applicable regulations, standards, and organisational policies."
+  },
+  {
+    "id": "PS-036",
+    "module": "Agentic AI Requirements",
+    "page": 36,
+    "text": "Data-retention and reporting obligations"
+  },
+  {
+    "id": "PS-037",
+    "module": "Agentic AI Requirements",
+    "page": 37,
+    "text": "The compliance agent should not make final legal determinations. High-impact interpretations must be approved by compliance or legal officers."
+  },
+  {
+    "id": "PS-038",
+    "module": "Agentic AI Requirements",
+    "page": 38,
+    "text": "Each generated item should remain linked to its original stakeholder statement and supporting document."
+  },
+  {
+    "id": "PS-039",
+    "module": "Agentic AI Requirements",
+    "page": 39,
+    "text": "The SDLC selection agent should derive project characteristics such as:"
+  },
+  {
+    "id": "PS-040",
+    "module": "Agentic AI Requirements",
+    "page": 40,
+    "text": "These factors become inputs to the SDLC recommendation mechanism."
+  },
+  {
+    "id": "PS-041",
+    "module": "Agentic AI Requirements",
+    "page": 41,
+    "text": "Use a hybrid approach combining deterministic rules, multi-criteria decision analysis, and LLM-generated explanations."
+  },
+  {
+    "id": "PS-042",
+    "module": "Agentic AI Requirements",
+    "page": 42,
+    "text": "The engine should produce ranked recommendations rather than only one label. For example:"
+  },
+  {
+    "id": "PS-043",
+    "module": "Agentic AI Requirements",
+    "page": 43,
+    "text": "The final choice should be approved by the project manager, architect, security team, and compliance officer."
+  },
+  {
+    "id": "PS-044",
+    "module": "Agentic AI Requirements",
+    "page": 44,
+    "text": "15. Generate a project-specific SDLC workflow"
+  },
+  {
+    "id": "PS-045",
+    "module": "Agentic AI Requirements",
+    "page": 45,
+    "text": "The system should customise the selected SDLC with:"
+  },
+  {
+    "id": "PS-046",
+    "module": "Agentic AI Requirements",
+    "page": 46,
+    "text": "For a financial application, the generated workflow might include threat modelling during design, static security testing during implementation, transaction-integrity testing during validation, and compliance approval before deployment."
+  },
+  {
+    "id": "PS-047",
+    "module": "Agentic AI Requirements",
+    "page": 47,
+    "text": "16. Implement human-in-the-loop controls"
+  },
+  {
+    "id": "PS-048",
+    "module": "Agentic AI Requirements",
+    "page": 48,
+    "text": "Users must be able to accept, reject, modify, or request regeneration of AI outputs."
+  },
+  {
+    "id": "PS-049",
+    "module": "Agentic AI Requirements",
+    "page": 49,
+    "text": "Agents should receive only the minimum data and tool permissions needed for their assigned tasks."
+  },
+  {
+    "id": "PS-050",
+    "module": "Agentic AI Requirements",
+    "page": 50,
+    "text": "A practical technology stack may include:"
+  },
+  {
+    "id": "PS-051",
+    "module": "Agentic AI Requirements",
+    "page": 51,
+    "text": "LLM for language understanding and generation"
+  },
+  {
+    "id": "PS-052",
+    "module": "Agentic AI Requirements",
+    "page": 52,
+    "text": "Relational database for structured requirements"
+  },
+  {
+    "id": "PS-053",
+    "module": "Agentic AI Requirements",
+    "page": 53,
+    "text": "Rule engine for compliance and SDLC logic"
+  },
+  {
+    "id": "PS-054",
+    "module": "Agentic AI Requirements",
+    "page": 54,
+    "text": "Web interface for stakeholder interaction"
+  },
+  {
+    "id": "PS-055",
+    "module": "Agentic AI Requirements",
+    "page": 55,
+    "text": "Begin with one financial use case, such as loan processing or digital customer onboarding, before extending to other services."
+  },
+  {
+    "id": "PS-056",
+    "module": "Agentic AI Requirements",
+    "page": 56,
+    "text": "Evaluate it using real or carefully anonymised financial case studies."
+  },
+  {
+    "id": "PS-057",
+    "module": "Agentic AI Requirements",
+    "page": 57,
+    "text": "Requirement extraction precision, recall and F1-score"
+  },
+  {
+    "id": "PS-058",
+    "module": "Agentic AI Requirements",
+    "page": 58,
+    "text": "Time saved compared with manual analysis"
+  },
+  {
+    "id": "PS-059",
+    "module": "Agentic AI Requirements",
+    "page": 59,
+    "text": "The SDLC recommendation can be evaluated by comparing it with decisions made by experienced software architects and project managers."
+  },
+  {
+    "id": "PS-060",
+    "module": "Agentic AI Requirements",
+    "page": 60,
+    "text": "Compare its outputs with those of business analysts."
+  },
+  {
+    "id": "PS-061",
+    "module": "Agentic AI Requirements",
+    "page": 61,
+    "text": "Introduce human-approved document generation."
+  },
+  {
+    "id": "PS-062",
+    "module": "Agentic AI Requirements",
+    "page": 62,
+    "text": "Monitor incorrect recommendations and compliance gaps."
+  },
+  {
+    "id": "PS-063",
+    "module": "Agentic AI Requirements",
+    "page": 63,
+    "text": "Update regulatory knowledge and decision rules."
+  },
+  {
+    "id": "PS-064",
+    "module": "Agentic AI Requirements",
+    "page": 64,
+    "text": "Re-evaluate the model after every significant update."
+  },
+  {
+    "id": "PS-065",
+    "module": "Agentic AI Requirements",
+    "page": 65,
+    "text": "Expand to additional financial use cases."
+  },
+  {
+    "id": "PS-066",
+    "module": "Agentic AI Requirements",
+    "page": 66,
+    "text": "All prompts, retrieved evidence, agent decisions, user changes, approvals, and generated artefacts should be recorded to support accountability and audits."
+  },
+  {
+    "id": "PS-067",
+    "module": "Agentic AI Requirements",
+    "page": 67,
+    "text": "The final system should function as an intelligent requirement-engineering assistant. It can automate information collection and analysis, but responsibility for regulatory interpretation, requirement approval, and SDLC adoption should remain with authorised human stakeholders."
+  },
+  {
+    "id": "PS-068",
+    "module": "Agentic AI Requirements",
+    "page": 68,
+    "text": "Coordinator agent Controls the workflow and assigns tasks"
+  },
+  {
+    "id": "PS-069",
+    "module": "Agentic AI Requirements",
+    "page": 69,
+    "text": "Stakeholder interaction agent Conducts interviews and asks questions"
+  },
+  {
+    "id": "PS-070",
+    "module": "Agentic AI Requirements",
+    "page": 70,
+    "text": "Requirement extraction agent Extracts requirements from conversations and documents"
+  },
+  {
+    "id": "PS-071",
+    "module": "Agentic AI Requirements",
+    "page": 71,
+    "text": "Clarification agent Detects missing or ambiguous information"
+  },
+  {
+    "id": "PS-072",
+    "module": "Agentic AI Requirements",
+    "page": 72,
+    "text": "Classification agent Classifies functional and non-functional requirements"
+  },
+  {
+    "id": "PS-073",
+    "module": "Agentic AI Requirements",
+    "page": 73,
+    "text": "Conflict-detection agent Identifies contradictions and duplication"
+  },
+  {
+    "id": "PS-074",
+    "module": "Agentic AI Requirements",
+    "page": 74,
+    "text": "Compliance agent Maps requirements to relevant regulations and policies"
+  },
+  {
+    "id": "PS-075",
+    "module": "Agentic AI Requirements",
+    "page": 75,
+    "text": "Security and privacy agent Identifies cybersecurity and privacy requirements"
+  },
+  {
+    "id": "PS-076",
+    "module": "Agentic AI Requirements",
+    "page": 76,
+    "text": "Risk-analysis agent Assesses business, technical and compliance risks"
+  },
+  {
+    "id": "PS-077",
+    "module": "Agentic AI Requirements",
+    "page": 77,
+    "text": "SDLC selection agent Recommends an appropriate SDLC model"
+  },
+  {
+    "id": "PS-078",
+    "module": "Agentic AI Requirements",
+    "page": 78,
+    "text": "Documentation agent Generates SRS, user stories and traceability records"
+  },
+  {
+    "id": "PS-079",
+    "module": "Agentic AI Requirements",
+    "page": 79,
+    "text": "Validation agent Verifies completeness, consistency and evidence"
+  },
+  {
+    "id": "PS-080",
+    "module": "Agentic AI Requirements",
+    "page": 80,
+    "text": "Human-approval agent Routes critical decisions to authorised personnel"
+  },
+  {
+    "id": "PS-081",
+    "module": "Agentic AI Requirements",
+    "page": 81,
+    "text": "Project condition Suitable SDLC approach"
+  },
+  {
+    "id": "PS-082",
+    "module": "Agentic AI Requirements",
+    "page": 82,
+    "text": "Stable requirements and extensive approvals Waterfall"
+  },
+  {
+    "id": "PS-083",
+    "module": "Agentic AI Requirements",
+    "page": 83,
+    "text": "Strict verification and validation V-Model"
+  },
+  {
+    "id": "PS-084",
+    "module": "Agentic AI Requirements",
+    "page": 84,
+    "text": "High uncertainty or technical risk Spiral"
+  },
+  {
+    "id": "PS-085",
+    "module": "Agentic AI Requirements",
+    "page": 85,
+    "text": "High regulation with evolving requirements Agile–V-Model or DevSecOps hybrid"
+  }
+]

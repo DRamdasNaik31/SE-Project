@@ -94,6 +94,9 @@ class Retriever:
     def guess_module(self, query: str) -> str | None:
         query_lower = query.lower()
         modules = {str(item["module"]) for item in self.items}
+        if any(term in query_lower for term in ("agentic ai", "problem statement", "proposed system")):
+            if "Agentic AI Requirements" in modules:
+                return "Agentic AI Requirements"
         return next((module for module in modules if module.lower() in query_lower), None)
 
 

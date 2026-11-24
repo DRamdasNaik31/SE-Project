@@ -11772,5 +11772,600 @@
     "risk": "Incorrect or incomplete implementation of this requirement",
     "mitigation": "Human review, traceable acceptance criteria, and validation testing",
     "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-001",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-002",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-003",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-004",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-005",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-006",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-007",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-008",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-009",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-010",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-011",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-012",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-013",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-014",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-015",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-016",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-017",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-018",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-019",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-020",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-021",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-022",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-023",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-024",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-025",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-026",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-027",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-028",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-029",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-030",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-031",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-032",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-033",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-034",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-035",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-036",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-037",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-038",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-039",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-040",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-041",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-042",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-043",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-044",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-045",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-046",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-047",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-048",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-049",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-050",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-051",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-052",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-053",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-054",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-055",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-056",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-057",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-058",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-059",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-060",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-061",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-062",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-063",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-064",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-065",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-066",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-067",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-068",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-069",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-070",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-071",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-072",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-073",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-074",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-075",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-076",
+    "risk_level": "high",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "security/compliance/project team"
+  },
+  {
+    "requirement_id": "PS-077",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-078",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-079",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-080",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-081",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-082",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-083",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-084",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
+  },
+  {
+    "requirement_id": "PS-085",
+    "risk_level": "medium",
+    "risk": "Incorrect or incomplete implementation of this requirement",
+    "mitigation": "Human review, traceable acceptance criteria, and validation testing",
+    "owner": "project team"
   }
 ]
