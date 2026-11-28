@@ -50,14 +50,22 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(len(generate_user_stories(requirements)), 2)
         self.assertEqual(len(generate_use_cases(requirements)), 2)
 
-    def test_devsecops_profile_is_rankable(self):
+    def test_only_requested_sdlc_models_are_ranked(self):
         result = score(
             [{"type": "security"}, {"type": "regulatory"}, {"type": "functional"}],
             {"stability": "changing", "stakeholder_feedback": "high", "delivery_pressure": "high"},
         )
         models = {item["model"] for item in result["scores"]}
-        self.assertIn("DevSecOps", models)
-        self.assertIn("Agile-V-Model", models)
+        self.assertEqual(models, {
+            "Waterfall Model",
+            "V-Shaped Model",
+            "Prototype Model",
+            "Iterative Model",
+            "Spiral Model",
+            "Extreme Programming (XP)",
+            "Scrum",
+            "Dynamic Systems Development Method (DSDM)",
+        })
 
     def test_sdlc_agent_runs_only_after_explicit_request(self):
         requirements = [{"id": "PS-001", "statement": "The system shall support finance requirements."}]

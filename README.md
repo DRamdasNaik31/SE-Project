@@ -146,9 +146,9 @@ to dependency-light lexical retrieval.
 
 The Streamlit sidebar allows users to set requirement stability, stakeholder
 feedback, and delivery pressure before requesting an SDLC recommendation. The
-decision engine ranks Agile, Waterfall, V-Model, Spiral, Iterative, RAD,
-Prototype, DevSecOps, and Agile–V-Model candidates with a normalized transparent
-score.
+decision engine ranks Waterfall, V-Shaped, Prototype, Iterative, and Spiral
+models, plus Extreme Programming (XP), Scrum, and Dynamic Systems Development
+Method (DSDM), with a normalized transparent score.
 
 ## Run the application
 

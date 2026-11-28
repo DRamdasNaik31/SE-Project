@@ -3,42 +3,42 @@
     "phase": "Initiation",
     "activities": "scope, stakeholders, risk classification",
     "role": "project manager",
-    "model": "RAD"
+    "model": "Prototype Model"
   },
   {
     "phase": "Requirements",
     "activities": "elicit, validate, baseline, trace",
     "role": "business analyst",
-    "model": "RAD"
+    "model": "Prototype Model"
   },
   {
     "phase": "Design",
     "activities": "architecture and threat modelling",
     "role": "architect/security",
-    "model": "RAD"
+    "model": "Prototype Model"
   },
   {
     "phase": "Implementation",
     "activities": "code review and static security testing",
     "role": "engineering",
-    "model": "RAD"
+    "model": "Prototype Model"
   },
   {
     "phase": "Validation",
     "activities": "functional, security, resilience, and audit tests",
     "role": "QA/security",
-    "model": "RAD"
+    "model": "Prototype Model"
   },
   {
     "phase": "Approval",
     "activities": "compliance and production-readiness gate",
     "role": "compliance/operations",
-    "model": "RAD"
+    "model": "Prototype Model"
   },
   {
     "phase": "Operations",
     "activities": "monitor controls, incidents, and regulatory changes",
     "role": "operations",
-    "model": "RAD"
+    "model": "Prototype Model"
   }
 ]

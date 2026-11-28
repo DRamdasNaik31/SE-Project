@@ -1,50 +1,45 @@
 {
-  "winner": "RAD",
+  "winner": "Prototype Model",
   "approval_status": "pending_human_review",
   "scores": [
     {
-      "model": "RAD",
-      "score": 14.38,
-      "raw": 0.7475
-    },
-    {
-      "model": "Agile",
-      "score": 13.8,
-      "raw": 0.7175
-    },
-    {
-      "model": "Prototype",
-      "score": 13.76,
+      "model": "Prototype Model",
+      "score": 15.83,
       "raw": 0.715
     },
     {
-      "model": "DevSecOps",
-      "score": 12.41,
-      "raw": 0.645
+      "model": "Scrum",
+      "score": 15.22,
+      "raw": 0.6875
     },
     {
-      "model": "Iterative",
-      "score": 11.83,
+      "model": "Dynamic Systems Development Method (DSDM)",
+      "score": 15.05,
+      "raw": 0.68
+    },
+    {
+      "model": "Extreme Programming (XP)",
+      "score": 14.5,
+      "raw": 0.655
+    },
+    {
+      "model": "Iterative Model",
+      "score": 13.61,
       "raw": 0.615
     },
     {
-      "model": "Agile-V-Model",
-      "score": 11.4,
-      "raw": 0.5925
-    },
-    {
-      "model": "Spiral",
-      "score": 8.42,
+      "model": "Spiral Model",
+      "score": 9.68,
       "raw": 0.4375
     },
     {
-      "model": "Waterfall",
-      "score": 7.6,
+      "model": "Waterfall Model",
+      "score": 8.74,
       "raw": 0.395
     },
     {
-      "model": "V-Model",
-      "score": 6.4,
+      "model": "V-Shaped Model",
+      "score": 7.37,
       "raw": 0.3325
     }
   ],
@@ -55,5 +50,5 @@
     "change": 0.6,
     "delivery": 0.6
   },
-  "explanation": "RAD ranks highest under the supplied factors; scores are normalized from the documented rubric."
+  "explanation": "Prototype Model ranks highest under the supplied factors; scores are normalized from the documented rubric."
 }
