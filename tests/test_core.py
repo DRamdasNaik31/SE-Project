@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 from app.agent2 import score
 from app.build_corpus import build
-from app.agent1 import _parse_generated_json
+from app.agent1 import MAX_MODULE_REQUIREMENTS, _parse_generated_json, run as run_agent1
 from app.security import mask_sensitive, sanitize_input
 from app.analysis_agents import conflict_check, generate_use_cases, generate_user_stories
 from app.orchestrator import Session, handle
@@ -166,6 +166,46 @@ class CoreTests(unittest.TestCase):
         retriever = Retriever(corpus_path=Path("missing-requirements.json"))
         retriever.items = [{"module": "Loan Processing"}]
         self.assertEqual(retriever.guess_module("What are the requirements for loans?"), "Loan Processing")
+
+    def test_module_retrieval_respects_requested_limit(self):
+        retriever = Retriever(corpus_path=Path("missing-requirements.json"))
+        retriever.items = [
+            {
+                "id": f"LOAN-{page:03d}",
+                "module": "Loan Processing",
+                "page": page,
+                "text": f"Requirement source fragment {page}.",
+            }
+            for page in range(1, 41)
+        ]
+        results = retriever.retrieve("loan requirements", k=MAX_MODULE_REQUIREMENTS, module="Loan Processing")
+        self.assertEqual(len(results), MAX_MODULE_REQUIREMENTS)
+        self.assertEqual([item["page"] for item in results], list(range(1, 26)))
+
+    def test_agent1_caps_module_requirements_at_25(self):
+        evidence = [
+            {
+                "id": f"LOAN-{index:03d}",
+                "module": "Loan Processing",
+                "page": index,
+                "text": f"Loan source requirement {index}.",
+                "source_text": f"Loan source requirement {index}.",
+            }
+            for index in range(1, 31)
+        ]
+
+        def retrieve_ignoring_limit(_query, k, module):
+            self.assertEqual(k, MAX_MODULE_REQUIREMENTS)
+            self.assertEqual(module, "Loan Processing")
+            return evidence
+
+        result = run_agent1(
+            "Generate requirements for Loan Processing",
+            retrieve_ignoring_limit,
+            module="Loan Processing",
+            use_adapter=False,
+        )
+        self.assertEqual(len(result["requirements"]), MAX_MODULE_REQUIREMENTS)
 
 
 if __name__ == "__main__":

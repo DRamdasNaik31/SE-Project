@@ -18,7 +18,7 @@ class Retriever:
 
     def retrieve(self, query: str, k: int = 6, module: str | None = None) -> list[dict[str, Any]]:
         if module:
-            return self._retrieve_all_module(query, module)
+            return self._retrieve_module(query, module, k)
         embedded = self._retrieve_embeddings(query, k, module)
         if embedded:
             return embedded
@@ -40,7 +40,7 @@ class Retriever:
             })
         return sorted(scored, key=lambda item: item["score"], reverse=True)[:k]
 
-    def _retrieve_all_module(self, query: str, module: str) -> list[dict[str, Any]]:
+    def _retrieve_module(self, query: str, module: str, k: int) -> list[dict[str, Any]]:
         terms = set(re.findall(r"[a-z0-9]+", query.lower()))
         selected = [
             item for item in self.items
@@ -55,7 +55,7 @@ class Retriever:
                 "source_text": item.get("text", ""),
                 "score": round(min(score, 1.0), 4),
             })
-        return sorted(scored, key=lambda item: (-item["score"], int(item["page"])))
+        return sorted(scored, key=lambda item: (-item["score"], int(item["page"])))[:k]
 
     def _retrieve_embeddings(self, query: str, k: int, module: str | None) -> list[dict[str, Any]]:
         if self._embedding_disabled or not Path("chroma_db").is_dir():

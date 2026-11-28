@@ -176,7 +176,9 @@ will list the available sub-branches and ask you to choose one. Reply with a
 branch such as "loan" or "Loan Processing" and the app generates requirements
 for it without needing you to repeat the request. Results remain grouped by
 branch in the current session, so generating another branch does not replace
-the previous branch's requirements.
+the previous branch's requirements. Each branch returns up to 25 source-grounded
+requirements, ranked by lexical relevance; branches with fewer source fragments
+return fewer.
 
 Use the two agents in sequence: first ask for requirements, then ask for an SDLC
 recommendation. Both are available in the same Streamlit chat page, but the

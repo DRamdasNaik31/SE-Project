@@ -11,6 +11,7 @@ except ImportError:
     from security import sanitize_input, validate_source
 
 _MODEL_CACHE: dict[str, Any] = {}
+MAX_MODULE_REQUIREMENTS = 25
 
 
 def _fallback_requirements(request: str, evidence: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -160,7 +161,8 @@ def run(
             "generation_s": 0.0,
             "model": "blocked",
         }
-    evidence = retriever(safety.text, k=k, module=module)
+    retrieval_k = max(k, MAX_MODULE_REQUIREMENTS) if module else k
+    evidence = retriever(safety.text, k=retrieval_k, module=module)
     for item in evidence:
         validate_source(item)
     requirements = _fallback_requirements(request, evidence)
@@ -176,6 +178,8 @@ def run(
             requirements, generation_s = tuned
             model_name = "Qwen2.5-1.5B-Instruct + trained LoRA adapter"
     requirements = _normalise_requirements(requirements, evidence)
+    if module:
+        requirements = requirements[:MAX_MODULE_REQUIREMENTS]
     unsupported = 0 if evidence else 1
     return {
         "requirements": requirements,
