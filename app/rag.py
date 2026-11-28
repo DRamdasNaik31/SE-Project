@@ -97,7 +97,12 @@ class Retriever:
         if any(term in query_lower for term in ("agentic ai", "problem statement", "proposed system")):
             if "Agentic AI Requirements" in modules:
                 return "Agentic AI Requirements"
+        if re.search(r"\bloans?\b", query_lower) and "Loan Processing" in modules:
+            return "Loan Processing"
         return next((module for module in modules if module.lower() in query_lower), None)
+
+    def available_modules(self) -> list[str]:
+        return sorted({str(item["module"]) for item in self.items})
 
 
 _default = Retriever()
@@ -109,3 +114,7 @@ def retrieve(query: str, k: int = 6, module: str | None = None) -> list[dict[str
 
 def guess_module(query: str) -> str | None:
     return _default.guess_module(query)
+
+
+def available_modules() -> list[str]:
+    return _default.available_modules()

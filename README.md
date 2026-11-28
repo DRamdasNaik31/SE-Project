@@ -164,12 +164,19 @@ Open the local URL printed by Streamlit, usually
 ### Example prompts
 
 ```text
-Generate software requirements for Loan Processing
+Generate software requirements for loans
 Generate requirements for Account Opening
 Generate requirements for Regulatory Requirements
 Which SDLC model fits this project?
 Show the evidence for these requirements
 ```
+
+If you ask for broad requirements such as "requirements for finance", the chat
+will list the available sub-branches and ask you to choose one. Reply with a
+branch such as "loan" or "Loan Processing" and the app generates requirements
+for it without needing you to repeat the request. Results remain grouped by
+branch in the current session, so generating another branch does not replace
+the previous branch's requirements.
 
 Use the two agents in sequence: first ask for requirements, then ask for an SDLC
 recommendation. Both are available in the same Streamlit chat page, but the

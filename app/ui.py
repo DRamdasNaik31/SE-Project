@@ -42,7 +42,7 @@ for role, text in st.session_state.messages:
     with st.chat_message(role):
         st.write(text)
 
-prompt = st.chat_input("Ask about a banking requirement or SDLC model")
+prompt = st.chat_input("Ask for finance requirements, or reply with a sub-branch such as loan")
 if prompt:
     st.session_state.messages.append(("user", prompt))
     result = handle(st.session_state.session, prompt)
@@ -51,8 +51,10 @@ if prompt:
 
 session = st.session_state.session
 if session.requirements:
-    with st.expander(f"Agent 1 — Generated requirements ({len(session.requirements)})", expanded=True):
-        st.dataframe(session.requirements, use_container_width=True)
+    st.subheader(f"Agent 1 — Generated requirements ({len(session.requirements)})")
+    for module, requirements in session.requirements_by_module.items():
+        st.markdown(f"### {module} ({len(requirements)} requirements)")
+        st.dataframe(requirements, use_container_width=True)
         st.caption("Draft, source-grounded output. Review requirements before using them in a project.")
 if session.sdlc:
     st.subheader("Agent 2 — SDLC recommendation")
